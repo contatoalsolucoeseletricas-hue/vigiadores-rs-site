@@ -1,0 +1,219 @@
+{
+  "atualizado_em": "18/11/2026 11:03 BRT",
+  "regra_transparencia": "Dados coletados ao vivo via HTTP real em portais oficiais gratuitos (zero cursos inventados ou mockados).",
+  "portais": [
+    {
+      "id": "ifrs",
+      "instituicao": "IFRS — Instituto Federal do Rio Grande do Sul",
+      "area": "Tecnologia, Gestão, Idiomas, Educação, Saúde (MOOCs Federais)",
+      "url_oficial": "https://moodle.ifrs.edu.br/course/index.php",
+      "certificado": "Gratuito (Certificado Oficial Federal)",
+      "modalidade": "100% Online · Aberto RS e Brasil",
+      "http_status": 200,
+      "latencia_s": 1.69,
+      "titulo_pagina": "Moodle - IFRS: Todos os cursos",
+      "online": true,
+      "cursos_extraidos": [
+        {
+          "titulo": "English ‎(en)‎",
+          "url": "https://moodle.ifrs.edu.br/course/index.php?categoryid=38&lang=en"
+        },
+        {
+          "titulo": "Español - Internacional ‎(es)‎",
+          "url": "https://moodle.ifrs.edu.br/course/index.php?categoryid=38&lang=es"
+        },
+        {
+          "titulo": "Français ‎(fr)‎",
+          "url": "https://moodle.ifrs.edu.br/course/index.php?categoryid=38&lang=fr"
+        },
+        {
+          "titulo": "Italiano ‎(it)‎",
+          "url": "https://moodle.ifrs.edu.br/course/index.php?categoryid=38&lang=it"
+        },
+        {
+          "titulo": "Português - Brasil ‎(pt_br)‎",
+          "url": "https://moodle.ifrs.edu.br/course/index.php?categoryid=38&lang=pt_br"
+        },
+        {
+          "titulo": "Cursos Gratuitos e Abertos, inscreva-se já!",
+          "url": "https://moodle.ifrs.edu.br/course/index.php?categoryid=38"
+        },
+        {
+          "titulo": "Ambiente e Saúde",
+          "url": "https://moodle.ifrs.edu.br/course/index.php?categoryid=149"
+        },
+        {
+          "titulo": "Ciências Exatas",
+          "url": "https://moodle.ifrs.edu.br/course/index.php?categoryid=82"
+        },
+        {
+          "titulo": "Ciências Humanas",
+          "url": "https://moodle.ifrs.edu.br/course/index.php?categoryid=204"
+        },
+        {
+          "titulo": "Educação",
+          "url": "https://moodle.ifrs.edu.br/course/index.php?categoryid=80"
+        },
+        {
+          "titulo": "Educação a Distância",
+          "url": "https://moodle.ifrs.edu.br/course/index.php?categoryid=210"
+        },
+        {
+          "titulo": "Gestão e Negócios",
+          "url": "https://moodle.ifrs.edu.br/course/index.php?categoryid=151"
+        }
+      ]
+    },
+    {
+      "id": "evg",
+      "instituicao": "EV.G — Escola Virtual do Governo Federal (ENAP)",
+      "area": "Administração, Dados, Gestão Pública, Finanças, TI",
+      "url_oficial": "https://www.escolavirtual.gov.br/catalogo",
+      "certificado": "Gratuito (Certificado Oficial ENAP)",
+      "modalidade": "100% Online · Autoinstrucional",
+      "http_status": 200,
+      "latencia_s": 0.75,
+      "titulo_pagina": "Escola Virtual Gov",
+      "online": true,
+      "cursos_extraidos": []
+    },
+    {
+      "id": "bradesco",
+      "instituicao": "Fundação Bradesco — Escola Virtual",
+      "area": "Excel, Programação, Finanças Pessoais, Atendimento, TI",
+      "url_oficial": "https://www.ev.org.br/cursos",
+      "certificado": "Gratuito",
+      "modalidade": "100% Online · Início Imediato",
+      "http_status": 200,
+      "latencia_s": 0.89,
+      "titulo_pagina": "Áreas de interesse - Fundação Bradesco - Escola Virtual",
+      "online": true,
+      "cursos_extraidos": [
+        {
+          "titulo": "Administrando Banco de Dados",
+          "url": "https://www.ev.org.br/cursos/administrando-banco-de-dados"
+        },
+        {
+          "titulo": "AI-900 - Fundamentos de IA no Azure",
+          "url": "https://www.ev.org.br/cursos/AI900Azure"
+        },
+        {
+          "titulo": "Análise de Balanços",
+          "url": "https://www.ev.org.br/cursos/Analise-de-Balan%C3%A7os"
+        },
+        {
+          "titulo": "Análise de Dados no Power BI",
+          "url": "https://www.ev.org.br/cursos/analise-de-dados-no-power-bi"
+        },
+        {
+          "titulo": "Atendimento ao Público",
+          "url": "https://www.ev.org.br/cursos/atendimento-ao-publico"
+        },
+        {
+          "titulo": "Como Conseguir um Novo Emprego",
+          "url": "https://www.ev.org.br/cursos/Como-Conseguir-um-Novo-Emprego"
+        },
+        {
+          "titulo": "Comunicação e Mobilização com IA",
+          "url": "https://www.ev.org.br/cursos/comunicacao_IA"
+        },
+        {
+          "titulo": "Comunicação Empresarial",
+          "url": "https://www.ev.org.br/cursos/comunicacao-empresarial"
+        }
+      ]
+    },
+    {
+      "id": "senairs",
+      "instituicao": "SENAI-RS / Mundo SENAI (Cursos Gratuitos)",
+      "area": "Indústria, Elétrica, Mecânica, Logística, Segurança NR",
+      "url_oficial": "https://www.senairs.org.br/",
+      "certificado": "Gratuito (SENAI)",
+      "modalidade": "Online e Presencial RS (conforme turma)",
+      "http_status": 403,
+      "latencia_s": 0.74,
+      "titulo_pagina": "",
+      "online": false,
+      "cursos_extraidos": []
+    },
+    {
+      "id": "senacrs",
+      "instituicao": "SENAC-RS / EAD Senac — Programa Senac de Gratuidade (PSG)",
+      "area": "Comércio, Saúde, Beleza, Gastronomia, TI, Gestão",
+      "url_oficial": "https://www.ead.senac.br/gratuito/",
+      "certificado": "Gratuito (PSG · Renda até 2 SM/pessoa)",
+      "modalidade": "Presencial RS (Canoas/POA) e EAD",
+      "http_status": "ERRO: SSLError",
+      "latencia_s": 0.85,
+      "titulo_pagina": "",
+      "online": false,
+      "cursos_extraidos": []
+    },
+    {
+      "id": "kultivi",
+      "instituicao": "Kultivi",
+      "area": "Inglês, Espanhol, Concursos Públicos, OAB, ENEM, Carreira",
+      "url_oficial": "https://kultivi.com/cursos",
+      "certificado": "Gratuito",
+      "modalidade": "100% Online · Sem mensalidade",
+      "http_status": 200,
+      "latencia_s": 1.75,
+      "titulo_pagina": "Cursos gratuitos | Kultivi",
+      "online": true,
+      "cursos_extraidos": [
+        {
+          "titulo": "Direito Civil",
+          "url": "https://kultivi.com/curso/direito-civil"
+        },
+        {
+          "titulo": "Direito Constitucional para Concursos",
+          "url": "https://kultivi.com/curso/direito-constitucional"
+        },
+        {
+          "titulo": "Direito Processual Civil",
+          "url": "https://kultivi.com/curso/direito-processual-civil"
+        },
+        {
+          "titulo": "Português para concursos - Nível Médio",
+          "url": "https://kultivi.com/curso/portugues-para-concursos"
+        },
+        {
+          "titulo": "Direito Administrativo para Concursos",
+          "url": "https://kultivi.com/curso/direito-administrativo"
+        },
+        {
+          "titulo": "Leis Penais",
+          "url": "https://kultivi.com/curso/leis-penais"
+        },
+        {
+          "titulo": "Raciocínio Lógico",
+          "url": "https://kultivi.com/curso/raciocinio-logico-para-concursos"
+        },
+        {
+          "titulo": "Direito do Consumidor",
+          "url": "https://kultivi.com/curso/direito-do-consumidor"
+        }
+      ]
+    },
+    {
+      "id": "sebrae",
+      "instituicao": "Sebrae — Cursos Online Gratuitos",
+      "area": "MEI, Vendas, Marketing Digital, Precificação, Gestão",
+      "url_oficial": "https://loja.sebrae.com.br/cursos/cursos-online",
+      "certificado": "Gratuito com Certificado Digital",
+      "modalidade": "100% Online · Início Imediato",
+      "http_status": 200,
+      "latencia_s": 2.28,
+      "titulo_pagina": "Cursos EAD - Capacitações online",
+      "online": true,
+      "cursos_extraidos": [
+        {
+          "titulo": "Cursos EAD",
+          "url": "https://loja.sebrae.com.br/cursos/cursos-online"
+        }
+      ]
+    }
+  ],
+  "total_portais_ok": 5,
+  "total_links_cursos_reais": 29
+}

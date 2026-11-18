@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vigiador de Carros — Simulador de Compra Direto com o Dono</title>
+    <style>
+        :root {
+            --bg-color: #0b1120;
+            --card-bg: #1e293b;
+            --border-color: #334155;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --primary: #38bdf8;
+            --primary-hover: #0284c7;
+            --accent-green: #22c55e;
+            --accent-amber: #f59e0b;
+            --accent-red: #ef4444;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 24px 16px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 760px;
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+            overflow: hidden;
+        }
+
+        .header {
+            padding: 24px 30px 18px;
+            border-bottom: 1px solid var(--border-color);
+            background: linear-gradient(180deg, rgba(30, 41, 59, 1) 0%, rgba(15, 23, 42, 0.8) 100%);
+        }
+
+        .header h1 {
+            font-size: 1.45rem;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .header p {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-top: 6px;
+        }
+
+        .content {
+            padding: 26px 30px;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 18px;
+        }
+
+        @media (max-width: 600px) {
+            .grid-2 {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .form-group {
+            margin-bottom: 18px;
+        }
+
+        label {
+            display: block;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 6px;
+            color: var(--text-main);
+        }
+
+        .input-group {
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+
+        .input-prefix {
+            position: absolute;
+            left: 12px;
+            color: var(--text-muted);
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        input[type="number"], input[type="text"], select {
+            width: 100%;
+            background-color: #0f172a;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 10px 14px 10px 42px;
+            color: var(--text-main);
+            font-size: 1rem;
+            font-weight: 500;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        input[type="text"], select {
+            padding-left: 14px;
+        }
+
+        input:focus, select:focus {
+            border-color: var(--primary);
+        }
+
+        .alert-limit {
+            display: none;
+            margin-top: 6px;
+            padding: 8px 12px;
+            background-color: rgba(245, 158, 11, 0.15);
+            border-left: 3px solid var(--accent-amber);
+            border-radius: 4px;
+            font-size: 0.82rem;
+            color: #fde68a;
+        }
+
+        .btn-calc {
+            width: 100%;
+            background-color: var(--primary);
+            color: #0f172a;
+            border: none;
+            border-radius: 8px;
+            padding: 12px;
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: background-color 0.2s;
+            margin-top: 8px;
+        }
+
+        .btn-calc:hover {
+            background-color: var(--primary-hover);
+        }
+
+        .result-box {
+            margin-top: 24px;
+            background-color: rgba(15, 23, 42, 0.85);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 20px;
+        }
+
+        .result-title {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 12px;
+        }
+
+        .result-highlight {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            padding-bottom: 12px;
+            border-bottom: 1px dashed var(--border-color);
+            margin-bottom: 14px;
+        }
+
+        .result-highlight span {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+        }
+
+        .result-value {
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: var(--accent-green);
+        }
+
+        .steps {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            line-height: 1.6;
+        }
+
+        .steps div {
+            margin-bottom: 5px;
+        }
+
+        .steps strong {
+            color: var(--text-main);
+        }
+
+        .checklist-box {
+            margin-top: 24px;
+            background-color: rgba(15, 23, 42, 0.6);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 18px 22px;
+        }
+
+        .checklist-title {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--accent-amber);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 12px;
+        }
+
+        .checklist-list {
+            list-style: none;
+            font-size: 0.84rem;
+            color: var(--text-muted);
+            line-height: 1.6;
+        }
+
+        .checklist-list li {
+            position: relative;
+            padding-left: 22px;
+            margin-bottom: 8px;
+        }
+
+        .checklist-list li::before {
+            content: "🛡️";
+            position: absolute;
+            left: 0;
+            font-size: 0.8rem;
+        }
+
+        .checklist-list strong {
+            color: var(--text-main);
+        }
+
+        .disclaimer-box {
+            padding: 14px 28px;
+            background-color: rgba(2, 6, 23, 0.8);
+            border-top: 1px solid var(--border-color);
+            font-size: 0.8rem;
+            color: #94a3b8;
+            text-align: center;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>🚗 Vigiador de Carros — Simulador Direto com o Dono</h1>
+        <p>Simulação de Compra Parcelada e Checklist de Segurança Veicular</p>
+    </div>
+
+    <div class="content">
+        <div class="grid-2">
+            <div class="form-group">
+                <label for="preco-carro">Preço do Veículo:</label>
+                <div class="input-group">
+                    <span class="input-prefix">R$</span>
+                    <input type="number" id="preco-carro" value="30000" step="100">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="entrada-carro">Valor de Entrada (Teto: R$ 15.000,00):</label>
+                <div class="input-group">
+                    <span class="input-prefix">R$</span>
+                    <input type="number" id="entrada-carro" value="15000" step="100" oninput="validarEntrada()">
+                </div>
+                <div id="alert-limite" class="alert-limit">
+                    ⚠️ Valor de entrada acima de R$ 15.000,00. O cálculo aplicará o teto de R$ 15.000,00.
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-2">
+            <div class="form-group">
+                <label for="num-parcelas">Número de Parcelas do Saldo:</label>
+                <select id="num-parcelas">
+                    <option value="3">3 meses</option>
+                    <option value="6">6 meses</option>
+                    <option value="10" selected>10 meses</option>
+                    <option value="12">12 meses</option>
+                    <option value="18">18 meses</option>
+                    <option value="24">24 meses</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="regiao-anotacao">Região de Operação (Anotação):</label>
+                <input type="text" id="regiao-anotacao" value="Canoas / Porto Alegre (RS)" placeholder="Ex: Canoas, Porto Alegre...">
+            </div>
+        </div>
+
+        <div class="form-group" style="margin-bottom: 10px;">
+            <label style="display:flex; align-items:center; gap:8px; cursor:pointer;">
+                <input type="checkbox" id="chk-juros" onchange="toggleJuros()"> 
+                <span>Habilitar taxa de juros nominal (opcional - padrão desativado)</span>
+            </label>
+            <div id="box-juros" style="display:none; margin-top:8px;">
+                <div class="input-group">
+                    <span class="input-prefix">%</span>
+                    <input type="number" id="taxa-juros" value="1.0" step="0.1" style="padding-left:36px;">
+                </div>
+            </div>
+        </div>
+
+        <button class="btn-calc" onclick="calcularSimulacao()">Simular Parcelamento com o Proprietário</button>
+
+        <!-- DEMONSTRATIVO DE CÁLCULO -->
+        <div class="result-box" id="result-box">
+            <div class="result-title">Demonstrativo Passo a Passo do Saldo</div>
+            <div class="result-highlight">
+                <span>Valor de Cada Parcela:</span>
+                <span class="result-value" id="val-parcela">R$ 1.500,00</span>
+            </div>
+            <div class="steps" id="steps-container">
+                <div>• <strong>Preço Total do Veículo:</strong> R$ 30.000,00</div>
+                <div>• <strong>Entrada Aplicada:</strong> R$ 15.000,00 (Teto Máximo Permitido)</div>
+                <div>• <strong>Saldo a Financiar com o Dono:</strong> R$ 30.000,00 − R$ 15.000,00 = <strong>R$ 15.000,00</strong></div>
+                <div>• <strong>Plano de Pagamento:</strong> 10 parcelas mensais de <strong>R$ 1.500,00</strong> (sem juros)</div>
+                <div>• <strong>Garantia recomendada:</strong> Nota promissória formal com firma reconhecida.</div>
+            </div>
+        </div>
+
+        <!-- CHECKLIST ANTI-GOLPE -->
+        <div class="checklist-box">
+            <div class="checklist-title">🛡️ Checklist de Segurança Anti-Golpe (Obrigatório antes de pagar)</div>
+            <ul class="checklist-list">
+                <li><strong>Conferência do CRLV e Identidade:</strong> Exija o documento oficial do veículo e certifique-se de que o vendedor é rigorosamente o proprietário que consta registrado no documento.</li>
+                <li><strong>Consulta Oficial no Detran-RS:</strong> Consulte no site oficial débitos de IPVA, multas vencidas ou a vencer e restrições financeiras/gravames.</li>
+                <li><strong>Vistoria Cautelar Prévia:</strong> Faça vistoria cautelar com empresa credenciada antes de qualquer transferência de sinal ou pagamento.</li>
+                <li><strong>Proibido Pagar a Terceiros:</strong> Nunca realize pagamentos antecipados nem transfira valores para contas de terceiros (parentes, intermediários ou supostos despachantes).</li>
+                <li><strong>Instrumento Jurídico e Promissória:</strong> Nunca feche o parcelamento sem nota promissória e contrato particular formalmente assinados com firma reconhecida em cartório.</li>
+                <li><strong>Alerta de Preço:</strong> Desconfie de veículos ofertados com valor muito inferior à tabela FIPE ou com urgência atípica para receber o dinheiro.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="disclaimer-box">
+        ⚠️ Simulação informativa. Não substitui vistoria, consulta oficial de documentos nem orientação jurídica.
+    </div>
+</div>
+
+<script>
+    const TETO_ENTRADA = 15000.00;
+
+    function fmt(val) {
+        return val.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    }
+
+    function validarEntrada() {
+        const valEntrada = parseFloat(document.getElementById('entrada-carro').value) || 0;
+        const alerta = document.getElementById('alert-limite');
+        if (valEntrada > TETO_ENTRADA) {
+            alerta.style.display = 'block';
+        } else {
+            alerta.style.display = 'none';
+        }
+    }
+
+    function toggleJuros() {
+        const chk = document.getElementById('chk-juros').checked;
+        document.getElementById('box-juros').style.display = chk ? 'block' : 'none';
+    }
+
+    function calcularSimulacao() {
+        const preco = parseFloat(document.getElementById('preco-carro').value) || 0;
+        let entrada = parseFloat(document.getElementById('entrada-carro').value) || 0;
+        const nParcelas = parseInt(document.getElementById('num-parcelas').value) || 1;
+        const comJuros = document.getElementById('chk-juros').checked;
+        const taxaJuros = comJuros ? (parseFloat(document.getElementById('taxa-juros').value) || 0) / 100 : 0;
+
+        let avisoTeto = '';
+        if (entrada > TETO_ENTRADA) {
+            entrada = TETO_ENTRADA;
+            avisoTeto = ' (Ajustado ao Teto de R$ 15.000,00)';
+            document.getElementById('alert-limite').style.display = 'block';
+        } else {
+            document.getElementById('alert-limite').style.display = 'none';
+        }
+
+        const saldo = Math.max(0, preco - entrada);
+        let valorParcela = 0;
+
+        if (nParcelas > 0) {
+            if (comJuros && taxaJuros > 0) {
+                // Cálculo com juros simples nominal informativo
+                valorParcela = (saldo * (1 + (taxaJuros * nParcelas))) / nParcelas;
+            } else {
+                valorParcela = saldo / nParcelas;
+            }
+        }
+
+        document.getElementById('val-parcela').innerText = 'R$ ' + fmt(valorParcela);
+        
+        const regimeJurosTxt = (comJuros && taxaJuros > 0) 
+            ? `com juros nominal de ${(taxaJuros * 100).toFixed(1)}% a.m.` 
+            : 'sem juros direto com o dono';
+
+        document.getElementById('steps-container').innerHTML = `
+            <div>• <strong>Preço Total do Veículo:</strong> R$ ${fmt(preco)}</div>
+            <div>• <strong>Entrada Aplicada:</strong> R$ ${fmt(entrada)}${avisoTeto}</div>
+            <div>• <strong>Saldo a Financiar com o Dono:</strong> R$ ${fmt(preco)} − R$ ${fmt(entrada)} = <strong>R$ ${fmt(saldo)}</strong></div>
+            <div>• <strong>Plano de Pagamento:</strong> ${nParcelas} parcelas mensais de <strong>R$ ${fmt(valorParcela)}</strong> (${regimeJurosTxt})</div>
+            <div>• <strong>Garantia e Segurança:</strong> Nota promissória formal com firma reconhecida em cartório por advogado habilitado.</div>
+        `;
+    }
+
+    window.onload = function() {
+        validarEntrada();
+        calcularSimulacao();
+    };
+</script>
+
+</body>
+</html>

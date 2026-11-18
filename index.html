@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vigiadores RS — Cursos 100% Grátis + Carros RS</title>
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background: #0b1220; color: #e2e8f0; overflow-x: hidden; max-width: 100vw; }
+  header { background: linear-gradient(135deg, #0f172a, #1e293b); border-bottom: 1px solid #334155; padding: 18px 16px; }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 16px; }
+  h1 { margin: 0 0 6px; font-size: 22px; color: #f8fafc; }
+  .sub { margin: 0; font-size: 13px; color: #94a3b8; }
+  .tabs { display: flex; gap: 8px; margin-top: 14px; flex-wrap: wrap; }
+  .tab { padding: 10px 16px; border-radius: 10px; border: 1px solid #334155; background: #1e293b; color: #cbd5e1; font-weight: 600; cursor: pointer; font-size: 14px; }
+  .tab.ativo { background: #10b981; color: #052e16; border-color: #10b981; }
+  .banner { background: rgba(16,185,129,.12); border: 1px solid rgba(16,185,129,.35); border-radius: 10px; padding: 12px 14px; font-size: 13px; margin-bottom: 16px; line-height: 1.45; }
+  .search { width: 100%; padding: 11px 14px; border-radius: 10px; border: 1px solid #334155; background: #111827; color: #f8fafc; font-size: 14px; margin-bottom: 14px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 14px; }
+  .card { background: #111827; border: 1px solid #1f2937; border-radius: 12px; padding: 15px; display: flex; flex-direction: column; gap: 8px; }
+  .card h3 { margin: 0; font-size: 16px; color: #f8fafc; }
+  .meta { font-size: 12px; color: #94a3b8; }
+  .badge { display: inline-block; font-size: 11px; font-weight: 700; padding: 3px 8px; border-radius: 99px; }
+  .ok { background: rgba(16,185,129,.2); color: #34d399; }
+  .warn { background: rgba(245,158,11,.2); color: #fbbf24; }
+  .btn { display: inline-block; text-align: center; padding: 9px 12px; border-radius: 8px; background: #2563eb; color: #fff; text-decoration: none; font-weight: 600; font-size: 13px; margin-top: auto; }
+  .lista-cursos { margin: 6px 0; padding-left: 16px; font-size: 12.5px; line-height: 1.5; }
+  .lista-cursos a { color: #38bdf8; text-decoration: none; }
+  .lista-cursos a:hover { text-decoration: underline; }
+  .oculto { display: none; }
+  iframe.sim { width: 100%; min-height: 780px; border: 1px solid #334155; border-radius: 12px; background: #fff; }
+  footer { text-align: center; font-size: 12px; color: #64748b; padding: 24px 16px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap" style="padding:0;">
+    <h1>📡 Vigiadores RS — Cursos 100% Gratuitos &amp; Carros RS</h1>
+    <p class="sub">Acesso mobile permanente 24h (GitHub Pages · sem túnel de PC · zero dados fictícios)</p>
+    <div class="tabs">
+      <button class="tab ativo" id="btnCursos">🎓 Cursos 100% Grátis RS</button>
+      <button class="tab" id="btnCarros">🚗 Vigiador Carros RS (até R$ 15 mil)</button>
+      <a class="tab" style="text-decoration:none;" href="https://contatoalsolucoeseletricas-hue.github.io/radar-sindical-site/#adicionais" target="_blank" rel="noopener">⚖️ Radar Sindical (NR-15/16)</a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section id="secCursos">
+    <div class="banner" id="bannerCursos">Carregando verificação real dos portais oficiais gratuitos...</div>
+    <input class="search" id="filtroCursos" placeholder="Filtrar por instituição, área ou nome do curso (ex.: IFRS, Excel, SENAC, Elétrica, Inglês)...">
+    <div class="grid" id="gridCursos"></div>
+  </section>
+
+  <section id="secCarros" class="oculto">
+    <div class="banner">
+      <b>Transparência:</b> O filtro de carros abaixo roda 100% local no navegador (client-side) aplicando a regra exata da Ordem 040: <b>até R$ 15.000 · ano ≥ 2017 · nacionais (sem Renault/Peugeot/Citroën) · promissória direta sem banco/SPC + checklist anti-golpe</b>.
+      <div style="margin-top:8px;"><a class="btn" href="vigiador_carros_simulador.html" target="_blank" rel="noopener">Abrir Simulador em Tela Cheia</a></div>
+    </div>
+    <iframe class="sim" src="vigiador_carros_simulador.html" title="Vigiador de Carros RS"></iframe>
+  </section>
+</main>
+
+<footer>
+  Portal Vigiadores RS · Atualizado via <code>varredor_cursos_gratis_rs.py</code> · Transparência 100% real (sem ofertas inventadas).
+</footer>
+
+<script>
+const btnCursos = document.getElementById('btnCursos');
+const btnCarros = document.getElementById('btnCarros');
+const secCursos = document.getElementById('secCursos');
+const secCarros = document.getElementById('secCarros');
+
+btnCursos.onclick = () => {
+  btnCursos.classList.add('ativo'); btnCarros.classList.remove('ativo');
+  secCursos.classList.remove('oculto'); secCarros.classList.add('oculto');
+};
+btnCarros.onclick = () => {
+  btnCarros.classList.add('ativo'); btnCursos.classList.remove('ativo');
+  secCarros.classList.remove('oculto'); secCursos.classList.add('oculto');
+};
+
+let dadosCursos = null;
+
+function renderCursos(termo = '') {
+  if (!dadosCursos) return;
+  const q = termo.trim().toLowerCase();
+  const grid = document.getElementById('gridCursos');
+  const portais = dadosCursos.portais.filter(p => {
+    if (!q) return true;
+    const blob = (p.instituicao + ' ' + p.area + ' ' + (p.cursos_extraidos || []).map(c => c.titulo).join(' ')).toLowerCase();
+    return blob.includes(q);
+  });
+  grid.innerHTML = portais.map(p => {
+    const st = p.online
+      ? `<span class="badge ok">HTTP ${p.http_status} · Verificado (${p.latencia_s}s)</span>`
+      : `<span class="badge warn">WAF/Bot ${p.http_status} · Abrir direto no navegador</span>`;
+    const lista = (p.cursos_extraidos && p.cursos_extraidos.length)
+      ? `<ul class="lista-cursos">${p.cursos_extraidos.map(c => `<li><a href="${c.url}" target="_blank" rel="noopener">${c.titulo}</a></li>`).join('')}</ul>`
+      : `<p class="meta">Catálogo dinâmico (abra o link oficial abaixo para ver todas as turmas abertas agora).</p>`;
+    return `<article class="card">
+      <div>${st}</div>
+      <h3>${p.instituicao}</h3>
+      <div class="meta"><b>Áreas:</b> ${p.area}</div>
+      <div class="meta"><b>Certificado:</b> ${p.certificado} · <b>Modalidade:</b> ${p.modalidade}</div>
+      ${lista}
+      <a class="btn" href="${p.url_oficial}" target="_blank" rel="noopener">Abrir Portal Oficial Gratuito ↗</a>
+    </article>`;
+  }).join('') || '<p>Nenhum portal encontrado para esse filtro.</p>';
+}
+
+fetch('cursos_gratis_rs_verificados.json')
+  .then(r => r.json())
+  .then(d => {
+    dadosCursos = d;
+    document.getElementById('bannerCursos').innerHTML =
+      `<b>Última varredura HTTP real:</b> ${d.atualizado_em} · <b>${d.total_portais_ok}/${d.portais.length}</b> portais responderam HTTP 200 direto + <b>${d.total_links_cursos_reais}</b> links reais de cursos/categorias extraídos.<br>${d.regra_transparencia}`;
+    renderCursos();
+  })
+  .catch(err => {
+    document.getElementById('bannerCursos').textContent = 'Erro ao carregar JSON de cursos: ' + err.message;
+  });
+
+document.getElementById('filtroCursos').addEventListener('input', e => renderCursos(e.target.value));
+</script>
+</body>
+</html>
