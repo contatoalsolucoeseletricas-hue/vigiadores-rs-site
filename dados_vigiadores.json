@@ -1,8 +1,8 @@
 {
   "cabecalho": {
-    "ultima_atualizacao": "20/11/2026 às 16:01",
+    "ultima_atualizacao": "20/11/2026 às 17:35",
     "proxima_atualizacao": "18h00",
-    "status_sistema": "100% Operacional (Custo Zero / Sem Túnel)",
+    "status_sistema": "100% Operacional (5 Abas Ativas / Zero Erro)",
     "cidade_base": "Canoas / RS"
   },
   "cursos": [
@@ -366,6 +366,97 @@
         "tamanho": "0.85 MB",
         "drive_id": "1EaUoFMvYEwUxGw_16pH6VmG1hlVVs0Yd",
         "status": "Pronto para Aprovação André"
+      }
+    ]
+  },
+  "ideias_radar_ia": {
+    "grupos": [
+      {
+        "nome": "Eddwan.AI — Avisos",
+        "jid": "120363431609016454@g.us",
+        "membros": 304,
+        "desc": "Comunidade para anúncios oficiais de novas automações e frameworks de IA."
+      },
+      {
+        "nome": "Eddwan.AI — Geral",
+        "jid": "120363414359586407@g.us",
+        "membros": 197,
+        "desc": "Troca de experiências em IA, arquitetura de sistemas e modelos de negócio."
+      },
+      {
+        "nome": "Criação de Aplicativos com IA",
+        "jid": "120363422179679534@g.us",
+        "membros": 369,
+        "desc": "Desenvolvimento prático de aplicativos, micro-SaaS e dashboards usando IA."
+      },
+      {
+        "nome": "Automação e IA🤖",
+        "jid": "120363431019433290@g.us",
+        "membros": 56,
+        "desc": "Workflows n8n, automação robótica, webhooks e integrações sem código."
+      }
+    ],
+    "repos": [
+      {
+        "titulo": "Maestri Multi-Agent Orchestrator",
+        "url": "https://github.com/danielcorrea/maestri-multiagent-orchestrator",
+        "encaixe": "Mariana Bots & Frota",
+        "resumo": "Orquestrador multi-agente integrando Antigravity, Codex e OpenCode no mesmo fluxo de desenvolvimento com divisão de tarefas."
+      },
+      {
+        "titulo": "AI-CRM Webhook Bridge",
+        "url": "https://github.com/robsonoliveira/ai-crm-webhook-bridge",
+        "encaixe": "Pré-Infra ERP & Refrigeração AL",
+        "resumo": "Bridge Node.js/Python para conectar agentes autônomos ao CRM, emitindo notas, agendando serviços e respondendo clientes via WhatsApp."
+      },
+      {
+        "titulo": "n8n WhatsApp Whisper Local Workflow",
+        "url": "https://github.com/automacao-ia/n8n-whatsapp-whisper-local",
+        "encaixe": "Mariana com Pepa & Radar Sindical",
+        "resumo": "Transcrição automática de áudios e vídeos via Faster-Whisper local com custo zero e integração com webhooks."
+      },
+      {
+        "titulo": "LLM Memory Context Sync",
+        "url": "https://github.com/eddwan-ai/llm-memory-context-sync",
+        "encaixe": "Frota Mestre Antigravity",
+        "resumo": "Módulo de persistência leve SQLite/JSON para histórico de agentes autônomos 24h sem degradação de contexto."
+      }
+    ],
+    "mensagens_andre": [
+      {
+        "texto": "Ainda não fiz ele trabalha real vai ser ou hoje a noite ou amanhã cedo",
+        "projeto": "Mariana Trading Bots",
+        "contexto": "Validação rigorosa do executor de futuros no simulador antes de operar conta real",
+        "grupo": "Criação de Aplicativos com IA",
+        "data": "20/11/2026"
+      },
+      {
+        "texto": "Esse dash q vc mandou é deles",
+        "projeto": "Pré-Infra ERP / Painel",
+        "contexto": "Análise de dashboards de CRM integrados com bots de IA autônomos",
+        "grupo": "Criação de Aplicativos com IA",
+        "data": "20/11/2026"
+      },
+      {
+        "texto": "Vídeo novo recebi notificação",
+        "projeto": "Canais Dark & Radar IA",
+        "contexto": "Monitoramento sentinela de canais de IA e automação",
+        "grupo": "Criação de Aplicativos com IA",
+        "data": "20/11/2026"
+      },
+      {
+        "texto": "Rapaz isso q irrita sabe pq vc já passou de 10k de pessoas no mínimo vc deveria receber uns 8k de lick",
+        "projeto": "Canais Dark IA",
+        "contexto": "Análise de taxas de engajamento e métricas de audiência do YouTube",
+        "grupo": "Criação de Aplicativos com IA",
+        "data": "20/11/2026"
+      },
+      {
+        "texto": "Criatividade kkkk",
+        "projeto": "DroneHub & Automação",
+        "contexto": "Inovações em visão computacional e automações robóticas",
+        "grupo": "Automação e IA🤖",
+        "data": "20/11/2026"
       }
     ]
   }
