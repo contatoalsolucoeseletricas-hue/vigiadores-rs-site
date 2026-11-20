@@ -1,127 +1,435 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Vigiadores RS — Cursos 100% Grátis + Carros RS</title>
-<style>
-  * { box-sizing: border-box; }
-  html, body { margin: 0; padding: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background: #0b1220; color: #e2e8f0; overflow-x: hidden; max-width: 100vw; }
-  header { background: linear-gradient(135deg, #0f172a, #1e293b); border-bottom: 1px solid #334155; padding: 18px 16px; }
-  .wrap { max-width: 980px; margin: 0 auto; padding: 16px; }
-  h1 { margin: 0 0 6px; font-size: 22px; color: #f8fafc; }
-  .sub { margin: 0; font-size: 13px; color: #94a3b8; }
-  .tabs { display: flex; gap: 8px; margin-top: 14px; flex-wrap: wrap; }
-  .tab { padding: 10px 16px; border-radius: 10px; border: 1px solid #334155; background: #1e293b; color: #cbd5e1; font-weight: 600; cursor: pointer; font-size: 14px; }
-  .tab.ativo { background: #10b981; color: #052e16; border-color: #10b981; }
-  .banner { background: rgba(16,185,129,.12); border: 1px solid rgba(16,185,129,.35); border-radius: 10px; padding: 12px 14px; font-size: 13px; margin-bottom: 16px; line-height: 1.45; }
-  .search { width: 100%; padding: 11px 14px; border-radius: 10px; border: 1px solid #334155; background: #111827; color: #f8fafc; font-size: 14px; margin-bottom: 14px; }
-  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 14px; }
-  .card { background: #111827; border: 1px solid #1f2937; border-radius: 12px; padding: 15px; display: flex; flex-direction: column; gap: 8px; }
-  .card h3 { margin: 0; font-size: 16px; color: #f8fafc; }
-  .meta { font-size: 12px; color: #94a3b8; }
-  .badge { display: inline-block; font-size: 11px; font-weight: 700; padding: 3px 8px; border-radius: 99px; }
-  .ok { background: rgba(16,185,129,.2); color: #34d399; }
-  .warn { background: rgba(245,158,11,.2); color: #fbbf24; }
-  .btn { display: inline-block; text-align: center; padding: 9px 12px; border-radius: 8px; background: #2563eb; color: #fff; text-decoration: none; font-weight: 600; font-size: 13px; margin-top: auto; }
-  .lista-cursos { margin: 6px 0; padding-left: 16px; font-size: 12.5px; line-height: 1.5; }
-  .lista-cursos a { color: #38bdf8; text-decoration: none; }
-  .lista-cursos a:hover { text-decoration: underline; }
-  .oculto { display: none; }
-  iframe.sim { width: 100%; min-height: 780px; border: 1px solid #334155; border-radius: 12px; background: #fff; }
-  footer { text-align: center; font-size: 12px; color: #64748b; padding: 24px 16px; }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Vigiadores RS — Portal Unificado</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html, body {
+      margin: 0; padding: 0;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;
+      background: #090d16; color: #e2e8f0;
+      overflow-x: hidden; max-width: 100vw;
+      -webkit-font-smoothing: antialiased;
+    }
+    header {
+      background: #0f172a;
+      border-bottom: 1px solid #1e293b;
+      padding: 16px 20px;
+      position: sticky; top: 0; z-index: 50;
+      backdrop-filter: blur(8px);
+    }
+    .header-content {
+      max-width: 1100px; margin: 0 auto;
+      display: flex; flex-direction: column; gap: 12px;
+    }
+    .brand-row {
+      display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;
+    }
+    .brand-title {
+      font-size: 18px; font-weight: 700; color: #f8fafc; letter-spacing: -0.02em; display: flex; align-items: center; gap: 8px;
+    }
+    .sync-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: 4px 10px; border-radius: 9999px;
+      background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.25);
+      color: #34d399; font-size: 12px; font-weight: 500;
+    }
+    .pulse-dot {
+      width: 7px; height: 7px; border-radius: 50%; background: #10b981;
+      box-shadow: 0 0 8px #10b981;
+    }
+    .timestamp-bar {
+      font-size: 12.5px; color: #94a3b8; font-weight: 400;
+    }
+    .tabs-nav {
+      display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px;
+      scrollbar-width: none;
+    }
+    .tabs-nav::-webkit-scrollbar { display: none; }
+    .tab-btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 8px 16px; border-radius: 8px;
+      border: 1px solid #334155; background: #1e293b;
+      color: #94a3b8; font-weight: 600; font-size: 13.5px;
+      cursor: pointer; white-space: nowrap; transition: all 0.2s ease;
+    }
+    .tab-btn:hover { background: #334155; color: #f8fafc; }
+    .tab-btn.active {
+      background: #0284c7; color: #ffffff; border-color: #38bdf8;
+      box-shadow: 0 0 12px rgba(2, 132, 199, 0.35);
+    }
+    .container {
+      max-width: 1100px; margin: 0 auto; padding: 20px 16px 80px;
+    }
+    .search-bar {
+      margin-bottom: 20px;
+    }
+    .search-input {
+      width: 100%; padding: 12px 16px;
+      background: #111827; border: 1px solid #1f2937;
+      border-radius: 10px; color: #f8fafc; font-size: 14px;
+      transition: border-color 0.2s;
+    }
+    .search-input:focus { outline: none; border-color: #38bdf8; }
+    .card-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 16px;
+    }
+    .vigiador-card {
+      background: #111827; border: 1px solid #1f2937;
+      border-radius: 12px; padding: 18px;
+      display: flex; flex-direction: column; justify-content: space-between;
+      gap: 12px; transition: transform 0.15s, border-color 0.15s;
+    }
+    .vigiador-card:hover {
+      transform: translateY(-2px); border-color: #334155;
+    }
+    .card-head {
+      display: flex; justify-content: space-between; align-items: flex-start; gap: 10px;
+    }
+    .card-title {
+      margin: 0; font-size: 15.5px; font-weight: 600; color: #f8fafc; line-height: 1.35;
+    }
+    .badge {
+      display: inline-block; padding: 3px 8px; border-radius: 6px;
+      font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em;
+      white-space: nowrap;
+    }
+    .badge-primary { background: rgba(14, 165, 233, 0.15); color: #38bdf8; border: 1px solid rgba(14, 165, 233, 0.3); }
+    .badge-success { background: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); }
+    .badge-warning { background: rgba(245, 158, 11, 0.15); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.3); }
+    .card-desc {
+      font-size: 13px; color: #94a3b8; line-height: 1.5; margin: 0;
+    }
+    .card-meta {
+      font-size: 12px; color: #64748b; display: flex; flex-direction: column; gap: 4px;
+    }
+    .price-tag {
+      font-size: 18px; font-weight: 700; color: #10b981;
+    }
+    .price-strike {
+      font-size: 12px; color: #64748b; text-decoration: line-through; margin-left: 6px;
+    }
+    .action-btn {
+      display: inline-flex; justify-content: center; align-items: center; gap: 6px;
+      padding: 10px 14px; border-radius: 8px;
+      background: #1e293b; color: #f8fafc; border: 1px solid #334155;
+      text-decoration: none; font-size: 13px; font-weight: 600;
+      transition: background 0.2s, border-color 0.2s;
+    }
+    .action-btn:hover { background: #0284c7; border-color: #38bdf8; color: #fff; }
+    .section-title {
+      font-size: 16px; font-weight: 700; color: #cbd5e1; margin: 24px 0 12px;
+      display: flex; align-items: center; gap: 8px;
+    }
+    .empty-state {
+      text-align: center; padding: 48px 16px; color: #64748b; font-size: 14px;
+    }
+    footer {
+      border-top: 1px solid #1e293b; text-align: center; padding: 24px 16px;
+      color: #64748b; font-size: 12px; background: #090d16;
+    }
+    svg.icon { width: 16px; height: 16px; stroke-width: 2; stroke: currentColor; fill: none; }
+  </style>
 </head>
 <body>
+
 <header>
-  <div class="wrap" style="padding:0;">
-    <h1>📡 Vigiadores RS — Cursos 100% Gratuitos &amp; Carros RS</h1>
-    <p class="sub">Acesso mobile permanente 24h (GitHub Pages · sem túnel de PC · zero dados fictícios)</p>
-    <div class="tabs">
-      <button class="tab ativo" id="btnCursos">🎓 Cursos 100% Grátis RS</button>
-      <button class="tab" id="btnCarros">🚗 Vigiador Carros RS (até R$ 15 mil)</button>
-      <a class="tab" style="text-decoration:none;" href="https://contatoalsolucoeseletricas-hue.github.io/radar-sindical-site/#adicionais" target="_blank" rel="noopener">⚖️ Radar Sindical (NR-15/16)</a>
+  <div class="header-content">
+    <div class="brand-row">
+      <div class="brand-title">
+        <svg class="icon" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+        <span>Vigiadores RS</span>
+      </div>
+      <div class="sync-badge">
+        <span class="pulse-dot"></span>
+        <span id="badgeStatus">100% Operacional</span>
+      </div>
     </div>
+    <div class="timestamp-bar" id="timestampBar">
+      Última atualização: Carregando... · Próxima: 07h / 12h / 18h
+    </div>
+    <nav class="tabs-nav">
+      <button class="tab-btn active" data-tab="cursos">
+        <svg class="icon" viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+        <span>Cursos RS</span>
+      </button>
+      <button class="tab-btn" data-tab="carros">
+        <svg class="icon" viewBox="0 0 24 24"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><path d="M9 17h6"/><circle cx="17" cy="17" r="2"/></svg>
+        <span>Carros RS</span>
+      </button>
+      <button class="tab-btn" data-tab="mercado">
+        <svg class="icon" viewBox="0 0 24 24"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
+        <span>Mercado &amp; Latas</span>
+      </button>
+      <button class="tab-btn" data-tab="youtube">
+        <svg class="icon" viewBox="0 0 24 24"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><polygon points="10 15 15 12 10 9 10 15"/></svg>
+        <span>YouTube &amp; Dark</span>
+      </button>
+    </nav>
   </div>
 </header>
 
-<main class="wrap">
-  <section id="secCursos">
-    <div class="banner" id="bannerCursos">Carregando verificação real dos portais oficiais gratuitos...</div>
-    <input class="search" id="filtroCursos" placeholder="Filtrar por instituição, área ou nome do curso (ex.: IFRS, Excel, SENAC, Elétrica, Inglês)...">
-    <div class="grid" id="gridCursos"></div>
-  </section>
+<main class="container">
+  <div class="search-bar">
+    <input type="text" id="searchInput" class="search-input" placeholder="Buscar por termo, instituição, veículo ou produto...">
+  </div>
 
-  <section id="secCarros" class="oculto">
-    <div class="banner">
-      <b>Transparência:</b> O filtro de carros abaixo roda 100% local no navegador (client-side) aplicando a regra exata da Ordem 040: <b>até R$ 15.000 · ano ≥ 2017 · nacionais (sem Renault/Peugeot/Citroën) · promissória direta sem banco/SPC + checklist anti-golpe</b>.
-      <div style="margin-top:8px;"><a class="btn" href="vigiador_carros_simulador.html" target="_blank" rel="noopener">Abrir Simulador em Tela Cheia</a></div>
-    </div>
-    <iframe class="sim" src="vigiador_carros_simulador.html" title="Vigiador de Carros RS"></iframe>
-  </section>
+  <div id="tabContent">
+    <!-- Renderizado dinamicamente via JavaScript -->
+  </div>
 </main>
 
 <footer>
-  Portal Vigiadores RS · Atualizado via <code>varredor_cursos_gratis_rs.py</code> · Transparência 100% real (sem ofertas inventadas).
+  <p>Vigiadores RS · Monitoramento de Custo Zero · Atualização Diária 07h, 12h e 18h BRT</p>
+  <p>Dados públicos oficiais consolidados para uso pessoal e profissional do André Luís.</p>
 </footer>
 
 <script>
-const btnCursos = document.getElementById('btnCursos');
-const btnCarros = document.getElementById('btnCarros');
-const secCursos = document.getElementById('secCursos');
-const secCarros = document.getElementById('secCarros');
+  let DADOS = null;
+  let TAB_ATIVA = "cursos";
 
-btnCursos.onclick = () => {
-  btnCursos.classList.add('ativo'); btnCarros.classList.remove('ativo');
-  secCursos.classList.remove('oculto'); secCarros.classList.add('oculto');
-};
-btnCarros.onclick = () => {
-  btnCarros.classList.add('ativo'); btnCursos.classList.remove('ativo');
-  secCarros.classList.remove('oculto'); secCursos.classList.add('oculto');
-};
+  async function carregarDados() {
+    try {
+      const resp = await fetch("dados_vigiadores.json?nocache=" + Date.now());
+      if (!resp.ok) throw new Error("Erro ao carregar dados_vigiadores.json");
+      DADOS = await resp.json();
+      atualizarCabecalho();
+      renderizarTab();
+    } catch (e) {
+      document.getElementById("tabContent").innerHTML = `
+        <div class="empty-state">
+          <p>Não foi possível carregar os dados em tempo real. Verifique a conexão ou aguarde a próxima atualização.</p>
+        </div>`;
+    }
+  }
 
-let dadosCursos = null;
+  function atualizarCabecalho() {
+    if (!DADOS || !DADOS.cabecalho) return;
+    const c = DADOS.cabecalho;
+    document.getElementById("timestampBar").textContent = 
+      `Última atualização: ${c.ultima_atualizacao} · Próxima: ${c.proxima_atualizacao}`;
+  }
 
-function renderCursos(termo = '') {
-  if (!dadosCursos) return;
-  const q = termo.trim().toLowerCase();
-  const grid = document.getElementById('gridCursos');
-  const portais = dadosCursos.portais.filter(p => {
-    if (!q) return true;
-    const blob = (p.instituicao + ' ' + p.area + ' ' + (p.cursos_extraidos || []).map(c => c.titulo).join(' ')).toLowerCase();
-    return blob.includes(q);
+  function renderizarTab() {
+    if (!DADOS) return;
+    const container = document.getElementById("tabContent");
+    const termo = (document.getElementById("searchInput").value || "").toLowerCase().trim();
+
+    if (TAB_ATIVA === "cursos") {
+      let lista = DADOS.cursos || [];
+      if (termo) {
+        lista = lista.filter(x => (x.titulo + " " + x.instituicao + " " + x.detalhes).toLowerCase().includes(termo));
+      }
+      if (!lista.length) {
+        container.innerHTML = `<div class="empty-state">Nenhum curso encontrado com o filtro informado.</div>`;
+        return;
+      }
+      container.innerHTML = `
+        <div class="card-grid">
+          ${lista.map(c => `
+            <div class="vigiador-card">
+              <div>
+                <div class="card-head">
+                  <h3 class="card-title">${c.titulo}</h3>
+                  <span class="badge badge-primary">${c.tipo}</span>
+                </div>
+                <div class="card-meta" style="margin: 8px 0;">
+                  <span><strong>Instituição:</strong> ${c.instituicao}</span>
+                  <span><strong>Local:</strong> ${c.cidade}</span>
+                  <span><strong>Status:</strong> ${c.status}</span>
+                </div>
+                <p class="card-desc">${c.detalhes}</p>
+              </div>
+              <a href="${c.link}" target="_blank" rel="noopener" class="action-btn">
+                <span>Acessar Portal Oficial</span>
+                <svg class="icon" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          `).join("")}
+        </div>`;
+    } else if (TAB_ATIVA === "carros") {
+      let lista = DADOS.carros || [];
+      if (termo) {
+        lista = lista.filter(x => (x.modelo + " " + x.cidade + " " + x.checklist).toLowerCase().includes(termo));
+      }
+      if (!lista.length) {
+        container.innerHTML = `<div class="empty-state">Nenhuma oferta de carro encontrada com o filtro informado.</div>`;
+        return;
+      }
+      container.innerHTML = `
+        <div class="card-grid">
+          ${lista.map(car => `
+            <div class="vigiador-card">
+              <div>
+                <div class="card-head">
+                  <h3 class="card-title">${car.modelo}</h3>
+                  <span class="badge badge-success">${car.desconto_fipe}</span>
+                </div>
+                <div style="margin: 8px 0;">
+                  <span class="price-tag">R$ ${car.preco.toLocaleString("pt-BR", {minimumFractionDigits: 2})}</span>
+                  <span class="price-strike">FIPE R$ ${car.fipe.toLocaleString("pt-BR", {minimumFractionDigits: 2})}</span>
+                </div>
+                <div class="card-meta">
+                  <span><strong>Ano:</strong> ${car.ano} · <strong>Combustível:</strong> ${car.combustivel}</span>
+                  <span><strong>Localização:</strong> ${car.cidade}</span>
+                  <span><strong>Checklist:</strong> ${car.checklist}</span>
+                </div>
+              </div>
+              <a href="${car.link}" target="_blank" rel="noopener" class="action-btn">
+                <span>Ver Anúncios Reais no RS</span>
+                <svg class="icon" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          `).join("")}
+        </div>`;
+    } else if (TAB_ATIVA === "mercado") {
+      const m = DADOS.mercado || {};
+      container.innerHTML = `
+        <div class="section-title">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+          <span>Energéticos — SOMENTE EM LATA (Regra Doc 65)</span>
+        </div>
+        <div class="card-grid">
+          ${(m.energeticos_em_lata || []).map(e => `
+            <div class="vigiador-card">
+              <div>
+                <div class="card-head">
+                  <h4 class="card-title">${e.produto}</h4>
+                  <span class="badge badge-success">${e.formato}</span>
+                </div>
+                <div style="margin: 8px 0;">
+                  <span class="price-tag">R$ ${e.preco_menor.toFixed(2)}</span>
+                  <span style="font-size: 12px; color: #94a3b8; margin-left: 6px;">até R$ ${e.preco_medio.toFixed(2)}</span>
+                </div>
+                <div class="card-meta">
+                  <span><strong>Mercado:</strong> ${e.mercado}</span>
+                  <span><strong>Fonte:</strong> ${e.fonte}</span>
+                  <span><strong>Observação:</strong> ${e.nota}</span>
+                </div>
+              </div>
+            </div>
+          `).join("")}
+        </div>
+
+        <div class="section-title" style="margin-top: 32px;">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+          <span>Insumos para Trufas e Mousses (Menor Preço Canoas/RS)</span>
+        </div>
+        <div class="card-grid">
+          ${(m.insumos_trufas_mousses || []).map(i => `
+            <div class="vigiador-card">
+              <div>
+                <div class="card-head">
+                  <h4 class="card-title">${i.produto}</h4>
+                  <span class="badge badge-primary">Insumo</span>
+                </div>
+                <div style="margin: 8px 0;">
+                  <span class="price-tag">R$ ${i.preco_menor.toFixed(2)}</span>
+                  <span style="font-size: 12px; color: #94a3b8; margin-left: 6px;">médio R$ ${i.preco_medio.toFixed(2)}</span>
+                </div>
+                <div class="card-meta">
+                  <span><strong>Mercado:</strong> ${i.mercado}</span>
+                  <span><strong>Fonte:</strong> ${i.fonte}</span>
+                  <span><strong>Observação:</strong> ${i.nota}</span>
+                </div>
+              </div>
+            </div>
+          `).join("")}
+        </div>
+
+        <div class="section-title" style="margin-top: 32px;">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3zm0 0v7"/></svg>
+          <span>Combustível Mais Barato em Canoas / RS</span>
+        </div>
+        <div class="card-grid">
+          ${(m.combustiveis_canoas || []).map(c => `
+            <div class="vigiador-card">
+              <div>
+                <div class="card-head">
+                  <h4 class="card-title">${c.combustivel}</h4>
+                  <span class="badge badge-warning">Canoas</span>
+                </div>
+                <div style="margin: 8px 0;">
+                  <span class="price-tag">R$ ${c.preco.toFixed(2)}</span>
+                  <span style="font-size: 12px; color: #94a3b8;">/ ${c.unidade}</span>
+                </div>
+                <div class="card-meta">
+                  <span><strong>Posto:</strong> ${c.posto}</span>
+                  <span><strong>Cidade:</strong> ${c.cidade}</span>
+                  <span><strong>Fonte:</strong> ${c.fonte}</span>
+                </div>
+              </div>
+            </div>
+          `).join("")}
+        </div>`;
+    } else if (TAB_ATIVA === "youtube") {
+      const y = DADOS.youtube || {};
+      container.innerHTML = `
+        <div class="section-title">
+          <svg class="icon" viewBox="0 0 24 24"><polygon points="10 15 15 12 10 9 10 15"/></svg>
+          <span>Vídeos Dark Produzidos (Prontos no Google Drive)</span>
+        </div>
+        <div class="card-grid">
+          ${(y.videos_dark_prontos_drive || []).map(v => `
+            <div class="vigiador-card">
+              <div>
+                <div class="card-head">
+                  <h4 class="card-title">${v.canal}</h4>
+                  <span class="badge badge-success">${v.status}</span>
+                </div>
+                <p class="card-desc" style="font-family: monospace; font-size: 11.5px; margin: 8px 0;">${v.titulo}</p>
+                <div class="card-meta">
+                  <span><strong>Tamanho:</strong> ${v.tamanho}</span>
+                  <span><strong>Google Drive ID:</strong> <code>${v.drive_id}</code></span>
+                </div>
+              </div>
+              <a href="https://drive.google.com/drive/folders/1thy7Ztb8PWoVIrJRqUA9NHWkHJc4hk-a" target="_blank" rel="noopener" class="action-btn">
+                <span>Abrir Pasta do Drive</span>
+                <svg class="icon" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          `).join("")}
+        </div>
+
+        <div class="section-title" style="margin-top: 32px;">
+          <svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          <span>13 Canais Monitorados pelo Sentinela (24h)</span>
+        </div>
+        <div class="card-grid">
+          ${(y.canais_monitorados_sentinela || []).map(ch => `
+            <div class="vigiador-card" style="padding: 14px;">
+              <div class="card-head">
+                <h4 class="card-title" style="font-size: 14px;">${ch.nome}</h4>
+                <span class="badge badge-primary">${ch.status}</span>
+              </div>
+              <p class="card-desc" style="font-size: 12px;">${ch.topico}</p>
+            </div>
+          `).join("")}
+        </div>`;
+    }
+  }
+
+  // Event Listeners
+  document.querySelectorAll(".tab-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      TAB_ATIVA = btn.dataset.tab;
+      renderizarTab();
+    });
   });
-  grid.innerHTML = portais.map(p => {
-    const st = p.online
-      ? `<span class="badge ok">HTTP ${p.http_status} · Verificado (${p.latencia_s}s)</span>`
-      : `<span class="badge warn">WAF/Bot ${p.http_status} · Abrir direto no navegador</span>`;
-    const lista = (p.cursos_extraidos && p.cursos_extraidos.length)
-      ? `<ul class="lista-cursos">${p.cursos_extraidos.map(c => `<li><a href="${c.url}" target="_blank" rel="noopener">${c.titulo}</a></li>`).join('')}</ul>`
-      : `<p class="meta">Catálogo dinâmico (abra o link oficial abaixo para ver todas as turmas abertas agora).</p>`;
-    return `<article class="card">
-      <div>${st}</div>
-      <h3>${p.instituicao}</h3>
-      <div class="meta"><b>Áreas:</b> ${p.area}</div>
-      <div class="meta"><b>Certificado:</b> ${p.certificado} · <b>Modalidade:</b> ${p.modalidade}</div>
-      ${lista}
-      <a class="btn" href="${p.url_oficial}" target="_blank" rel="noopener">Abrir Portal Oficial Gratuito ↗</a>
-    </article>`;
-  }).join('') || '<p>Nenhum portal encontrado para esse filtro.</p>';
-}
 
-fetch('cursos_gratis_rs_verificados.json')
-  .then(r => r.json())
-  .then(d => {
-    dadosCursos = d;
-    document.getElementById('bannerCursos').innerHTML =
-      `<b>Última varredura HTTP real:</b> ${d.atualizado_em} · <b>${d.total_portais_ok}/${d.portais.length}</b> portais responderam HTTP 200 direto + <b>${d.total_links_cursos_reais}</b> links reais de cursos/categorias extraídos.<br>${d.regra_transparencia}`;
-    renderCursos();
-  })
-  .catch(err => {
-    document.getElementById('bannerCursos').textContent = 'Erro ao carregar JSON de cursos: ' + err.message;
+  document.getElementById("searchInput").addEventListener("input", () => {
+    renderizarTab();
   });
 
-document.getElementById('filtroCursos').addEventListener('input', e => renderCursos(e.target.value));
+  window.addEventListener("DOMContentLoaded", carregarDados);
 </script>
 </body>
 </html>
