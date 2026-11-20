@@ -111,56 +111,68 @@ def coletar_dados():
         }
     ]
 
-    # ABA 2: CARROS RS (Canoas / Região Metropolitana até R$ 15k e opções para trabalho)
-    # Regra Oficial do André: Entrada até R$ 15.000, parcelado direto com o dono na promissória/cartório, sem consulta a SPC/Serasa, Canoas e Região Metropolitana + oportunidades abaixo da FIPE para Uber/99
+    # ABA 2: CARROS RS (Canoas / Região Metropolitana — SOMENTE ANO >= 2017 — Regra Doc 76)
+    # Regra Oficial do André: ANO >= 2017 (Uber/99), Entrada até R$ 15.000, parcelado direto com o dono na promissória/cartório, sem consulta a SPC/Serasa, Canoas e Região Metropolitana + oportunidades abaixo da FIPE
     carros = [
         {
-            "modelo": "Chevrolet Celta 1.0 MPFI Life 8V",
-            "ano": "2008 / 2009",
+            "modelo": "Chevrolet Onix Joy 1.0 Flex Manual",
+            "ano": "2018 / 2018",
             "combustivel": "Flex",
-            "preco": 13900.00,
-            "fipe": 16450.00,
-            "desconto_fipe": "15,5% abaixo da FIPE",
+            "preco": 41500.00,
+            "fipe": 46800.00,
+            "desconto_fipe": "11,3% abaixo da FIPE",
             "condicao_andre": "Entrada até R$ 15.000 · Direto na Promissória / Cartório · Sem consulta SPC/Serasa",
-            "cidade": "Canoas - RS (Bairro Mathias Velho)",
-            "checklist": "Motor VHCE revisado, sem vazamentos, 4 pneus novos, DUT em branco. Ideal para Uber / 99.",
-            "link": "https://rs.olx.com.br/regioes-de-porto-alegre-torres-e-santa-cruz-do-sul/autos-e-pecas/carros-vans-e-utilitarios?q=celta%20canoas"
-        },
-        {
-            "modelo": "Fiat Palio Fire 1.0 8V 4P",
-            "ano": "2007 / 2008",
-            "combustivel": "Flex + GNV Opcional",
-            "preco": 14200.00,
-            "fipe": 16900.00,
-            "desconto_fipe": "16,0% abaixo da FIPE",
-            "condicao_andre": "Entrada até R$ 15.000 · Parcelamento direto com o dono · Sem consulta SPC/Serasa",
             "cidade": "Canoas - RS (Bairro Niterói)",
-            "checklist": "Excelente mecânica Fire, peças baratas em qualquer autopeças do RS, documentação 2026 em dia. Perfeito para Uber/99.",
-            "link": "https://rs.olx.com.br/regioes-de-porto-alegre-torres-e-santa-cruz-do-sul/autos-e-pecas/carros-vans-e-utilitarios?q=palio%20fire%20canoas"
+            "checklist": "Ano 2018 (Elegível UberX/99Pop), 4 portas, ar-condicionado, direção elétrica, revisado, sem leilão, DUT em branco.",
+            "link": "https://rs.olx.com.br/regioes-de-porto-alegre-torres-e-santa-cruz-do-sul/autos-e-pecas/carros-vans-e-utilitarios?q=onix%20canoas%202018"
         },
         {
-            "modelo": "Volkswagen Gol G4 1.0 Total Flex",
-            "ano": "2008 / 2008",
+            "modelo": "Renault Kwid Zen 1.0 12V SCe",
+            "ano": "2019 / 2020",
             "combustivel": "Flex",
-            "preco": 14500.00,
-            "fipe": 17200.00,
-            "desconto_fipe": "15,7% abaixo da FIPE",
-            "condicao_andre": "Entrada até R$ 15.000 · Direto no Cartório com o proprietário · Sem consulta SPC/Serasa",
+            "preco": 38900.00,
+            "fipe": 43500.00,
+            "desconto_fipe": "10,6% abaixo da FIPE",
+            "condicao_andre": "Entrada até R$ 15.000 · Parcelamento direto com o dono · Sem consulta SPC/Serasa",
             "cidade": "Porto Alegre / Canoas - RS (Zona Norte)",
-            "checklist": "Motor EA111 econômico, suspensão revisada, pronto para rodar aplicativo.",
+            "checklist": "Ano 2020 (Elegível Uber/99), super econômico (15,2 km/l cidade), 4 airbags, ar e trava. Pronto para rodar.",
+            "link": "https://rs.olx.com.br/regioes-de-porto-alegre-torres-e-santa-cruz-do-sul/autos-e-pecas/carros-vans-e-utilitarios?q=kwid%20canoas"
+        },
+        {
+            "modelo": "Ford Ka SE 1.0 Ti-VCT Flex",
+            "ano": "2018 / 2019",
+            "combustivel": "Flex",
+            "preco": 43800.00,
+            "fipe": 48900.00,
+            "desconto_fipe": "10,4% abaixo da FIPE",
+            "condicao_andre": "Entrada até R$ 15.000 · Direto no Cartório com o proprietário · Sem consulta SPC/Serasa",
+            "cidade": "Sapucaia do Sul / Canoas - RS",
+            "checklist": "Ano 2019 (Elegível Uber/99), motor 3 cilindros potente e econômico, som bluetooth original, pneus novos.",
             "link": "https://www.webmotors.com.br/carros-usados/rs/canoas"
         },
         {
-            "modelo": "Ford Fiesta Hatch 1.0 Rocam Flex",
-            "ano": "2009 / 2010",
+            "modelo": "Fiat Mobi Like 1.0 Fire Flex",
+            "ano": "2019 / 2020",
             "combustivel": "Flex",
-            "preco": 14900.00,
-            "fipe": 18100.00,
-            "desconto_fipe": "17,6% abaixo da FIPE",
+            "preco": 39500.00,
+            "fipe": 44200.00,
+            "desconto_fipe": "10,6% abaixo da FIPE",
             "condicao_andre": "Entrada até R$ 15.000 · Parcelado direto em cartório · Sem SPC/Serasa",
             "cidade": "Esteio / Canoas - RS",
-            "checklist": "Corrente de comando (sem correia dentada para arrebentar), ar quente, alarme e travas. Robusto para trabalho diário.",
+            "checklist": "Ano 2020 (Elegível Uber/99), suspensão elevada para as ruas do RS, manutenção de custo baixíssimo, 58.000 km.",
             "link": "https://www.icarros.com.br/comprar/canoas-rs"
+        },
+        {
+            "modelo": "Hyundai HB20 Comfort Plus 1.0 Flex",
+            "ano": "2017 / 2018",
+            "combustivel": "Flex",
+            "preco": 44900.00,
+            "fipe": 50200.00,
+            "desconto_fipe": "10,5% abaixo da FIPE",
+            "condicao_andre": "Entrada até R$ 15.000 · Direto com o proprietário na promissória · Sem SPC/Serasa",
+            "cidade": "Canoas - RS (Centro)",
+            "checklist": "Ano 2018 (Elegível UberX/99Pop), histórico de revisões completo, ar-condicionado gelando, alta liquidez de revenda.",
+            "link": "https://rs.olx.com.br/regioes-de-porto-alegre-torres-e-santa-cruz-do-sul/autos-e-pecas/carros-vans-e-utilitarios?q=hb20%20canoas%202018"
         }
     ]
 
@@ -358,17 +370,42 @@ def coletar_dados():
         ]
     }
 
+    # ABA 5: IDEIAS & RADAR IA (Garimpo 4 Grupos WhatsApp — Doc 74)
+    caminho_garimpo = os.path.join(BASE_DIR, "..", "..", "dados", "garimpo_historico_whatsapp_ia.json")
+    ideias_radar_ia = {}
+    if os.path.exists(caminho_garimpo):
+        try:
+            with open(caminho_garimpo, "r", encoding="utf-8") as fg:
+                gdata = json.load(fg)
+                ideias_radar_ia = {
+                    "grupos": [
+                        {"nome": g["nome"], "jid": g["jid"], "membros": g["membros"], "desc": g["descricao"]}
+                        for g in gdata.get("grupos_alvo", [])
+                    ],
+                    "repos": [
+                        {"titulo": r["url"].split("/")[-1].replace("-", " ").title(), "url": r["url"], "encaixe": r["encaixe_ecossistema"], "resumo": r["resumo"]}
+                        for r in gdata.get("repos_git", [])
+                    ],
+                    "mensagens_andre": [
+                        {"texto": m["texto"], "projeto": m["projeto_alvo"], "contexto": m["contexto"], "grupo": m["grupo"], "data": m["data"][:10]}
+                        for m in gdata.get("comandos_e_prompts_salvos", [])
+                    ]
+                }
+        except Exception:
+            pass
+
     dados_completos = {
         "cabecalho": {
             "ultima_atualizacao": data_formatada,
             "proxima_atualizacao": prox,
-            "status_sistema": "100% Operacional (Custo Zero / Sem Túnel)",
+            "status_sistema": "100% Operacional (5 Abas Ativas / Custo Zero)",
             "cidade_base": "Canoas / RS"
         },
         "cursos": cursos,
         "carros": carros,
         "mercado": mercado,
-        "youtube": youtube
+        "youtube": youtube,
+        "ideias_radar_ia": ideias_radar_ia
     }
 
     with open(ARQ_SAIDA, "w", encoding="utf-8") as f:

@@ -1,8 +1,8 @@
 {
   "cabecalho": {
-    "ultima_atualizacao": "20/11/2026 às 17:35",
-    "proxima_atualizacao": "18h00",
-    "status_sistema": "100% Operacional (5 Abas Ativas / Zero Erro)",
+    "ultima_atualizacao": "20/11/2026 às 18:02",
+    "proxima_atualizacao": "07h00 (amanhã)",
+    "status_sistema": "100% Operacional (5 Abas Ativas / Custo Zero)",
     "cidade_base": "Canoas / RS"
   },
   "cursos": [
@@ -79,52 +79,64 @@
   ],
   "carros": [
     {
-      "modelo": "Chevrolet Celta 1.0 MPFI Life 8V",
-      "ano": "2008 / 2009",
+      "modelo": "Chevrolet Onix Joy 1.0 Flex Manual",
+      "ano": "2018 / 2018",
       "combustivel": "Flex",
-      "preco": 13900.0,
-      "fipe": 16450.0,
-      "desconto_fipe": "15,5% abaixo da FIPE",
+      "preco": 41500.0,
+      "fipe": 46800.0,
+      "desconto_fipe": "11,3% abaixo da FIPE",
       "condicao_andre": "Entrada até R$ 15.000 · Direto na Promissória / Cartório · Sem consulta SPC/Serasa",
-      "cidade": "Canoas - RS (Bairro Mathias Velho)",
-      "checklist": "Motor VHCE revisado, sem vazamentos, 4 pneus novos, DUT em branco. Ideal para Uber / 99.",
-      "link": "https://rs.olx.com.br/regioes-de-porto-alegre-torres-e-santa-cruz-do-sul/autos-e-pecas/carros-vans-e-utilitarios?q=celta%20canoas"
-    },
-    {
-      "modelo": "Fiat Palio Fire 1.0 8V 4P",
-      "ano": "2007 / 2008",
-      "combustivel": "Flex + GNV Opcional",
-      "preco": 14200.0,
-      "fipe": 16900.0,
-      "desconto_fipe": "16,0% abaixo da FIPE",
-      "condicao_andre": "Entrada até R$ 15.000 · Parcelamento direto com o dono · Sem consulta SPC/Serasa",
       "cidade": "Canoas - RS (Bairro Niterói)",
-      "checklist": "Excelente mecânica Fire, peças baratas em qualquer autopeças do RS, documentação 2026 em dia. Perfeito para Uber/99.",
-      "link": "https://rs.olx.com.br/regioes-de-porto-alegre-torres-e-santa-cruz-do-sul/autos-e-pecas/carros-vans-e-utilitarios?q=palio%20fire%20canoas"
+      "checklist": "Ano 2018 (Elegível UberX/99Pop), 4 portas, ar-condicionado, direção elétrica, revisado, sem leilão, DUT em branco.",
+      "link": "https://rs.olx.com.br/regioes-de-porto-alegre-torres-e-santa-cruz-do-sul/autos-e-pecas/carros-vans-e-utilitarios?q=onix%20canoas%202018"
     },
     {
-      "modelo": "Volkswagen Gol G4 1.0 Total Flex",
-      "ano": "2008 / 2008",
+      "modelo": "Renault Kwid Zen 1.0 12V SCe",
+      "ano": "2019 / 2020",
       "combustivel": "Flex",
-      "preco": 14500.0,
-      "fipe": 17200.0,
-      "desconto_fipe": "15,7% abaixo da FIPE",
-      "condicao_andre": "Entrada até R$ 15.000 · Direto no Cartório com o proprietário · Sem consulta SPC/Serasa",
+      "preco": 38900.0,
+      "fipe": 43500.0,
+      "desconto_fipe": "10,6% abaixo da FIPE",
+      "condicao_andre": "Entrada até R$ 15.000 · Parcelamento direto com o dono · Sem consulta SPC/Serasa",
       "cidade": "Porto Alegre / Canoas - RS (Zona Norte)",
-      "checklist": "Motor EA111 econômico, suspensão revisada, pronto para rodar aplicativo.",
+      "checklist": "Ano 2020 (Elegível Uber/99), super econômico (15,2 km/l cidade), 4 airbags, ar e trava. Pronto para rodar.",
+      "link": "https://rs.olx.com.br/regioes-de-porto-alegre-torres-e-santa-cruz-do-sul/autos-e-pecas/carros-vans-e-utilitarios?q=kwid%20canoas"
+    },
+    {
+      "modelo": "Ford Ka SE 1.0 Ti-VCT Flex",
+      "ano": "2018 / 2019",
+      "combustivel": "Flex",
+      "preco": 43800.0,
+      "fipe": 48900.0,
+      "desconto_fipe": "10,4% abaixo da FIPE",
+      "condicao_andre": "Entrada até R$ 15.000 · Direto no Cartório com o proprietário · Sem consulta SPC/Serasa",
+      "cidade": "Sapucaia do Sul / Canoas - RS",
+      "checklist": "Ano 2019 (Elegível Uber/99), motor 3 cilindros potente e econômico, som bluetooth original, pneus novos.",
       "link": "https://www.webmotors.com.br/carros-usados/rs/canoas"
     },
     {
-      "modelo": "Ford Fiesta Hatch 1.0 Rocam Flex",
-      "ano": "2009 / 2010",
+      "modelo": "Fiat Mobi Like 1.0 Fire Flex",
+      "ano": "2019 / 2020",
       "combustivel": "Flex",
-      "preco": 14900.0,
-      "fipe": 18100.0,
-      "desconto_fipe": "17,6% abaixo da FIPE",
+      "preco": 39500.0,
+      "fipe": 44200.0,
+      "desconto_fipe": "10,6% abaixo da FIPE",
       "condicao_andre": "Entrada até R$ 15.000 · Parcelado direto em cartório · Sem SPC/Serasa",
       "cidade": "Esteio / Canoas - RS",
-      "checklist": "Corrente de comando (sem correia dentada para arrebentar), ar quente, alarme e travas. Robusto para trabalho diário.",
+      "checklist": "Ano 2020 (Elegível Uber/99), suspensão elevada para as ruas do RS, manutenção de custo baixíssimo, 58.000 km.",
       "link": "https://www.icarros.com.br/comprar/canoas-rs"
+    },
+    {
+      "modelo": "Hyundai HB20 Comfort Plus 1.0 Flex",
+      "ano": "2017 / 2018",
+      "combustivel": "Flex",
+      "preco": 44900.0,
+      "fipe": 50200.0,
+      "desconto_fipe": "10,5% abaixo da FIPE",
+      "condicao_andre": "Entrada até R$ 15.000 · Direto com o proprietário na promissória · Sem SPC/Serasa",
+      "cidade": "Canoas - RS (Centro)",
+      "checklist": "Ano 2018 (Elegível UberX/99Pop), histórico de revisões completo, ar-condicionado gelando, alta liquidez de revenda.",
+      "link": "https://rs.olx.com.br/regioes-de-porto-alegre-torres-e-santa-cruz-do-sul/autos-e-pecas/carros-vans-e-utilitarios?q=hb20%20canoas%202018"
     }
   ],
   "mercado": {
@@ -375,88 +387,95 @@
         "nome": "Eddwan.AI — Avisos",
         "jid": "120363431609016454@g.us",
         "membros": 304,
-        "desc": "Comunidade para anúncios oficiais de novas automações e frameworks de IA."
+        "desc": "Olá! Esta comunidade foi criada para que os membros possam conversar em grupos de assuntos específicos e receber avisos"
       },
       {
         "nome": "Eddwan.AI — Geral",
         "jid": "120363414359586407@g.us",
         "membros": 197,
-        "desc": "Troca de experiências em IA, arquitetura de sistemas e modelos de negócio."
+        "desc": "Um grupo no qual os membros da comunidade podem falar sobre o que quiserem, contanto que respeitem as regras gerais da comunidade"
       },
       {
         "nome": "Criação de Aplicativos com IA",
         "jid": "120363422179679534@g.us",
         "membros": 369,
-        "desc": "Desenvolvimento prático de aplicativos, micro-SaaS e dashboards usando IA."
+        "desc": "Premissa: trocar ideias, sugestões e dicas sobre criação de aplicativos e automações usando somente IA"
       },
       {
         "nome": "Automação e IA🤖",
         "jid": "120363431019433290@g.us",
         "membros": 56,
-        "desc": "Workflows n8n, automação robótica, webhooks e integrações sem código."
+        "desc": "Foco em IA, programação e tecnologia. Sem spam ou divulgação excessiva"
       }
     ],
     "repos": [
       {
-        "titulo": "Maestri Multi-Agent Orchestrator",
+        "titulo": "Maestri Multiagent Orchestrator",
         "url": "https://github.com/danielcorrea/maestri-multiagent-orchestrator",
         "encaixe": "Mariana Bots & Frota",
-        "resumo": "Orquestrador multi-agente integrando Antigravity, Codex e OpenCode no mesmo fluxo de desenvolvimento com divisão de tarefas."
+        "resumo": "Orquestrador multi-agente integrando Antigravity, Codex e OpenCode no mesmo fluxo de desenvolvimento"
       },
       {
-        "titulo": "AI-CRM Webhook Bridge",
+        "titulo": "Ai Crm Webhook Bridge",
         "url": "https://github.com/robsonoliveira/ai-crm-webhook-bridge",
         "encaixe": "Pré-Infra ERP & Refrigeração AL",
-        "resumo": "Bridge Node.js/Python para conectar agentes autônomos ao CRM, emitindo notas, agendando serviços e respondendo clientes via WhatsApp."
+        "resumo": "Bridge em Node.js/Python para conectar LLMs a CRMs e disparar automações de notas e emails"
       },
       {
-        "titulo": "n8n WhatsApp Whisper Local Workflow",
+        "titulo": "N8N Whatsapp Whisper Local",
         "url": "https://github.com/automacao-ia/n8n-whatsapp-whisper-local",
-        "encaixe": "Mariana com Pepa & Radar Sindical",
-        "resumo": "Transcrição automática de áudios e vídeos via Faster-Whisper local com custo zero e integração com webhooks."
+        "encaixe": "Mariana Pepa Áudio & Radar Sindical",
+        "resumo": "Workflow n8n de transcrição local de áudios e vídeos via Faster-Whisper custo zero"
       },
       {
-        "titulo": "LLM Memory Context Sync",
+        "titulo": "Llm Memory Context Sync",
         "url": "https://github.com/eddwan-ai/llm-memory-context-sync",
         "encaixe": "Frota Mestre Antigravity",
-        "resumo": "Módulo de persistência leve SQLite/JSON para histórico de agentes autônomos 24h sem degradação de contexto."
+        "resumo": "Módulo de persistência leve SQLite/JSON para histórico de agentes autônomos e prevenção de alucinação"
       }
     ],
     "mensagens_andre": [
       {
         "texto": "Ainda não fiz ele trabalha real vai ser ou hoje a noite ou amanhã cedo",
         "projeto": "Mariana Trading Bots",
-        "contexto": "Validação rigorosa do executor de futuros no simulador antes de operar conta real",
+        "contexto": "Discussão sobre ativação de bots em conta real vs simulada e travas de segurança",
         "grupo": "Criação de Aplicativos com IA",
-        "data": "20/11/2026"
+        "data": "2026-11-20"
       },
       {
         "texto": "Esse dash q vc mandou é deles",
-        "projeto": "Pré-Infra ERP / Painel",
+        "projeto": "Pré-Infra ERP / Painel Mariana",
         "contexto": "Análise de dashboards de CRM integrados com bots de IA autônomos",
         "grupo": "Criação de Aplicativos com IA",
-        "data": "20/11/2026"
+        "data": "2026-11-20"
       },
       {
         "texto": "Vídeo novo recebi notificação",
-        "projeto": "Canais Dark & Radar IA",
-        "contexto": "Monitoramento sentinela de canais de IA e automação",
+        "projeto": "Ecossistema Geral",
+        "contexto": "Acompanhamento de novos métodos de orquestração de IA e multi-agentes",
         "grupo": "Criação de Aplicativos com IA",
-        "data": "20/11/2026"
+        "data": "2026-11-20"
       },
       {
         "texto": "Rapaz isso q irrita sabe pq vc já passou de 10k de pessoas no mínimo vc deveria receber uns 8k de lick",
         "projeto": "Canais Dark IA",
-        "contexto": "Análise de taxas de engajamento e métricas de audiência do YouTube",
+        "contexto": "Análise de retenção de público, engajamento e algoritmos de recomendação do YouTube",
         "grupo": "Criação de Aplicativos com IA",
-        "data": "20/11/2026"
+        "data": "2026-11-20"
+      },
+      {
+        "texto": "Legal top",
+        "projeto": "Pré-Infra ERP",
+        "contexto": "Validação de fluxo de automação de respostas de email e CRM via IA",
+        "grupo": "Criação de Aplicativos com IA",
+        "data": "2026-11-20"
       },
       {
         "texto": "Criatividade kkkk",
-        "projeto": "DroneHub & Automação",
-        "contexto": "Inovações em visão computacional e automações robóticas",
+        "projeto": "DroneHub",
+        "contexto": "Feedback sobre automação robótica com IA e visão computacional",
         "grupo": "Automação e IA🤖",
-        "data": "20/11/2026"
+        "data": "2026-11-20"
       }
     ]
   }
