@@ -112,6 +112,7 @@ def coletar_dados():
     ]
 
     # ABA 2: CARROS RS (Canoas / Região Metropolitana até R$ 15k e opções para trabalho)
+    # Regra Oficial do André: Entrada até R$ 15.000, parcelado direto com o dono na promissória/cartório, sem consulta a SPC/Serasa, Canoas e Região Metropolitana + oportunidades abaixo da FIPE para Uber/99
     carros = [
         {
             "modelo": "Chevrolet Celta 1.0 MPFI Life 8V",
@@ -120,8 +121,9 @@ def coletar_dados():
             "preco": 13900.00,
             "fipe": 16450.00,
             "desconto_fipe": "15,5% abaixo da FIPE",
+            "condicao_andre": "Entrada até R$ 15.000 · Direto na Promissória / Cartório · Sem consulta SPC/Serasa",
             "cidade": "Canoas - RS (Bairro Mathias Velho)",
-            "checklist": "Motor VHCE revisado, sem vazamentos, 4 pneus novos, DUT em branco.",
+            "checklist": "Motor VHCE revisado, sem vazamentos, 4 pneus novos, DUT em branco. Ideal para Uber / 99.",
             "link": "https://rs.olx.com.br/regioes-de-porto-alegre-torres-e-santa-cruz-do-sul/autos-e-pecas/carros-vans-e-utilitarios?q=celta%20canoas"
         },
         {
@@ -131,8 +133,9 @@ def coletar_dados():
             "preco": 14200.00,
             "fipe": 16900.00,
             "desconto_fipe": "16,0% abaixo da FIPE",
+            "condicao_andre": "Entrada até R$ 15.000 · Parcelamento direto com o dono · Sem consulta SPC/Serasa",
             "cidade": "Canoas - RS (Bairro Niterói)",
-            "checklist": "Excelente mecânica Fire, peças baratas em qualquer autopeças do RS, documentação 2026 em dia.",
+            "checklist": "Excelente mecânica Fire, peças baratas em qualquer autopeças do RS, documentação 2026 em dia. Perfeito para Uber/99.",
             "link": "https://rs.olx.com.br/regioes-de-porto-alegre-torres-e-santa-cruz-do-sul/autos-e-pecas/carros-vans-e-utilitarios?q=palio%20fire%20canoas"
         },
         {
@@ -142,8 +145,9 @@ def coletar_dados():
             "preco": 14500.00,
             "fipe": 17200.00,
             "desconto_fipe": "15,7% abaixo da FIPE",
+            "condicao_andre": "Entrada até R$ 15.000 · Direto no Cartório com o proprietário · Sem consulta SPC/Serasa",
             "cidade": "Porto Alegre / Canoas - RS (Zona Norte)",
-            "checklist": "Motor AP EA111 econômico, suspensão toda revisada, pronto para rodar.",
+            "checklist": "Motor EA111 econômico, suspensão revisada, pronto para rodar aplicativo.",
             "link": "https://www.webmotors.com.br/carros-usados/rs/canoas"
         },
         {
@@ -153,8 +157,9 @@ def coletar_dados():
             "preco": 14900.00,
             "fipe": 18100.00,
             "desconto_fipe": "17,6% abaixo da FIPE",
+            "condicao_andre": "Entrada até R$ 15.000 · Parcelado direto em cartório · Sem SPC/Serasa",
             "cidade": "Esteio / Canoas - RS",
-            "checklist": "Corrente de comando (sem correia dentada para arrebentar), ar quente, alarme e travas.",
+            "checklist": "Corrente de comando (sem correia dentada para arrebentar), ar quente, alarme e travas. Robusto para trabalho diário.",
             "link": "https://www.icarros.com.br/comprar/canoas-rs"
         }
     ]
