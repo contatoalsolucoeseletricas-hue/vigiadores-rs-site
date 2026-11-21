@@ -14,7 +14,7 @@
       "cidade": "Porto Alegre / Canoas - RS",
       "status": "Seleção Semestral / Bolsas Prouni até 100%",
       "detalhes": "Curso de nível superior com diploma de Bacharel para atuação como Enfermeiro(a) e registro no COREN-RS. Gestão de UTI, centro cirúrgico e liderança de equipe clínica.",
-      "link": "https://www.coren-rs.gov.br"
+      "link": "https://acessounico.mec.gov.br/prouni"
     },
     {
       "id": "eletro_comp_02",
@@ -24,7 +24,7 @@
       "cidade": "RS / Todo Brasil (EAD com Prova Presencial)",
       "status": "Disponível sob Demanda",
       "detalhes": "Para profissionais com mais de 2 anos de experiência comprovada em carteira na área elétrica. Avaliação teórica rápida e emissão de diploma técnico reconhecido para obtenção de CFT/CRT.",
-      "link": "https://sistec.mec.gov.br"
+      "link": "https://www.gov.br/mec/pt-br/assuntos/educacao-profissional-e-tecnologica"
     },
     {
       "id": "ia_openai_01",
@@ -44,7 +44,7 @@
       "cidade": "EAD Global",
       "status": "Matrícula Aberta",
       "detalhes": "Como construir, refatorar e orquestrar bases de código completas utilizando Claude como agente de terminal e automações.",
-      "link": "https://anthropic.com"
+      "link": "https://anthropic.skilljar.com/claude-code-in-action"
     },
     {
       "id": "ia_claude_api_03",
@@ -54,7 +54,7 @@
       "cidade": "EAD Global",
       "status": "Início Imediato",
       "detalhes": "Arquitetura técnica para criação de agentes autônomos, function calling, tool use e structured outputs com a API do Claude.",
-      "link": "https://docs.anthropic.com"
+      "link": "https://anthropic.skilljar.com/"
     },
     {
       "id": "ia_google_skills_04",
@@ -64,7 +64,7 @@
       "cidade": "EAD Global",
       "status": "Disponível 24h",
       "detalhes": "Trilha oficial do Google com laboratórios práticos sobre modelos de fundação Gemini, embeddings, vetores e arquitetura multimodal.",
-      "link": "https://www.cloudskillsboost.google"
+      "link": "https://www.cloudskillsboost.google/paths/118"
     },
     {
       "id": "pos_eletro_01",
