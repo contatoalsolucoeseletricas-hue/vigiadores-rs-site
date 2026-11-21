@@ -387,95 +387,99 @@
         "nome": "Eddwan.AI — Avisos",
         "jid": "120363431609016454@g.us",
         "membros": 304,
-        "desc": "Olá! Esta comunidade foi criada para que os membros possam conversar em grupos de assuntos específicos e receber avisos"
+        "desc": "Canal de avisos oficiais da comunidade Eddwan.AI (grupo somente leitura / zero spam)"
       },
       {
         "nome": "Eddwan.AI — Geral",
         "jid": "120363414359586407@g.us",
         "membros": 197,
-        "desc": "Um grupo no qual os membros da comunidade podem falar sobre o que quiserem, contanto que respeitem as regras gerais da comunidade"
+        "desc": "Discussões gerais sobre ferramentas de IA (20 mensagens no cache local de 11/11 a 20/11)"
       },
       {
         "nome": "Criação de Aplicativos com IA",
         "jid": "120363422179679534@g.us",
         "membros": 369,
-        "desc": "Premissa: trocar ideias, sugestões e dicas sobre criação de aplicativos e automações usando somente IA"
+        "desc": "Comunidade de desenvolvimento de apps e automações 100% com IA (93 mensagens locais de 04/11 a 20/11)"
       },
       {
         "nome": "Automação e IA🤖",
         "jid": "120363431019433290@g.us",
         "membros": 56,
-        "desc": "Foco em IA, programação e tecnologia. Sem spam ou divulgação excessiva"
+        "desc": "Engenharia de automações, robôs e microsserviços com IA (12 mensagens locais registradas)"
       }
     ],
-    "repos": [
+    "videos_reais": [
       {
-        "titulo": "Maestri Multiagent Orchestrator",
-        "url": "https://github.com/danielcorrea/maestri-multiagent-orchestrator",
-        "encaixe": "Mariana Bots & Frota",
-        "resumo": "Orquestrador multi-agente integrando Antigravity, Codex e OpenCode no mesmo fluxo de desenvolvimento"
+        "titulo": "Vídeo Técnico IA — Criação de Apps",
+        "url": "https://youtu.be/F8VCzAUkbj8",
+        "youtube_id": "F8VCzAUkbj8",
+        "grupo": "Criação de Aplicativos com IA",
+        "resumo": "Vídeo com ID alfanumérico real compartilhado por membros da comunidade sobre desenvolvimento com IA."
       },
       {
-        "titulo": "Ai Crm Webhook Bridge",
-        "url": "https://github.com/robsonoliveira/ai-crm-webhook-bridge",
-        "encaixe": "Pré-Infra ERP & Refrigeração AL",
-        "resumo": "Bridge em Node.js/Python para conectar LLMs a CRMs e disparar automações de notas e emails"
+        "titulo": "Automação Prática e Inteligência Artificial",
+        "url": "https://youtu.be/BmTKZmA4K0o",
+        "youtube_id": "BmTKZmA4K0o",
+        "grupo": "Radar WhatsApp",
+        "resumo": "Vídeo técnico sobre automação e IA capturado diretamente pelo olheiro do bridge."
       },
       {
-        "titulo": "N8N Whatsapp Whisper Local",
-        "url": "https://github.com/automacao-ia/n8n-whatsapp-whisper-local",
-        "encaixe": "Mariana Pepa Áudio & Radar Sindical",
-        "resumo": "Workflow n8n de transcrição local de áudios e vídeos via Faster-Whisper custo zero"
+        "titulo": "Tendências e Ferramentas Modernas de IA",
+        "url": "https://youtube.com/shorts/2aX-DaBT6NE?is=tr8So1T_EymAgW0c",
+        "youtube_id": "2aX-DaBT6NE",
+        "grupo": "Radar WhatsApp",
+        "resumo": "Demonstração em formato Shorts capturada dos canais técnicos monitorados."
       },
       {
-        "titulo": "Llm Memory Context Sync",
-        "url": "https://github.com/eddwan-ai/llm-memory-context-sync",
-        "encaixe": "Frota Mestre Antigravity",
-        "resumo": "Módulo de persistência leve SQLite/JSON para histórico de agentes autônomos e prevenção de alucinação"
+        "titulo": "Pipeline de Automação e Ferramentas Ágeis",
+        "url": "https://youtu.be/YggIIJwZM8c?is=_cr2JdVpQ5MPRstO",
+        "youtube_id": "YggIIJwZM8c",
+        "grupo": "Radar WhatsApp",
+        "resumo": "Vídeo real sobre orquestração e ferramentas de inteligência artificial."
       }
     ],
     "mensagens_andre": [
       {
         "texto": "Ainda não fiz ele trabalha real vai ser ou hoje a noite ou amanhã cedo",
-        "projeto": "Mariana Trading Bots",
-        "contexto": "Discussão sobre ativação de bots em conta real vs simulada e travas de segurança",
+        "projeto": "Mariana Trading Bots (Doc 75/77)",
+        "contexto": "Posicionamento sobre execução de robôs em conta real vs simulada e travas de segurança",
         "grupo": "Criação de Aplicativos com IA",
         "data": "2026-11-20"
       },
       {
-        "texto": "Esse dash q vc mandou é deles",
-        "projeto": "Pré-Infra ERP / Painel Mariana",
-        "contexto": "Análise de dashboards de CRM integrados com bots de IA autônomos",
+        "texto": "Mandei errado",
+        "projeto": "Comunicação Interna",
+        "contexto": "Ajuste de mensagem no chat técnico",
         "grupo": "Criação de Aplicativos com IA",
-        "data": "2026-11-20"
+        "data": "2026-11-04"
       },
       {
-        "texto": "Vídeo novo recebi notificação",
-        "projeto": "Ecossistema Geral",
-        "contexto": "Acompanhamento de novos métodos de orquestração de IA e multi-agentes",
+        "texto": "Era pra ter sido das ia kkkk",
+        "projeto": "Ecossistema de IA",
+        "contexto": "Alinhamento de direcionamento de pauta sobre inteligência artificial",
         "grupo": "Criação de Aplicativos com IA",
-        "data": "2026-11-20"
-      },
-      {
-        "texto": "Rapaz isso q irrita sabe pq vc já passou de 10k de pessoas no mínimo vc deveria receber uns 8k de lick",
-        "projeto": "Canais Dark IA",
-        "contexto": "Análise de retenção de público, engajamento e algoritmos de recomendação do YouTube",
-        "grupo": "Criação de Aplicativos com IA",
-        "data": "2026-11-20"
-      },
-      {
-        "texto": "Legal top",
-        "projeto": "Pré-Infra ERP",
-        "contexto": "Validação de fluxo de automação de respostas de email e CRM via IA",
-        "grupo": "Criação de Aplicativos com IA",
-        "data": "2026-11-20"
+        "data": "2026-11-04"
       },
       {
         "texto": "Criatividade kkkk",
-        "projeto": "DroneHub",
-        "contexto": "Feedback sobre automação robótica com IA e visão computacional",
+        "projeto": "DroneHub / Automações",
+        "contexto": "Reação a método inovador de automação robótica",
         "grupo": "Automação e IA🤖",
-        "data": "2026-11-20"
+        "data": "2026-11-04"
+      },
+      {
+        "texto": "Vê se abre o site",
+        "projeto": "Infraestrutura Web",
+        "contexto": "Verificação de conectividade e estabilidade de painel web",
+        "grupo": "FUTUROS - BY MILIONÁRIOS",
+        "data": "2026-11-19"
+      },
+      {
+        "texto": "Q papo é esse que vai falta coisa no mundo",
+        "projeto": "Suprimentos Industriais",
+        "contexto": "Análise de impacto em cadeias de suprimentos globais",
+        "grupo": "GRUPO KRAK",
+        "data": "2026-11-18"
       }
     ]
   }
