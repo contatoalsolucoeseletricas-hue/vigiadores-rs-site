@@ -2,39 +2,69 @@
   "cabecalho": {
     "ultima_atualizacao": "20/11/2026 às 18:02",
     "proxima_atualizacao": "07h00 (amanhã)",
-    "status_sistema": "100% Operacional (5 Abas Ativas / Custo Zero)",
+    "status_sistema": "100% Operacional (6 Abas Ativas / Custo Zero)",
     "cidade_base": "Canoas / RS"
   },
   "cursos": [
     {
-      "id": "enf_01",
-      "titulo": "Técnico em Enfermagem",
-      "instituicao": "Senac RS / Programa Senac de Gratuidade (PSG)",
-      "tipo": "Presencial / Grátis",
-      "cidade": "Canoas / Porto Alegre - RS",
-      "status": "Inscrições Abertas / Edital PSG",
-      "detalhes": "Habilitação técnica com estágio supervisionado em hospitais do RS. Gratuito para renda familiar per capita até 2 salários mínimos.",
-      "link": "https://www.senacrs.com.br/psg"
-    },
-    {
-      "id": "eletro_01",
-      "titulo": "Técnico em Eletrotécnica",
-      "instituicao": "IFSul / IFRS (Institutos Federais RS)",
-      "tipo": "EAD / Presencial Grátis",
-      "cidade": "Sapucaia do Sul / Canoas / EAD",
-      "status": "Seleção Semestral Sisu/Vestibular Próprio",
-      "detalhes": "Diploma técnico federal com registro no CFT/CRT. Projetos elétricos, subestações, motores e automação.",
-      "link": "https://ingresso.ifsul.edu.br"
+      "id": "enf_bacharelado_01",
+      "titulo": "Graduação / Bacharelado em Enfermagem (Ser Enfermeiro)",
+      "instituicao": "UFRGS / Feevale / Ulbra / Unisinos (Prouni / Fies / Vestibular)",
+      "tipo": "Ensino Superior / Bacharelado (NÃO Técnico)",
+      "cidade": "Porto Alegre / Canoas - RS",
+      "status": "Seleção Semestral / Bolsas Prouni até 100%",
+      "detalhes": "Curso de nível superior com diploma de Bacharel para atuação como Enfermeiro(a) e registro no COREN-RS. Gestão de UTI, centro cirúrgico e liderança de equipe clínica.",
+      "link": "https://www.coren-rs.gov.br"
     },
     {
       "id": "eletro_comp_02",
       "titulo": "Técnico em Eletrotécnica por Competência",
       "instituicao": "Instituições Credenciadas MEC/Sistec",
-      "tipo": "Aferição por Competência / Certificação Rápida",
-      "cidade": "RS / Todo Brasil (EAD com Prova)",
+      "tipo": "Aferição por Competência Profissional (NÃO EAD regular)",
+      "cidade": "RS / Todo Brasil (EAD com Prova Presencial)",
       "status": "Disponível sob Demanda",
-      "detalhes": "Para profissionais com mais de 2 anos de experiência comprovada em carteira na área elétrica. Avaliação teórica e emissão de diploma técnico reconhecido para CFT.",
+      "detalhes": "Para profissionais com mais de 2 anos de experiência comprovada em carteira na área elétrica. Avaliação teórica rápida e emissão de diploma técnico reconhecido para obtenção de CFT/CRT.",
       "link": "https://sistec.mec.gov.br"
+    },
+    {
+      "id": "ia_openai_01",
+      "titulo": "OpenAI Academy — Fundamentos e Engenharia de Prompt",
+      "instituicao": "OpenAI (@afcodehub indicação)",
+      "tipo": "Online 100% Grátis",
+      "cidade": "EAD Global / Gratuito",
+      "status": "Acesso Aberto",
+      "detalhes": "Treinamento oficial da OpenAI com certificação gratuita em IA generativa, chamadas de API e design de prompts avançados.",
+      "link": "https://academy.openai.com"
+    },
+    {
+      "id": "ia_claude_action_02",
+      "titulo": "Claude Code in Action — Desenvolvimento Ágil com IA",
+      "instituicao": "Anthropic / @afcodehub",
+      "tipo": "Online 100% Grátis",
+      "cidade": "EAD Global",
+      "status": "Matrícula Aberta",
+      "detalhes": "Como construir, refatorar e orquestrar bases de código completas utilizando Claude como agente de terminal e automações.",
+      "link": "https://anthropic.com"
+    },
+    {
+      "id": "ia_claude_api_03",
+      "titulo": "Building with Claude API — Arquitetura de Agentes e Ferramentas",
+      "instituicao": "Anthropic (@afcodehub indicação)",
+      "tipo": "Online 100% Grátis",
+      "cidade": "EAD Global",
+      "status": "Início Imediato",
+      "detalhes": "Arquitetura técnica para criação de agentes autônomos, function calling, tool use e structured outputs com a API do Claude.",
+      "link": "https://docs.anthropic.com"
+    },
+    {
+      "id": "ia_google_skills_04",
+      "titulo": "Google Skills Boost — Especialização em IA Generativa & Gemini",
+      "instituicao": "Google Cloud / @afcodehub",
+      "tipo": "Online 100% Grátis com Badges Oficiais",
+      "cidade": "EAD Global",
+      "status": "Disponível 24h",
+      "detalhes": "Trilha oficial do Google com laboratórios práticos sobre modelos de fundação Gemini, embeddings, vetores e arquitetura multimodal.",
+      "link": "https://www.cloudskillsboost.google"
     },
     {
       "id": "pos_eletro_01",
@@ -482,5 +512,47 @@
         "data": "2026-11-18"
       }
     ]
-  }
+  },
+  "github_top5": [
+    {
+      "repo": "microsoft/autogen",
+      "titulo": "AutoGen — Multi-Agent Conversation Framework",
+      "estrelas": "38.5k ★",
+      "linguagem": "Python",
+      "desc": "Framework da Microsoft para criar fluxos de trabalho avançados com múltiplos agentes conversacionais que cooperam entre si.",
+      "link": "https://github.com/microsoft/autogen"
+    },
+    {
+      "repo": "vllm-project/vllm",
+      "titulo": "vLLM — High-Throughput & Memory-Efficient LLM Serving",
+      "estrelas": "34.2k ★",
+      "linguagem": "Python / C++",
+      "desc": "Biblioteca ultra rápida para servir e rodar inferência de modelos locais de IA com PagedAttention e failover.",
+      "link": "https://github.com/vllm-project/vllm"
+    },
+    {
+      "repo": "crewAIInc/crewAI",
+      "titulo": "CrewAI — Framework para Orquestração de Agentes IA",
+      "estrelas": "24.8k ★",
+      "linguagem": "Python",
+      "desc": "Estrutura para engenharia de equipes autônomas de agentes com atribuição de funções, memória persistente e tarefas encadeadas.",
+      "link": "https://github.com/crewAIInc/crewAI"
+    },
+    {
+      "repo": "freqtrade/freqtrade",
+      "titulo": "Freqtrade — Free Crypto Algorithmic Trading Bot",
+      "estrelas": "31.9k ★",
+      "linguagem": "Python",
+      "desc": "Robô de negociação de criptomoedas líder no mundo open-source com suporte a backtesting, trailing stops e webhook TV.",
+      "link": "https://github.com/freqtrade/freqtrade"
+    },
+    {
+      "repo": "ccxt/ccxt",
+      "titulo": "CCXT — CryptoCurrency eXchange Trading Library",
+      "estrelas": "36.1k ★",
+      "linguagem": "JavaScript / Python",
+      "desc": "Biblioteca padrão de mercado que integra mais de 100 exchanges cripto (incluindo MEXC, Binance e Bybit) com API única.",
+      "link": "https://github.com/ccxt/ccxt"
+    }
+  ]
 }
