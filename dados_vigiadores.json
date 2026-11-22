@@ -1,6 +1,6 @@
 {
   "cabecalho": {
-    "ultima_atualizacao": "20/11/2026 às 18:02",
+    "ultima_atualizacao": "21/11/2026 às 22:40",
     "proxima_atualizacao": "07h00 (amanhã)",
     "status_sistema": "100% Operacional (6 Abas Ativas / Custo Zero)",
     "cidade_base": "Canoas / RS"
@@ -362,51 +362,72 @@
     "videos_dark_prontos_drive": [
       {
         "titulo": "01_CANAL_VAGAS_DE_EMPREGO_RS_VIDEO_OFICIAL.mp4",
-        "canal": "Vagas de Emprego RS",
+        "canal": "01. Vagas de Emprego RS",
         "tamanho": "1.15 MB",
         "drive_id": "1-4uK9h8xzmVPwRNOIYt2ayvSJldOpQTf",
         "status": "Pronto para Aprovação André"
       },
       {
         "titulo": "02_CANAL_CURSOS_E_FACULDADES_RS_VIDEO_OFICIAL.mp4",
-        "canal": "Cursos & Faculdades RS",
+        "canal": "02. Cursos & Faculdades RS",
         "tamanho": "1.08 MB",
         "drive_id": "1rCJwbv57xIF98MJqLVLyYAZkukxMPxoi",
         "status": "Pronto para Aprovação André"
       },
       {
         "titulo": "03_CANAL_FINANCAS_CRIPTO_BALEIAS_VIDEO_OFICIAL.mp4",
-        "canal": "Finanças Cripto & Baleias",
+        "canal": "03. Finanças Cripto & Baleias",
         "tamanho": "0.94 MB",
         "drive_id": "1utyCaXKZ8QnCFG-VSeLqs02reFGZ-mVm",
         "status": "Pronto para Aprovação André"
       },
       {
         "titulo": "04_CANAL_BASTIDORES_SERTANEJO_VIDEO_OFICIAL.mp4",
-        "canal": "Bastidores Sertanejo",
+        "canal": "04. Bastidores do Sertanejo",
         "tamanho": "0.95 MB",
         "drive_id": "1OFPgmG_azOWOS80VhVr4Qbw1xJsydD1m",
         "status": "Pronto para Aprovação André"
       },
       {
         "titulo": "05_CANAL_UNIVERSO_E_NASA_VIDEO_OFICIAL.mp4",
-        "canal": "Universo & NASA",
+        "canal": "05. Mistérios do Universo & NASA",
         "tamanho": "0.88 MB",
         "drive_id": "1020PUmwYkdgpkP62hXvx9s9RMdL2GX_j",
         "status": "Pronto para Aprovação André"
       },
       {
         "titulo": "06_CANAL_REACT_TECH_E_IA_VIDEO_OFICIAL.mp4",
-        "canal": "React Tech & IA",
+        "canal": "06. React Tech & IA",
         "tamanho": "0.90 MB",
         "drive_id": "1Rv0fhrwmNF7_jVIfgM6sTab_JgNnucqM",
         "status": "Pronto para Aprovação André"
       },
       {
         "titulo": "07_CANAL_HOROSCOPO_E_SIGNOS_VIDEO_OFICIAL.mp4",
-        "canal": "Horóscopo & Signos",
+        "canal": "07. Horóscopo & Signos",
         "tamanho": "0.85 MB",
         "drive_id": "1EaUoFMvYEwUxGw_16pH6VmG1hlVVs0Yd",
+        "status": "Pronto para Aprovação André"
+      },
+      {
+        "titulo": "video_01_corrida_pixar.mp4",
+        "canal": "08. Corrida Animal 3D Pixar (Torneio dos Bichos)",
+        "tamanho": "6.67 MB",
+        "drive_id": "1H4XWQCF5LifT2nwTlFt9wVAvJJyx8uWF",
+        "status": "Pronto para Aprovação André"
+      },
+      {
+        "titulo": "video_02_sapatinho_natal.mp4",
+        "canal": "09. Contos & Canções de Natal 3D (Sapatinho)",
+        "tamanho": "10.60 MB",
+        "drive_id": "11DsjypmoweIyyfiCVeC2X26XotMKEHvW",
+        "status": "Pronto para Aprovação André"
+      },
+      {
+        "titulo": "video_10_misterios_mundo.mp4",
+        "canal": "10. Curiosidades & Mistérios Ocultos do Planeta",
+        "tamanho": "0.66 MB",
+        "drive_id": "1EcNChLSCI9-kEq0WvpafepZbariqmxe2",
         "status": "Pronto para Aprovação André"
       }
     ]
