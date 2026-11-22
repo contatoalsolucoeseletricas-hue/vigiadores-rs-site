@@ -1,6 +1,6 @@
 {
   "cabecalho": {
-    "ultima_atualizacao": "21/11/2026 às 22:40",
+    "ultima_atualizacao": "22/11/2026 às 00:30",
     "proxima_atualizacao": "07h00 (amanhã)",
     "status_sistema": "100% Operacional (6 Abas Ativas / Custo Zero)",
     "cidade_base": "Canoas / RS"
@@ -271,68 +271,129 @@
   "youtube": {
     "canais_monitorados_sentinela": [
       {
-        "nome": "Código Fonte TV",
-        "topico": "Programação, Tech e Tendências Dev",
+        "nome": "André Lug | Autoridade com IA",
+        "topico": "Inteligência Artificial Aplicada, Negócios com IA, Agentes e Monetização",
+        "url": "https://www.youtube.com/@andre_lug",
+        "destaque": "Como Construir Autoridade e Escalar Negócios Digitais Usando Modelos de IA",
         "status": "Ativo 24h"
       },
       {
-        "nome": "Fabio Akita (Akitando)",
-        "topico": "Computação Profunda, Arquitetura e História da Tecnologia",
+        "nome": "Robson Oliveira - Vibe Coding",
+        "topico": "Vibe Coding, Design System, UI/UX com IA e Desenvolvimento Rápido",
+        "url": "https://www.youtube.com/@RobsoliveiraDesign",
+        "destaque": "Vibe Coding na Prática: Construindo Interfaces Modernas e Sistemas Completos com IA",
+        "status": "Ativo 24h"
+      },
+      {
+        "nome": "Carlos Queiroz",
+        "topico": "Automação, Produtividade, Ferramentas Digitais e Novas Tecnologias",
+        "url": "https://www.youtube.com/@canalcarlosqueiroz",
+        "destaque": "Fluxos de Automação e Otimização Operacional para Profissionais e Empresas",
+        "status": "Ativo 24h"
+      },
+      {
+        "nome": "Traddix",
+        "topico": "Trading Quantitativo, Robôs de Cripto, Análise Técnica Automatizada",
+        "url": "https://www.youtube.com/@traddix",
+        "destaque": "ORÁCULO TRADDIX: Como essa IA Analisa o Mercado 100% Automático",
+        "status": "Ativo 24h"
+      },
+      {
+        "nome": "CriptoBR",
+        "topico": "Criptomoedas, Airdrops, Faucets, Micro-tarefas e Renda Passiva Web3",
+        "url": "https://www.youtube.com/@CriptoBR",
+        "destaque": "Guia Definitivo de Oportunidades Cripto e Geração de Renda em Dólar Online",
+        "status": "Ativo 24h"
+      },
+      {
+        "nome": "Mari C.",
+        "topico": "Inteligência Artificial, Ferramentas Criativas, Edição e Produção com IA",
+        "url": "https://www.youtube.com/@maric.",
+        "destaque": "Novas IAs Criativas para Produção de Imagem, Vídeo e Áudio Realistas",
+        "status": "Ativo 24h"
+      },
+      {
+        "nome": "eujardsonsantos",
+        "topico": "Microtarefas Online, Plataformas Pagantes, Faucets e Renda Extra",
+        "url": "https://www.youtube.com/@eujardsonsantos",
+        "destaque": "Como Ganhar Renda Extra na Internet com Tarefas Simples e Pagamentos Rápidos",
         "status": "Ativo 24h"
       },
       {
         "nome": "Nerds de Negócios",
-        "topico": "Empreendedorismo, Startups e Modelos de Negócio",
+        "topico": "Estratégia Empresarial, Monetização Digital, Cases de Sucesso e Modelos SaaS",
+        "url": "https://www.youtube.com/@nerdsdenegocios",
+        "destaque": "Modelos de Negócios Escaláveis e Como Construir Produtos Digitais Lucrativos",
         "status": "Ativo 24h"
       },
       {
-        "nome": "CriptoBR Oficial",
-        "topico": "Análise On-Chain, Bitcoin e Mercados Globais",
+        "nome": "DeFi em Foco",
+        "topico": "Finanças Descentralizadas, Protocolos de Liquidez, Staking e Yield Farming",
+        "url": "https://www.youtube.com/@DEFIEMFOCO",
+        "destaque": "Mergulho em Protocolos DeFi: Rendimentos, Riscos de Smart Contract e Pools",
         "status": "Ativo 24h"
       },
       {
-        "nome": "Nobre WEB",
-        "topico": "Automações, Ferramentas Web e Produtividade",
+        "nome": "faucetando3",
+        "topico": "Faucets, Airdrops Diários, Recompensas Cripto e Games Web3",
+        "url": "https://www.youtube.com/@faucetando3",
+        "destaque": "Melhores Faucets Pagando no Momento e Estratégia de Acumulação Cripto Grátis",
         "status": "Ativo 24h"
       },
       {
-        "nome": "Rafa Silva Oficial",
-        "topico": "Tráfego Pago, Vendas e Escala Digital",
+        "nome": "Nerd Flow Bitcoin",
+        "topico": "Bitcoin, Macroeconomia, Halving, Soberania Financeira e Ciclos de Mercado",
+        "url": "https://www.youtube.com/@nerdflow",
+        "destaque": "Análise Macro do Bitcoin: Inflação Global, ETFs e Projeções para os Próximos Ciclos",
         "status": "Ativo 24h"
       },
       {
-        "nome": "Amélia Dev / Programação com IA",
-        "topico": "Desenvolvimento Assistido por LLMs e Agentes",
+        "nome": "Bariogênese",
+        "topico": "Física Teórica, Cosmologia, Mecânica Quântica e Mistérios do Espaço",
+        "url": "https://www.youtube.com/@Bariogênese",
+        "destaque": "A Origem da Matéria no Universo e os Segredos da Assimetria Cósmica",
         "status": "Ativo 24h"
       },
       {
-        "nome": "Jardson Santos (SEO-FAST & Faucets)",
-        "topico": "Microtarefas, Arbitragem e Métodos Digitais",
+        "nome": "BingX Português",
+        "topico": "Exchange Cripto, Copy Trading, Futuros Perpétuos e Campanhas Oficiais",
+        "url": "https://www.youtube.com/@bingxportugues",
+        "destaque": "Guia Prático de Operações Futuras e Copy Trading na BingX Oficial",
         "status": "Ativo 24h"
       },
       {
-        "nome": "Antigravity & Google Flow AI",
-        "topico": "Agentes Autônomos, Gemini e Antigravity IDE",
+        "nome": "Coinbase",
+        "topico": "Institutional Crypto, Base L2, Regulação Web3 e Infraestrutura Global",
+        "url": "https://www.youtube.com/@Coinbase",
+        "destaque": "The Future of Crypto: Scalability, Layer 2 Ecosystems and Institutional Adoption",
         "status": "Ativo 24h"
       },
       {
-        "nome": "Macetadores de Scams & Trading",
-        "topico": "Alerta de Fraudes Cripto, Memecoins e Pumps",
+        "nome": "Binance Brasil",
+        "topico": "Mercado Local Cripto, Educação Financeira, Binance Pay e Campanhas no Brasil",
+        "url": "https://www.youtube.com/@BinanceBrasil",
+        "destaque": "Como Comprar, Guardar e Negociar Criptomoedas com Segurança no Brasil",
         "status": "Ativo 24h"
       },
       {
-        "nome": "Nieder | IA sem Filtro",
-        "topico": "Inteligência Artificial Prática e Testes Reais",
+        "nome": "SpaceToday",
+        "topico": "Astronomia, Missões Espaciais, Lançamentos de Foguetes e Telescópios",
+        "url": "https://www.youtube.com/@SpaceToday",
+        "destaque": "Últimas Imagens Reveladoras do Telescópio James Webb e Missões da NASA",
         "status": "Ativo 24h"
       },
       {
-        "nome": "João Ernani",
-        "topico": "Mercados Financeiros e Economia",
+        "nome": "Mestres da Informática",
+        "topico": "Hardware, Otimização de Windows, Manutenção de PC e Dicas Técnicas",
+        "url": "https://www.youtube.com/@MestresdaInformatica",
+        "destaque": "Esse Recurso INÚTIL do Windows Está Comendo Seu SSD!",
         "status": "Ativo 24h"
       },
       {
-        "nome": "Freddy Borges - Digital em Ação",
-        "topico": "Estratégias de Automação e Negócios Online",
+        "nome": "@afcodehub",
+        "topico": "Cursos Gratuitos de IA, Certificações Oficiais Tech e Engenharia de Prompt",
+        "url": "https://www.youtube.com/@afcodehub",
+        "destaque": "4 Cursos GRATUITOS para Dominar a IA! (OpenAI, Claude/Anthropic, Google Skills)",
         "status": "Ativo 24h"
       }
     ],
