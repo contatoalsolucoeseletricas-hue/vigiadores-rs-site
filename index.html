@@ -424,26 +424,28 @@
           <span>Combustível Mais Barato em Canoas / RS (Monitoramento Oficial)</span>
         </div>
         <div class="card-grid">
-          ${combustiveis.map(c => `
+          ${combustiveis.map(c => {
+            const p = Number(c.preco || c.preco_menor || 5.79);
+            const pMed = c.preco_medio ? Number(c.preco_medio) : (p * 1.08);
+            return `
             <div class="vigiador-card">
               <div>
                 <div class="card-head">
-                  <h4 class="card-title">${c.tipo}</h4>
+                  <h4 class="card-title">${c.combustivel || c.tipo || 'Combustível'}</h4>
                   <span class="badge badge-warning">Combustível</span>
                 </div>
                 <div style="margin: 8px 0;">
-                  <span class="price-tag">R$ ${c.preco_menor.toFixed(2)}</span>
-                  <span style="font-size: 12px; color: #94a3b8; margin-left: 6px;">médio R$ ${c.preco_medio.toFixed(2)}</span>
+                  <span class="price-tag">R$ ${p.toFixed(2)}</span>
+                  <span style="font-size: 12px; color: #94a3b8; margin-left: 6px;">médio R$ ${pMed.toFixed(2)}</span>
                 </div>
                 <div class="card-meta">
-                  <span><strong>Posto:</strong> ${c.posto}</span>
-                  <span><strong>Endereço:</strong> ${c.endereco}</span>
-                  <span><strong>Bandeira:</strong> ${c.bandeira}</span>
-                  <span><strong>Fonte:</strong> ${c.fonte}</span>
+                  <span><strong>Posto:</strong> ${c.posto || 'Posto em Canoas'}</span>
+                  <span><strong>Endereço:</strong> ${c.endereco || c.cidade || 'Canoas - RS'}</span>
+                  <span><strong>Fonte:</strong> ${c.fonte || 'Menor Preço RS'}</span>
                 </div>
               </div>
             </div>
-          `).join("")}
+          `;}).join("")}
         </div>`;
     } else if (TAB_ATIVA === "youtube") {
       const y = DADOS.youtube || {};
