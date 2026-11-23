@@ -226,6 +226,85 @@
       `Última atualização: ${c.ultima_atualizacao} · Próxima: ${c.proxima_atualizacao}`;
   }
 
+  
+  // === FUNÇÕES DA ABA 3 MERCADO & INSUMOS (DOC 111 / DOC 113) ===
+  function renderCardItemMercado(i) {
+    const precoFormatado = Number(i.preco).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+    return `
+      <div class="vigiador-card card-mercado-item" data-categoria="${i.categoria || ''}" data-marca="${i.marca || ''}" data-produto="${i.produto || ''}" style="display: flex; flex-direction: column; justify-content: space-between; border-left: 3px solid #38bdf8; padding: 18px; background: #0f172a; border-radius: 12px; border: 1px solid rgba(255,255,255,0.08);">
+        <div>
+          <div class="card-head" style="display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; margin-bottom: 10px;">
+            <span class="badge badge-primary" style="font-size: 11px; font-weight: 700; background: rgba(56,189,248,0.15); color: #38bdf8; border: 1px solid rgba(56,189,248,0.3); padding: 4px 8px; border-radius: 6px;">${i.subcategoria || i.categoria || 'Mercado'}</span>
+            <span style="font-size: 11px; color: #94a3b8; font-family: monospace;">${i.data_coleta || '22/11/2026'}</span>
+          </div>
+          <h4 class="card-title" style="font-size: 15px; font-weight: 700; color: #f8fafc; margin: 0 0 8px 0; line-height: 1.4;">${i.produto}</h4>
+          
+          <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.06); border-radius: 8px; padding: 10px; margin-bottom: 12px;">
+            <div style="font-size: 12px; color: #cbd5e1; margin-bottom: 4px;"><strong>Marca Única:</strong> <span style="color: #38bdf8; font-weight: 700;">${i.marca}</span></div>
+            <div style="font-size: 12px; color: #cbd5e1; margin-bottom: 4px;"><strong>Tipo / Sabor:</strong> ${i.sabor_tipo || i.gramatura || '-'}</div>
+            <div style="font-size: 12px; color: #cbd5e1;"><strong>Embalagem:</strong> ${i.gramatura || '-'}</div>
+          </div>
+
+          <div style="margin: 12px 0;">
+            <span style="font-size: 11px; color: #94a3b8; text-transform: uppercase; font-weight: 600; display: block; margin-bottom: 2px;">Menor Preço Encontrado</span>
+            <span class="price-tag" style="font-size: 22px; font-weight: 800; color: #34d399;">${precoFormatado}</span>
+          </div>
+
+          <div class="card-meta" style="font-size: 12px; color: #94a3b8; line-height: 1.5; border-top: 1px solid rgba(255,255,255,0.06); padding-top: 10px;">
+            <div><strong>Mercado Exato:</strong> <span style="color: #f1f5f9; font-weight: 600;">${i.mercado}</span></div>
+            <div style="margin-top: 2px; font-size: 11.5px; color: #64748b;">📍 ${i.endereco}</div>
+            <div style="margin-top: 4px; font-size: 11px; color: #0284c7;">🔍 Fonte: ${i.fonte || 'Menor Preço RS'}</div>
+          </div>
+        </div>
+
+        <a href="${i.link || 'https://menorpreco.notafiscal.rs.gov.br/'}" target="_blank" rel="noopener" class="action-btn" style="margin-top: 14px; text-align: center; text-decoration: none; padding: 8px 12px; background: #1e293b; color: #38bdf8; border: 1px solid rgba(56,189,248,0.3); border-radius: 8px; font-size: 12px; font-weight: 600; display: flex; align-items: center; justify-content: center; gap: 6px;">
+          <span>Ver Nota / Menor Preço</span>
+          <svg class="icon" viewBox="0 0 24 24" style="width: 14px; height: 14px;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        </a>
+      </div>
+    `;
+  }
+
+  window.filtrarMercado = function(tipo) {
+    document.querySelectorAll('.chip-btn').forEach(b => {
+      b.style.background = '#1e293b';
+      b.style.color = '#cbd5e1';
+      b.style.borderColor = 'rgba(255,255,255,0.15)';
+      b.classList.remove('active');
+    });
+    const chip = document.getElementById('chip-' + tipo);
+    if (chip) {
+      chip.style.background = '#38bdf8';
+      chip.style.color = '#0f172a';
+      chip.style.borderColor = '#38bdf8';
+      chip.classList.add('active');
+    }
+    const cards = document.querySelectorAll('.card-mercado-item');
+    cards.forEach(card => {
+      const cat = (card.getAttribute('data-categoria') || '').toLowerCase();
+      if (tipo === 'todos') {
+        card.style.display = 'flex';
+      } else if (tipo === 'insumos') {
+        card.style.display = (cat.includes('trufas') || cat.includes('confeitaria') || cat.includes('insumos')) ? 'flex' : 'none';
+      } else if (tipo === 'alimentos') {
+        card.style.display = (cat.includes('alimentos') || cat.includes('essenciais')) ? 'flex' : 'none';
+      } else if (tipo === 'refrigerantes') {
+        card.style.display = (cat.includes('refrigerantes') || cat.includes('bebidas')) ? 'flex' : 'none';
+      } else if (tipo === 'reciclagem') {
+        card.style.display = (cat.includes('reciclagem') || cat.includes('latas')) ? 'flex' : 'none';
+      }
+    });
+  };
+
+  window.buscarMercado = function() {
+    const q = (document.getElementById('inBuscaMercado').value || '').toLowerCase().trim();
+    const cards = document.querySelectorAll('.card-mercado-item');
+    cards.forEach(card => {
+      const txt = card.innerText.toLowerCase();
+      card.style.display = txt.includes(q) ? 'flex' : 'none';
+    });
+  };
+
   function renderizarTab() {
     if (!DADOS) return;
     const container = document.getElementById("tabContent");
