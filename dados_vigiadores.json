@@ -1856,7 +1856,8 @@
       "estrelas": "38.5k ★",
       "linguagem": "Python",
       "desc": "Framework da Microsoft para criar fluxos de trabalho avançados com múltiplos agentes conversacionais que cooperam entre si.",
-      "link": "https://github.com/microsoft/autogen"
+      "link": "https://github.com/microsoft/autogen",
+      "data_encontrado": "24/11/2026"
     },
     {
       "repo": "vllm-project/vllm",
@@ -1864,7 +1865,8 @@
       "estrelas": "34.2k ★",
       "linguagem": "Python / C++",
       "desc": "Biblioteca ultra rápida para servir e rodar inferência de modelos locais de IA com PagedAttention e failover.",
-      "link": "https://github.com/vllm-project/vllm"
+      "link": "https://github.com/vllm-project/vllm",
+      "data_encontrado": "24/11/2026"
     },
     {
       "repo": "crewAIInc/crewAI",
@@ -1872,7 +1874,8 @@
       "estrelas": "24.8k ★",
       "linguagem": "Python",
       "desc": "Estrutura para engenharia de equipes autônomas de agentes com atribuição de funções, memória persistente e tarefas encadeadas.",
-      "link": "https://github.com/crewAIInc/crewAI"
+      "link": "https://github.com/crewAIInc/crewAI",
+      "data_encontrado": "24/11/2026"
     },
     {
       "repo": "freqtrade/freqtrade",
@@ -1880,7 +1883,8 @@
       "estrelas": "31.9k ★",
       "linguagem": "Python",
       "desc": "Robô de negociação de criptomoedas líder no mundo open-source com suporte a backtesting, trailing stops e webhook TV.",
-      "link": "https://github.com/freqtrade/freqtrade"
+      "link": "https://github.com/freqtrade/freqtrade",
+      "data_encontrado": "24/11/2026"
     },
     {
       "repo": "ccxt/ccxt",
@@ -1888,7 +1892,8 @@
       "estrelas": "36.1k ★",
       "linguagem": "JavaScript / Python",
       "desc": "Biblioteca padrão de mercado que integra mais de 100 exchanges cripto (incluindo MEXC, Binance e Bybit) com API única.",
-      "link": "https://github.com/ccxt/ccxt"
+      "link": "https://github.com/ccxt/ccxt",
+      "data_encontrado": "24/11/2026"
     }
   ]
 }
