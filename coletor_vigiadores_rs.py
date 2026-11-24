@@ -385,9 +385,7 @@ def coletar_dados():
                     "repos": [
                         {"titulo": r["url"].split("/")[-1].replace("-", " ").title(), "url": r["url"], "encaixe": r["encaixe_ecossistema"], "resumo": r["resumo"]}
                         for r in gdata.get("repos_git", [])
-                    ],
-                    "mensagens_andre": [
-                        {"texto": m["texto"], "projeto": m["projeto_alvo"], "contexto": m["contexto"], "grupo": m["grupo"], "data": m["data"][:10]}
+                    ], "projeto": m["projeto_alvo"], "contexto": m["contexto"], "grupo": m["grupo"], "data": m["data"][:10]}
                         for m in gdata.get("comandos_e_prompts_salvos", [])
                     ]
                 }
