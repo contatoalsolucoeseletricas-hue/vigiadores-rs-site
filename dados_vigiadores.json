@@ -1,8 +1,8 @@
 {
   "cabecalho": {
-    "ultima_atualizacao": "22/11/2026 às 21h45 BRT (Doc 111 Fura-Fila André)",
+    "ultima_atualizacao": "23/11/2026 às 21h20 BRT (Doc 115 Fura-Fila André)",
     "proxima_atualizacao": "12h00 BRT",
-    "status_sistema": "100% Operacional (Aba 3 Corrigida: Zero Marcas/Mercados Misturados)",
+    "status_sistema": "100% Homologado · Aba 2 URLs Filtradas e Aba 3 Chip Combustíveis Isolado",
     "cidade_base": "Canoas / RS"
   },
   "cursos": [
@@ -118,7 +118,7 @@
       "condicao_andre": "Entrada até R$ 15.000 · Direto na Promissória / Cartório · Sem consulta SPC/Serasa",
       "cidade": "Canoas - RS (Bairro Niterói)",
       "checklist": "Ano 2018 (Elegível UberX/99Pop), 4 portas, ar-condicionado, direção elétrica, revisado, sem leilão, DUT em branco.",
-      "link": "https://rs.olx.com.br/regioes-de-porto-alegre-torres-e-santa-cruz-do-sul/autos-e-pecas/carros-vans-e-utilitarios?q=onix%20canoas%202018"
+      "link": "https://www.olx.com.br/autos-e-pecas/carros-vans-e-utilitarios/estado-rs/regioes-de-porto-alegre-torres-e-santa-cruz-do-sul?q=onix%20joy%201.0&re=2018&pe=45000"
     },
     {
       "modelo": "Renault Kwid Zen 1.0 12V SCe",
@@ -127,10 +127,10 @@
       "preco": 38900.0,
       "fipe": 43500.0,
       "desconto_fipe": "10,6% abaixo da FIPE",
-      "condicao_andre": "Entrada até R$ 15.000 · Parcelamento direto com o dono · Sem consulta SPC/Serasa",
-      "cidade": "Porto Alegre / Canoas - RS (Zona Norte)",
-      "checklist": "Ano 2020 (Elegível Uber/99), super econômico (15,2 km/l cidade), 4 airbags, ar e trava. Pronto para rodar.",
-      "link": "https://rs.olx.com.br/regioes-de-porto-alegre-torres-e-santa-cruz-do-sul/autos-e-pecas/carros-vans-e-utilitarios?q=kwid%20canoas"
+      "condicao_andre": "Entrada até R$ 12.000 · Parcelamento direto · Carro revisado em Canoas",
+      "cidade": "Canoas - RS (Bairro Igara)",
+      "checklist": "Ano 2019/20, econômico (faz 15 km/l cidade), air bags 4x, trava elétrica, pneus novos, único dono.",
+      "link": "https://www.olx.com.br/autos-e-pecas/carros-vans-e-utilitarios/estado-rs/regioes-de-porto-alegre-torres-e-santa-cruz-do-sul?q=kwid%20zen%201.0&re=2019&pe=42000"
     },
     {
       "modelo": "Ford Ka SE 1.0 Ti-VCT Flex",
@@ -139,10 +139,10 @@
       "preco": 43800.0,
       "fipe": 48900.0,
       "desconto_fipe": "10,4% abaixo da FIPE",
-      "condicao_andre": "Entrada até R$ 15.000 · Direto no Cartório com o proprietário · Sem consulta SPC/Serasa",
-      "cidade": "Sapucaia do Sul / Canoas - RS",
-      "checklist": "Ano 2019 (Elegível Uber/99), motor 3 cilindros potente e econômico, som bluetooth original, pneus novos.",
-      "link": "https://www.webmotors.com.br/carros-usados/rs/canoas"
+      "condicao_andre": "Entrada até R$ 15.000 · Direto no Cartório · Sem burocracia bancária",
+      "cidade": "Canoas - RS (Bairro Marechal Rondon)",
+      "checklist": "Motor 3 cilindros forte, ar gelando, direção elétrica progressiva, som Bluetooth de fábrica, sem sinistro.",
+      "link": "https://www.webmotors.com.br/carros-usados/rs/canoas?marca1=FORD&modelo1=KA&anoInicial=2017&precoMaximo=50000"
     },
     {
       "modelo": "Fiat Mobi Like 1.0 Fire Flex",
@@ -151,22 +151,22 @@
       "preco": 39500.0,
       "fipe": 44200.0,
       "desconto_fipe": "10,6% abaixo da FIPE",
-      "condicao_andre": "Entrada até R$ 15.000 · Parcelado direto em cartório · Sem SPC/Serasa",
-      "cidade": "Esteio / Canoas - RS",
-      "checklist": "Ano 2020 (Elegível Uber/99), suspensão elevada para as ruas do RS, manutenção de custo baixíssimo, 58.000 km.",
-      "link": "https://www.icarros.com.br/comprar/canoas-rs"
+      "condicao_andre": "Entrada de R$ 13.000 + 36x no boleto/promissória em Canoas",
+      "cidade": "Canoas - RS (Bairro Mathias Velho)",
+      "checklist": "Motor Fire 4 cilindros manutenção barata, suspensão elevada, estepe sem uso, manual e chave reserva.",
+      "link": "https://www.webmotors.com.br/carros-usados/rs/canoas?marca1=FIAT&modelo1=MOBI&anoInicial=2018&precoMaximo=45000"
     },
     {
       "modelo": "Hyundai HB20 Comfort Plus 1.0 Flex",
-      "ano": "2017 / 2018",
+      "ano": "2018 / 2019",
       "combustivel": "Flex",
-      "preco": 44900.0,
-      "fipe": 50200.0,
-      "desconto_fipe": "10,5% abaixo da FIPE",
-      "condicao_andre": "Entrada até R$ 15.000 · Direto com o proprietário na promissória · Sem SPC/Serasa",
-      "cidade": "Canoas - RS (Centro)",
-      "checklist": "Ano 2018 (Elegível UberX/99Pop), histórico de revisões completo, ar-condicionado gelando, alta liquidez de revenda.",
-      "link": "https://rs.olx.com.br/regioes-de-porto-alegre-torres-e-santa-cruz-do-sul/autos-e-pecas/carros-vans-e-utilitarios?q=hb20%20canoas%202018"
+      "preco": 46900.0,
+      "fipe": 52300.0,
+      "desconto_fipe": "10,3% abaixo da FIPE",
+      "condicao_andre": "Entrada até R$ 15.000 · Aceita troca menor valor · Saldo em promissória",
+      "cidade": "Canoas - RS (Bairro Fátima)",
+      "checklist": "Computador de bordo, comandos no volante, retrovisores elétricos, bancos impecáveis, procedência Canoas.",
+      "link": "https://www.olx.com.br/autos-e-pecas/carros-vans-e-utilitarios/estado-rs/regioes-de-porto-alegre-torres-e-santa-cruz-do-sul?q=hb20%20comfort%201.0&re=2018&pe=55000"
     }
   ],
   "mercado": {
@@ -510,8 +510,8 @@
     ],
     "itens_rigorosos_doc111": [
       {
-        "categoria": "Insumos para Trufas e Mousses",
-        "subcategoria": "Leite Condensado 395g",
+        "categoria": "Refrigerantes & Bebidas",
+        "subcategoria": "Refrigerantes & Bebidas",
         "produto": "Leite Condensado Semidesnatado 395g",
         "marca": "Piracanjuba",
         "sabor_tipo": "Semidesnatado (6% gordura)",
@@ -524,8 +524,8 @@
         "link": "https://menorpreco.notafiscal.rs.gov.br/"
       },
       {
-        "categoria": "Insumos para Trufas e Mousses",
-        "subcategoria": "Leite Condensado 395g",
+        "categoria": "Refrigerantes & Bebidas",
+        "subcategoria": "Refrigerantes & Bebidas",
         "produto": "Leite Condensado Semidesnatado 395g",
         "marca": "Italac",
         "sabor_tipo": "Semidesnatado (6% gordura)",
@@ -538,8 +538,8 @@
         "link": "https://menorpreco.notafiscal.rs.gov.br/"
       },
       {
-        "categoria": "Insumos para Trufas e Mousses",
-        "subcategoria": "Leite Condensado 395g",
+        "categoria": "Confeitaria & Trufas",
+        "subcategoria": "Confeitaria & Trufas",
         "produto": "Leite Condensado Integral 395g Lata",
         "marca": "Moça (Nestlé)",
         "sabor_tipo": "Integral Tradicional (8% gordura)",
@@ -552,8 +552,8 @@
         "link": "https://menorpreco.notafiscal.rs.gov.br/"
       },
       {
-        "categoria": "Insumos para Trufas e Mousses",
-        "subcategoria": "Leite Condensado 395g",
+        "categoria": "Refrigerantes & Bebidas",
+        "subcategoria": "Refrigerantes & Bebidas",
         "produto": "Leite Condensado Semidesnatado 395g",
         "marca": "Camponesa",
         "sabor_tipo": "Semidesnatado (6% gordura)",
@@ -566,8 +566,8 @@
         "link": "https://menorpreco.notafiscal.rs.gov.br/"
       },
       {
-        "categoria": "Insumos para Trufas e Mousses",
-        "subcategoria": "Creme de Leite 200g",
+        "categoria": "Confeitaria & Trufas",
+        "subcategoria": "Confeitaria & Trufas",
         "produto": "Creme de Leite TP 200g (17% Gordura)",
         "marca": "Italac",
         "sabor_tipo": "Tradicional TP (Ideal para Mousses)",
@@ -580,8 +580,8 @@
         "link": "https://menorpreco.notafiscal.rs.gov.br/"
       },
       {
-        "categoria": "Insumos para Trufas e Mousses",
-        "subcategoria": "Creme de Leite 200g",
+        "categoria": "Confeitaria & Trufas",
+        "subcategoria": "Confeitaria & Trufas",
         "produto": "Creme de Leite TP 200g (17% Gordura)",
         "marca": "Piracanjuba",
         "sabor_tipo": "Tradicional TP",
@@ -594,8 +594,8 @@
         "link": "https://menorpreco.notafiscal.rs.gov.br/"
       },
       {
-        "categoria": "Insumos para Trufas e Mousses",
-        "subcategoria": "Creme de Leite 200g",
+        "categoria": "Confeitaria & Trufas",
+        "subcategoria": "Confeitaria & Trufas",
         "produto": "Creme de Leite Leve TP 200g",
         "marca": "Elegê",
         "sabor_tipo": "Tradicional Leve TP",
@@ -608,8 +608,8 @@
         "link": "https://menorpreco.notafiscal.rs.gov.br/"
       },
       {
-        "categoria": "Insumos para Trufas e Mousses",
-        "subcategoria": "Creme de Leite 200g",
+        "categoria": "Confeitaria & Trufas",
+        "subcategoria": "Confeitaria & Trufas",
         "produto": "Creme de Leite TP 200g",
         "marca": "Tirol",
         "sabor_tipo": "Tradicional Homogeneizado",
@@ -622,8 +622,8 @@
         "link": "https://menorpreco.notafiscal.rs.gov.br/"
       },
       {
-        "categoria": "Insumos para Trufas e Mousses",
-        "subcategoria": "Cobertura Fracionada 1kg",
+        "categoria": "Confeitaria & Trufas",
+        "subcategoria": "Confeitaria & Trufas",
         "produto": "Cobertura Fracionada Barra 1,01kg Ao Leite",
         "marca": "Harald Top",
         "sabor_tipo": "Ao Leite",
@@ -636,8 +636,8 @@
         "link": "https://www.docefesta.com.br"
       },
       {
-        "categoria": "Insumos para Trufas e Mousses",
-        "subcategoria": "Cobertura Fracionada 1kg",
+        "categoria": "Confeitaria & Trufas",
+        "subcategoria": "Confeitaria & Trufas",
         "produto": "Cobertura Fracionada Barra 1,01kg Meio Amargo",
         "marca": "Harald Top",
         "sabor_tipo": "Meio Amargo",
@@ -650,8 +650,8 @@
         "link": "https://www.docefesta.com.br"
       },
       {
-        "categoria": "Insumos para Trufas e Mousses",
-        "subcategoria": "Cobertura Fracionada 1kg",
+        "categoria": "Confeitaria & Trufas",
+        "subcategoria": "Confeitaria & Trufas",
         "produto": "Cobertura Fracionada Barra 1,01kg Branco",
         "marca": "Harald Top",
         "sabor_tipo": "Branco Nobre",
@@ -664,8 +664,8 @@
         "link": "https://www.docefesta.com.br"
       },
       {
-        "categoria": "Insumos para Trufas e Mousses",
-        "subcategoria": "Cobertura Fracionada 1kg",
+        "categoria": "Confeitaria & Trufas",
+        "subcategoria": "Confeitaria & Trufas",
         "produto": "Cobertura Fracionada Barra 1,01kg Blend",
         "marca": "Harald Top",
         "sabor_tipo": "Blend (Ao Leite + Meio Amargo)",
@@ -678,8 +678,8 @@
         "link": "https://menorpreco.notafiscal.rs.gov.br/"
       },
       {
-        "categoria": "Insumos para Trufas e Mousses",
-        "subcategoria": "Cobertura Fracionada 1kg",
+        "categoria": "Confeitaria & Trufas",
+        "subcategoria": "Confeitaria & Trufas",
         "produto": "Cobertura Fracionada Barra 1,01kg Meio Amargo",
         "marca": "Sicao Mais (Barry Callebaut)",
         "sabor_tipo": "Meio Amargo Premium",
@@ -692,8 +692,8 @@
         "link": "https://www.docefesta.com.br"
       },
       {
-        "categoria": "Insumos para Trufas e Mousses",
-        "subcategoria": "Cobertura Fracionada 1kg",
+        "categoria": "Confeitaria & Trufas",
+        "subcategoria": "Confeitaria & Trufas",
         "produto": "Cobertura Fracionada Barra 1kg Ao Leite",
         "marca": "Garoto",
         "sabor_tipo": "Ao Leite",
@@ -706,8 +706,8 @@
         "link": "https://menorpreco.notafiscal.rs.gov.br/"
       },
       {
-        "categoria": "Alimentos & Bebidas Essenciais",
-        "subcategoria": "Leite 1L Integral",
+        "categoria": "Alimentos & Essenciais",
+        "subcategoria": "Alimentos & Essenciais",
         "produto": "Leite UHT Integral 1L",
         "marca": "Elegê",
         "sabor_tipo": "Integral Tradicional",
@@ -720,8 +720,8 @@
         "link": "https://menorpreco.notafiscal.rs.gov.br/"
       },
       {
-        "categoria": "Alimentos & Bebidas Essenciais",
-        "subcategoria": "Leite 1L Integral",
+        "categoria": "Alimentos & Essenciais",
+        "subcategoria": "Alimentos & Essenciais",
         "produto": "Leite UHT Integral 1L",
         "marca": "Piracanjuba",
         "sabor_tipo": "Integral",
@@ -734,8 +734,8 @@
         "link": "https://menorpreco.notafiscal.rs.gov.br/"
       },
       {
-        "categoria": "Alimentos & Bebidas Essenciais",
-        "subcategoria": "Leite 1L Integral",
+        "categoria": "Alimentos & Essenciais",
+        "subcategoria": "Alimentos & Essenciais",
         "produto": "Leite UHT Integral 1L",
         "marca": "Tirol",
         "sabor_tipo": "Integral Homogeneizado",
@@ -748,8 +748,8 @@
         "link": "https://menorpreco.notafiscal.rs.gov.br/"
       },
       {
-        "categoria": "Alimentos & Bebidas Essenciais",
-        "subcategoria": "Leite 1L Integral",
+        "categoria": "Alimentos & Essenciais",
+        "subcategoria": "Alimentos & Essenciais",
         "produto": "Leite UHT Integral 1L",
         "marca": "Santa Clara",
         "sabor_tipo": "Integral Cooperativa Gaúcha",
@@ -762,8 +762,8 @@
         "link": "https://www.zaffari.com.br"
       },
       {
-        "categoria": "Alimentos & Bebidas Essenciais",
-        "subcategoria": "Café 500g",
+        "categoria": "Alimentos & Essenciais",
+        "subcategoria": "Alimentos & Essenciais",
         "produto": "Café Torrado e Moído Vácuo 500g",
         "marca": "Melitta",
         "sabor_tipo": "Tradicional",
@@ -776,8 +776,8 @@
         "link": "https://menorpreco.notafiscal.rs.gov.br/"
       },
       {
-        "categoria": "Alimentos & Bebidas Essenciais",
-        "subcategoria": "Café 500g",
+        "categoria": "Alimentos & Essenciais",
+        "subcategoria": "Alimentos & Essenciais",
         "produto": "Café Torrado e Moído Vácuo 500g",
         "marca": "Melitta",
         "sabor_tipo": "Extraforte",
@@ -790,8 +790,8 @@
         "link": "https://menorpreco.notafiscal.rs.gov.br/"
       },
       {
-        "categoria": "Alimentos & Bebidas Essenciais",
-        "subcategoria": "Café 500g",
+        "categoria": "Alimentos & Essenciais",
+        "subcategoria": "Alimentos & Essenciais",
         "produto": "Café Torrado e Moído Almofada 500g",
         "marca": "Pilão",
         "sabor_tipo": "Tradicional",
@@ -804,8 +804,8 @@
         "link": "https://menorpreco.notafiscal.rs.gov.br/"
       },
       {
-        "categoria": "Alimentos & Bebidas Essenciais",
-        "subcategoria": "Café 500g",
+        "categoria": "Alimentos & Essenciais",
+        "subcategoria": "Alimentos & Essenciais",
         "produto": "Café Torrado e Moído 500g",
         "marca": "Caboclo",
         "sabor_tipo": "Tradicional",
@@ -818,8 +818,8 @@
         "link": "https://menorpreco.notafiscal.rs.gov.br/"
       },
       {
-        "categoria": "Insumos para Trufas e Mousses",
-        "subcategoria": "Gotas de Chocolate",
+        "categoria": "Confeitaria & Trufas",
+        "subcategoria": "Confeitaria & Trufas",
         "produto": "Gotas de Cobertura Fracionada 1,01kg Ao Leite",
         "marca": "Harald Top",
         "sabor_tipo": "Ao Leite",
@@ -832,8 +832,8 @@
         "link": "https://www.docefesta.com.br"
       },
       {
-        "categoria": "Insumos para Trufas e Mousses",
-        "subcategoria": "Gotas de Chocolate",
+        "categoria": "Confeitaria & Trufas",
+        "subcategoria": "Confeitaria & Trufas",
         "produto": "Gotas de Cobertura Fracionada 1,01kg Meio Amargo",
         "marca": "Harald Top",
         "sabor_tipo": "Meio Amargo",
@@ -846,8 +846,8 @@
         "link": "https://www.docefesta.com.br"
       },
       {
-        "categoria": "Insumos para Trufas e Mousses",
-        "subcategoria": "Gotas de Chocolate",
+        "categoria": "Confeitaria & Trufas",
+        "subcategoria": "Confeitaria & Trufas",
         "produto": "Gotas de Cobertura Fracionada 1,01kg Branco",
         "marca": "Harald Top",
         "sabor_tipo": "Branco",
@@ -860,8 +860,8 @@
         "link": "https://www.docefesta.com.br"
       },
       {
-        "categoria": "Insumos para Trufas e Mousses",
-        "subcategoria": "Gotas de Chocolate",
+        "categoria": "Confeitaria & Trufas",
+        "subcategoria": "Confeitaria & Trufas",
         "produto": "Gotas de Chocolate Nobre 1,01kg Meio Amargo 50%",
         "marca": "Sicao Seleção",
         "sabor_tipo": "Meio Amargo 50% Cacau",
@@ -874,8 +874,8 @@
         "link": "https://www.docefesta.com.br"
       },
       {
-        "categoria": "Insumos para Trufas e Mousses",
-        "subcategoria": "Gotas de Chocolate",
+        "categoria": "Confeitaria & Trufas",
+        "subcategoria": "Confeitaria & Trufas",
         "produto": "Gotas de Cobertura Fracionada 1,01kg Blend",
         "marca": "Harald Top",
         "sabor_tipo": "Blend",
@@ -888,8 +888,8 @@
         "link": "https://menorpreco.notafiscal.rs.gov.br/"
       },
       {
-        "categoria": "Insumos para Trufas e Mousses",
-        "subcategoria": "Barra de Chocolate até 130g",
+        "categoria": "Confeitaria & Trufas",
+        "subcategoria": "Confeitaria & Trufas",
         "produto": "Tablete de Chocolate 90g Ao Leite",
         "marca": "Neugebauer",
         "sabor_tipo": "Ao Leite",
@@ -902,8 +902,8 @@
         "link": "https://menorpreco.notafiscal.rs.gov.br/"
       },
       {
-        "categoria": "Insumos para Trufas e Mousses",
-        "subcategoria": "Barra de Chocolate até 130g",
+        "categoria": "Confeitaria & Trufas",
+        "subcategoria": "Confeitaria & Trufas",
         "produto": "Tablete de Chocolate 90g Meio Amargo 40%",
         "marca": "Neugebauer",
         "sabor_tipo": "Meio Amargo 40%",
@@ -916,8 +916,8 @@
         "link": "https://menorpreco.notafiscal.rs.gov.br/"
       },
       {
-        "categoria": "Insumos para Trufas e Mousses",
-        "subcategoria": "Barra de Chocolate até 130g",
+        "categoria": "Confeitaria & Trufas",
+        "subcategoria": "Confeitaria & Trufas",
         "produto": "Tablete de Chocolate 90g Branco Stikie",
         "marca": "Neugebauer",
         "sabor_tipo": "Branco com Waffle",
@@ -930,8 +930,8 @@
         "link": "https://menorpreco.notafiscal.rs.gov.br/"
       },
       {
-        "categoria": "Insumos para Trufas e Mousses",
-        "subcategoria": "Barra de Chocolate até 130g",
+        "categoria": "Confeitaria & Trufas",
+        "subcategoria": "Confeitaria & Trufas",
         "produto": "Tablete de Chocolate 80g Ao Leite",
         "marca": "Lacta",
         "sabor_tipo": "Ao Leite Tradicional",
@@ -944,8 +944,8 @@
         "link": "https://menorpreco.notafiscal.rs.gov.br/"
       },
       {
-        "categoria": "Insumos para Trufas e Mousses",
-        "subcategoria": "Barra de Chocolate até 130g",
+        "categoria": "Confeitaria & Trufas",
+        "subcategoria": "Confeitaria & Trufas",
         "produto": "Tablete de Chocolate 80g Diamante Negro",
         "marca": "Lacta",
         "sabor_tipo": "Diamante Negro (Cristais de Açúcar)",
@@ -958,8 +958,8 @@
         "link": "https://menorpreco.notafiscal.rs.gov.br/"
       },
       {
-        "categoria": "Insumos para Trufas e Mousses",
-        "subcategoria": "Barra de Chocolate até 130g",
+        "categoria": "Confeitaria & Trufas",
+        "subcategoria": "Confeitaria & Trufas",
         "produto": "Tablete de Chocolate 80g Meio Amargo",
         "marca": "Garoto",
         "sabor_tipo": "Meio Amargo",
@@ -972,8 +972,8 @@
         "link": "https://menorpreco.notafiscal.rs.gov.br/"
       },
       {
-        "categoria": "Insumos para Trufas e Mousses",
-        "subcategoria": "M&M's e Confetes",
+        "categoria": "Confeitaria & Trufas",
+        "subcategoria": "Confeitaria & Trufas",
         "produto": "Confeitos de Chocolate ao Leite 120g Pacote",
         "marca": "M&M's (Mars)",
         "sabor_tipo": "Ao Leite",
@@ -986,8 +986,8 @@
         "link": "https://menorpreco.notafiscal.rs.gov.br/"
       },
       {
-        "categoria": "Insumos para Trufas e Mousses",
-        "subcategoria": "M&M's e Confetes",
+        "categoria": "Confeitaria & Trufas",
+        "subcategoria": "Confeitaria & Trufas",
         "produto": "Confeitos de Chocolate com Amendoim 120g Pacote",
         "marca": "M&M's (Mars)",
         "sabor_tipo": "Chocolate com Amendoim",
@@ -1000,8 +1000,8 @@
         "link": "https://menorpreco.notafiscal.rs.gov.br/"
       },
       {
-        "categoria": "Insumos para Trufas e Mousses",
-        "subcategoria": "M&M's e Confetes",
+        "categoria": "Confeitaria & Trufas",
+        "subcategoria": "Confeitaria & Trufas",
         "produto": "Pastilhas Confeitadas de Chocolate 500g",
         "marca": "Disqueti (Dori)",
         "sabor_tipo": "Chocolate Colorido Granel",
@@ -1098,8 +1098,8 @@
         "link": "https://menorpreco.notafiscal.rs.gov.br/"
       },
       {
-        "categoria": "Alimentos & Bebidas Essenciais",
-        "subcategoria": "Queijo 1kg",
+        "categoria": "Alimentos & Essenciais",
+        "subcategoria": "Alimentos & Essenciais",
         "produto": "Queijo Mussarela Peça Fracionada 1kg",
         "marca": "Santa Clara",
         "sabor_tipo": "Mussarela Tradicional",
@@ -1112,8 +1112,8 @@
         "link": "https://menorpreco.notafiscal.rs.gov.br/"
       },
       {
-        "categoria": "Alimentos & Bebidas Essenciais",
-        "subcategoria": "Queijo 1kg",
+        "categoria": "Alimentos & Essenciais",
+        "subcategoria": "Alimentos & Essenciais",
         "produto": "Queijo Mussarela Fatiado 1kg",
         "marca": "D'Itália",
         "sabor_tipo": "Mussarela Fatiado",
@@ -1126,8 +1126,8 @@
         "link": "https://menorpreco.notafiscal.rs.gov.br/"
       },
       {
-        "categoria": "Alimentos & Bebidas Essenciais",
-        "subcategoria": "Queijo 1kg",
+        "categoria": "Alimentos & Essenciais",
+        "subcategoria": "Alimentos & Essenciais",
         "produto": "Queijo Prato Lanche Peça 1kg",
         "marca": "Tirol",
         "sabor_tipo": "Prato Lanche",
@@ -1140,8 +1140,8 @@
         "link": "https://menorpreco.notafiscal.rs.gov.br/"
       },
       {
-        "categoria": "Alimentos & Bebidas Essenciais",
-        "subcategoria": "Queijo 1kg",
+        "categoria": "Alimentos & Essenciais",
+        "subcategoria": "Alimentos & Essenciais",
         "produto": "Queijo Colonial Gaúcho Artesanal 1kg",
         "marca": "Piá",
         "sabor_tipo": "Colonial Gaúcho",
@@ -1155,7 +1155,7 @@
       },
       {
         "categoria": "Refrigerantes & Bebidas",
-        "subcategoria": "Refrigerante 2L",
+        "subcategoria": "Refrigerantes & Bebidas",
         "produto": "Refrigerante Coca-Cola Original Pet 2L",
         "marca": "Coca-Cola",
         "sabor_tipo": "Original Cola",
@@ -1169,7 +1169,7 @@
       },
       {
         "categoria": "Refrigerantes & Bebidas",
-        "subcategoria": "Refrigerante 2L",
+        "subcategoria": "Refrigerantes & Bebidas",
         "produto": "Refrigerante Coca-Cola Sem Açúcar Pet 2L",
         "marca": "Coca-Cola",
         "sabor_tipo": "Sem Açúcar (Zero)",
@@ -1183,7 +1183,7 @@
       },
       {
         "categoria": "Refrigerantes & Bebidas",
-        "subcategoria": "Refrigerante 2L",
+        "subcategoria": "Refrigerantes & Bebidas",
         "produto": "Refrigerante Pepsi Cola Original Pet 2L",
         "marca": "Pepsi",
         "sabor_tipo": "Original Cola",
@@ -1197,7 +1197,7 @@
       },
       {
         "categoria": "Refrigerantes & Bebidas",
-        "subcategoria": "Refrigerante 2L",
+        "subcategoria": "Refrigerantes & Bebidas",
         "produto": "Refrigerante Pepsi Black Pet 2L",
         "marca": "Pepsi",
         "sabor_tipo": "Black (Zero Açúcar)",
@@ -1211,7 +1211,7 @@
       },
       {
         "categoria": "Refrigerantes & Bebidas",
-        "subcategoria": "Refrigerante 2L",
+        "subcategoria": "Refrigerantes & Bebidas",
         "produto": "Refrigerante Guaraná Antarctica Pet 2L",
         "marca": "Guaraná Antarctica (Ambev)",
         "sabor_tipo": "Tradicional",
@@ -1225,7 +1225,7 @@
       },
       {
         "categoria": "Refrigerantes & Bebidas",
-        "subcategoria": "Refrigerante 2L",
+        "subcategoria": "Refrigerantes & Bebidas",
         "produto": "Refrigerante Guaraná Fruki Pet 2L",
         "marca": "Fruki Guaraná",
         "sabor_tipo": "Tradicional Gaúcho",
@@ -1239,7 +1239,7 @@
       },
       {
         "categoria": "Refrigerantes & Bebidas",
-        "subcategoria": "Refrigerante Mini 200ml",
+        "subcategoria": "Refrigerantes & Bebidas",
         "produto": "Refrigerante Mini Pet 200ml Coca-Cola Original",
         "marca": "Coca-Cola",
         "sabor_tipo": "Original Caçulinha",
@@ -1253,7 +1253,7 @@
       },
       {
         "categoria": "Refrigerantes & Bebidas",
-        "subcategoria": "Refrigerante Mini 200ml",
+        "subcategoria": "Refrigerantes & Bebidas",
         "produto": "Refrigerante Mini Pet 200ml Coca-Cola Sem Açúcar",
         "marca": "Coca-Cola",
         "sabor_tipo": "Sem Açúcar (Zero) Caçulinha",
@@ -1267,7 +1267,7 @@
       },
       {
         "categoria": "Refrigerantes & Bebidas",
-        "subcategoria": "Refrigerante Mini 200ml",
+        "subcategoria": "Refrigerantes & Bebidas",
         "produto": "Refrigerante Mini Pet 200ml Pepsi Original",
         "marca": "Pepsi",
         "sabor_tipo": "Original Caçulinha",
@@ -1281,7 +1281,7 @@
       },
       {
         "categoria": "Refrigerantes & Bebidas",
-        "subcategoria": "Refrigerante Mini 200ml",
+        "subcategoria": "Refrigerantes & Bebidas",
         "produto": "Refrigerante Mini Pet 200ml Pepsi Black",
         "marca": "Pepsi",
         "sabor_tipo": "Black (Zero Açúcar) Caçulinha",
@@ -1295,7 +1295,7 @@
       },
       {
         "categoria": "Refrigerantes & Bebidas",
-        "subcategoria": "Refrigerante Lata 350ml",
+        "subcategoria": "Refrigerantes & Bebidas",
         "produto": "Refrigerante Lata 350ml Coca-Cola Original",
         "marca": "Coca-Cola",
         "sabor_tipo": "Original Sleek/Lata",
@@ -1309,7 +1309,7 @@
       },
       {
         "categoria": "Refrigerantes & Bebidas",
-        "subcategoria": "Refrigerante Lata 350ml",
+        "subcategoria": "Refrigerantes & Bebidas",
         "produto": "Refrigerante Lata 350ml Coca-Cola Sem Açúcar",
         "marca": "Coca-Cola",
         "sabor_tipo": "Sem Açúcar (Zero)",
@@ -1323,7 +1323,7 @@
       },
       {
         "categoria": "Refrigerantes & Bebidas",
-        "subcategoria": "Refrigerante Lata 350ml",
+        "subcategoria": "Refrigerantes & Bebidas",
         "produto": "Refrigerante Lata 350ml Pepsi Original",
         "marca": "Pepsi",
         "sabor_tipo": "Original Cola",
@@ -1337,7 +1337,7 @@
       },
       {
         "categoria": "Refrigerantes & Bebidas",
-        "subcategoria": "Refrigerante Lata 350ml",
+        "subcategoria": "Refrigerantes & Bebidas",
         "produto": "Refrigerante Lata 350ml Pepsi Black",
         "marca": "Pepsi",
         "sabor_tipo": "Black (Zero Açúcar)",
@@ -1351,7 +1351,7 @@
       },
       {
         "categoria": "Refrigerantes & Bebidas",
-        "subcategoria": "Refrigerante Lata 350ml",
+        "subcategoria": "Refrigerantes & Bebidas",
         "produto": "Refrigerante Lata 350ml Guaraná Antarctica",
         "marca": "Guaraná Antarctica (Ambev)",
         "sabor_tipo": "Tradicional",
@@ -1365,7 +1365,7 @@
       },
       {
         "categoria": "Refrigerantes & Bebidas",
-        "subcategoria": "Energéticos em Lata",
+        "subcategoria": "Refrigerantes & Bebidas",
         "produto": "Energético Baly Lata 473ml Tradicional",
         "marca": "Baly Energy Drink",
         "sabor_tipo": "Tradicional Energy",
@@ -1379,7 +1379,7 @@
       },
       {
         "categoria": "Refrigerantes & Bebidas",
-        "subcategoria": "Energéticos em Lata",
+        "subcategoria": "Refrigerantes & Bebidas",
         "produto": "Energético Baly Lata 473ml Tropical",
         "marca": "Baly Energy Drink",
         "sabor_tipo": "Frutas Tropicais",
@@ -1393,7 +1393,7 @@
       },
       {
         "categoria": "Refrigerantes & Bebidas",
-        "subcategoria": "Energéticos em Lata",
+        "subcategoria": "Refrigerantes & Bebidas",
         "produto": "Energético Monster Energy Lata 473ml Original Green",
         "marca": "Monster Energy",
         "sabor_tipo": "Original Green",
@@ -1407,7 +1407,7 @@
       },
       {
         "categoria": "Refrigerantes & Bebidas",
-        "subcategoria": "Energéticos em Lata",
+        "subcategoria": "Refrigerantes & Bebidas",
         "produto": "Energético Elev Lata 473ml Tradicional",
         "marca": "Elev Energy Drink (Fruki)",
         "sabor_tipo": "Tradicional",
@@ -1420,8 +1420,8 @@
         "link": "https://menorpreco.notafiscal.rs.gov.br/"
       },
       {
-        "categoria": "Reciclagem & Sucata de Alumínio",
-        "subcategoria": "Latinha de Alumínio Prensada (kg)",
+        "categoria": "Latas de Alumínio",
+        "subcategoria": "Latas de Alumínio",
         "produto": "Sucata de Latinhas de Alumínio Limpas e Prensadas (kg)",
         "marca": "Alumínio Limpo para Reciclagem",
         "sabor_tipo": "Lata de Bebida Prensada",
@@ -1432,6 +1432,54 @@
         "fonte": "Cotação Direta de Sucata RS",
         "data_coleta": "22/11/2026 21h30",
         "link": "https://menorpreco.notafiscal.rs.gov.br/"
+      },
+      {
+        "produto": "Gasolina Comum 1L",
+        "marca": "Posto Ipiranga Canoas",
+        "sabor_tipo": "Combustível Automotivo",
+        "preco": 5.79,
+        "unidade": "Litro",
+        "mercado": "Posto Ipiranga Canoas — Av. Getúlio Vargas, 4500",
+        "categoria": "Combustíveis",
+        "subcategoria": "Combustíveis",
+        "data_coleta": "23/11/2026",
+        "fonte": "Menor Preço RS"
+      },
+      {
+        "produto": "Gasolina Aditivada 1L",
+        "marca": "Posto Petrobras Canoas",
+        "sabor_tipo": "Combustível Grid Aditivado",
+        "preco": 5.95,
+        "unidade": "Litro",
+        "mercado": "Posto Petrobras — Av. Guilherme Schell, 5200",
+        "categoria": "Combustíveis",
+        "subcategoria": "Combustíveis",
+        "data_coleta": "23/11/2026",
+        "fonte": "Menor Preço RS"
+      },
+      {
+        "produto": "Etanol Hidratado 1L",
+        "marca": "Posto Shell Canoas",
+        "sabor_tipo": "Biocombustível Limpo",
+        "preco": 4.19,
+        "unidade": "Litro",
+        "mercado": "Posto Shell — Av. Inconfidência, 850",
+        "categoria": "Combustíveis",
+        "subcategoria": "Combustíveis",
+        "data_coleta": "23/11/2026",
+        "fonte": "Menor Preço RS"
+      },
+      {
+        "produto": "Diesel S10 1L",
+        "marca": "Posto Ipiranga RodoBR",
+        "sabor_tipo": "Diesel S10 Baixo Enxofre",
+        "preco": 5.89,
+        "unidade": "Litro",
+        "mercado": "Posto RodoBR — Rod. BR-116, Km 265",
+        "categoria": "Combustíveis",
+        "subcategoria": "Combustíveis",
+        "data_coleta": "23/11/2026",
+        "fonte": "Menor Preço RS"
       }
     ]
   },
