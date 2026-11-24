@@ -510,7 +510,7 @@
     ],
     "itens_rigorosos_doc111": [
       {
-        "categoria": "Refrigerantes & Bebidas",
+        "categoria": "Confeitaria & Trufas",
         "subcategoria": "Refrigerantes & Bebidas",
         "produto": "Leite Condensado Semidesnatado 395g",
         "marca": "Piracanjuba",
@@ -524,7 +524,7 @@
         "link": "https://menorpreco.notafiscal.rs.gov.br/"
       },
       {
-        "categoria": "Refrigerantes & Bebidas",
+        "categoria": "Confeitaria & Trufas",
         "subcategoria": "Refrigerantes & Bebidas",
         "produto": "Leite Condensado Semidesnatado 395g",
         "marca": "Italac",
@@ -552,7 +552,7 @@
         "link": "https://menorpreco.notafiscal.rs.gov.br/"
       },
       {
-        "categoria": "Refrigerantes & Bebidas",
+        "categoria": "Confeitaria & Trufas",
         "subcategoria": "Refrigerantes & Bebidas",
         "produto": "Leite Condensado Semidesnatado 395g",
         "marca": "Camponesa",
@@ -1443,7 +1443,8 @@
         "categoria": "Combustíveis",
         "subcategoria": "Combustíveis",
         "data_coleta": "23/11/2026",
-        "fonte": "Menor Preço RS"
+        "fonte": "Menor Preço RS",
+        "endereco": "Av. Getúlio Vargas, 4500 - Centro, Canoas - RS"
       },
       {
         "produto": "Gasolina Aditivada 1L",
@@ -1455,7 +1456,8 @@
         "categoria": "Combustíveis",
         "subcategoria": "Combustíveis",
         "data_coleta": "23/11/2026",
-        "fonte": "Menor Preço RS"
+        "fonte": "Menor Preço RS",
+        "endereco": "Av. Farroupilha, 3900 - Bairro Marechal Rondon, Canoas - RS"
       },
       {
         "produto": "Etanol Hidratado 1L",
@@ -1467,7 +1469,8 @@
         "categoria": "Combustíveis",
         "subcategoria": "Combustíveis",
         "data_coleta": "23/11/2026",
-        "fonte": "Menor Preço RS"
+        "fonte": "Menor Preço RS",
+        "endereco": "Rod. BR-116, Km 265 - Bairro São José, Canoas - RS"
       },
       {
         "produto": "Diesel S10 1L",
@@ -1479,7 +1482,8 @@
         "categoria": "Combustíveis",
         "subcategoria": "Combustíveis",
         "data_coleta": "23/11/2026",
-        "fonte": "Menor Preço RS"
+        "fonte": "Menor Preço RS",
+        "endereco": "Av. Guilherme Schell, 6500 - Centro, Canoas - RS"
       }
     ]
   },
