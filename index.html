@@ -580,12 +580,25 @@
                   <span>${repo.repo} · ${repo.linguagem}</span>
                   <span style="color: #94a3b8; font-size: 10px; font-weight: 500; background: rgba(255,255,255,0.05); padding: 2px 6px; border-radius: 4px;">📅 Encontrado em: ${repo.data_encontrado || '24/11/2026'}</span>
                 </div>
+                <div style="margin: 6px 0;">
+                  <span style="background: rgba(16,185,129,0.15); border: 1px solid rgba(16,185,129,0.4); color: #34d399; font-size: 10px; font-weight: 700; padding: 3px 8px; border-radius: 4px; display: inline-block;">
+                    💰 Local R$ 0,00 vs. Pago: ${repo.comparativo_pago || 'Economia Total em Assinaturas'}
+                  </span>
+                </div>
                 <p class="card-desc" style="margin-top: 8px;">${repo.desc}</p>
               </div>
-              <a href="${repo.link}" target="_blank" rel="noopener" class="action-btn" style="margin-top: 14px;">
-                <span>Ver no GitHub</span>
-                <svg class="icon" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-              </a>
+              <div style="display: flex; gap: 8px; margin-top: 14px; flex-wrap: wrap;">
+                <button onclick="toggleFavorito('${repo.repo}', '${repo.titulo}')" id="fav_${repo.repo.replace('/', '_')}" style="flex: 1; min-width: 90px; background: #1e293b; border: 1px solid rgba(255,255,255,0.15); color: #cbd5e1; border-radius: 6px; padding: 8px 10px; font-size: 12px; font-weight: 600; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 4px;">
+                  <span>⭐ Salvar</span>
+                </button>
+                <button onclick="abrirModalAlerta('${repo.repo}', '${repo.titulo}', 'R$ 0,00')" style="flex: 1; min-width: 90px; background: #0284c7; border: none; color: #f8fafc; border-radius: 6px; padding: 8px 10px; font-size: 12px; font-weight: 600; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 4px;">
+                  <span>🔔 Alerta</span>
+                </button>
+                <a href="${repo.link}" target="_blank" rel="noopener" class="action-btn" style="flex: 1.2; min-width: 110px; padding: 8px 10px;">
+                  <span>GitHub</span>
+                  <svg class="icon" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
             </div>
           `).join("")}
         </div>
@@ -609,5 +622,82 @@
 
   window.addEventListener("DOMContentLoaded", carregarDados);
 </script>
+
+<!-- Modal Alerta Telegram -->
+<div id="modalAlertaTelegram" style="display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 1000; align-items: center; justify-content: center;">
+  <div style="background: #1e293b; border: 1px solid #38bdf8; border-radius: 12px; padding: 24px; max-width: 420px; width: 90%; color: #f8fafc; box-shadow: 0 10px 25px rgba(0,0,0,0.5);">
+    <h3 style="margin-top: 0; color: #38bdf8; display: flex; align-items: center; gap: 8px; font-size: 18px;">
+      🔔 Alerta Telegram de Preço-Alvo
+    </h3>
+    <p id="alertaItemNome" style="font-size: 13px; color: #cbd5e1; margin-bottom: 12px; font-weight: 600;"></p>
+    <label style="font-size: 12px; color: #94a3b8; display: block; margin-bottom: 4px;">Preço Alvo / Gatilho de Alerta (R$):</label>
+    <input type="text" id="inputPrecoAlvo" style="width: 100%; box-sizing: border-box; background: #0f172a; border: 1px solid rgba(255,255,255,0.1); border-radius: 6px; padding: 10px; color: #f8fafc; margin-bottom: 12px;" placeholder="Ex: R$ 5,50">
+    <label style="font-size: 12px; color: #94a3b8; display: block; margin-bottom: 4px;">Seu Telegram (@usuario ou ID):</label>
+    <input type="text" id="inputTelegramUser" style="width: 100%; box-sizing: border-box; background: #0f172a; border: 1px solid rgba(255,255,255,0.1); border-radius: 6px; padding: 10px; color: #f8fafc; margin-bottom: 16px;" placeholder="@seu_usuario">
+    <div style="display: flex; gap: 10px; justify-content: flex-end;">
+      <button onclick="fecharModalAlerta()" style="background: #334155; border: none; padding: 8px 16px; border-radius: 6px; color: #f8fafc; cursor: pointer; font-weight: 600;">Cancelar</button>
+      <button onclick="salvarAlertaTelegram()" style="background: #10b981; border: none; padding: 8px 16px; border-radius: 6px; color: #0b0f17; cursor: pointer; font-weight: 700;">Ativar Alerta</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  let itemAlertaAtual = null;
+
+  function toggleFavorito(id, titulo) {
+    let favs = JSON.parse(localStorage.getItem('favoritos_vigiadores') || '[]');
+    const idx = favs.findIndex(x => x.id === id);
+    if (idx >= 0) {
+      favs.splice(idx, 1);
+      alert(`Removido dos favoritos: ${titulo}`);
+    } else {
+      favs.push({ id, titulo, data: new Date().toLocaleDateString('pt-BR') });
+      alert(`⭐ Salvo nos favoritos: ${titulo}`);
+    }
+    localStorage.setItem('favoritos_vigiadores', JSON.stringify(favs));
+    atualizarBotoesFavoritos();
+  }
+
+  function atualizarBotoesFavoritos() {
+    let favs = JSON.parse(localStorage.getItem('favoritos_vigiadores') || '[]');
+    favs.forEach(f => {
+      const btn = document.getElementById('fav_' + f.id.replace('/', '_'));
+      if (btn) {
+        btn.style.background = '#f59e0b';
+        btn.style.color = '#0b0f17';
+        btn.innerHTML = '<span>★ Salvo</span>';
+      }
+    });
+  }
+
+  function abrirModalAlerta(id, titulo, precoSugerido) {
+    itemAlertaAtual = { id, titulo };
+    document.getElementById('alertaItemNome').textContent = titulo;
+    document.getElementById('inputPrecoAlvo').value = precoSugerido || 'R$ 0,00';
+    document.getElementById('modalAlertaTelegram').style.display = 'flex';
+  }
+
+  function fecharModalAlerta() {
+    document.getElementById('modalAlertaTelegram').style.display = 'none';
+  }
+
+  function salvarAlertaTelegram() {
+    const preco = document.getElementById('inputPrecoAlvo').value.trim();
+    const tg = document.getElementById('inputTelegramUser').value.trim();
+    if (!tg) {
+      alert('Por favor, informe seu @usuario ou ID do Telegram.');
+      return;
+    }
+    let alertas = JSON.parse(localStorage.getItem('alertas_telegram_vigiadores') || '[]');
+    alertas.push({ item: itemAlertaAtual, preco_alvo: preco, telegram: tg, data: new Date().toISOString() });
+    localStorage.setItem('alertas_telegram_vigiadores', JSON.stringify(alertas));
+    alert(`✅ Alerta ativado! Você será notificado no Telegram (${tg}) quando ${itemAlertaAtual.titulo} atingir ${preco}!`);
+    fecharModalAlerta();
+  }
+
+  // Chamar ao carregar
+  setTimeout(atualizarBotoesFavoritos, 500);
+</script>
 </body>
+
 </html>

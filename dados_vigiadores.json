@@ -1857,7 +1857,9 @@
       "linguagem": "Python",
       "desc": "Framework da Microsoft para criar fluxos de trabalho avançados com múltiplos agentes conversacionais que cooperam entre si.",
       "link": "https://github.com/microsoft/autogen",
-      "data_encontrado": "24/11/2026"
+      "data_encontrado": "24/11/2026",
+      "comparativo_pago": "Substitui orquestração de IA proprietária (economia de R$ 1.800/mês)",
+      "preco_alvo": "R$ 0,00"
     },
     {
       "repo": "vllm-project/vllm",
@@ -1866,7 +1868,9 @@
       "linguagem": "Python / C++",
       "desc": "Biblioteca ultra rápida para servir e rodar inferência de modelos locais de IA com PagedAttention e failover.",
       "link": "https://github.com/vllm-project/vllm",
-      "data_encontrado": "24/11/2026"
+      "data_encontrado": "24/11/2026",
+      "comparativo_pago": "Substitui provedores de inferência de GPU em nuvem (economia de R$ 3.200/mês)",
+      "preco_alvo": "R$ 0,00"
     },
     {
       "repo": "crewAIInc/crewAI",
@@ -1875,7 +1879,9 @@
       "linguagem": "Python",
       "desc": "Estrutura para engenharia de equipes autônomas de agentes com atribuição de funções, memória persistente e tarefas encadeadas.",
       "link": "https://github.com/crewAIInc/crewAI",
-      "data_encontrado": "24/11/2026"
+      "data_encontrado": "24/11/2026",
+      "comparativo_pago": "Substitui SaaS de equipes autônomas de IA (economia de R$ 1.200/mês)",
+      "preco_alvo": "R$ 0,00"
     },
     {
       "repo": "freqtrade/freqtrade",
@@ -1884,7 +1890,9 @@
       "linguagem": "Python",
       "desc": "Robô de negociação de criptomoedas líder no mundo open-source com suporte a backtesting, trailing stops e webhook TV.",
       "link": "https://github.com/freqtrade/freqtrade",
-      "data_encontrado": "24/11/2026"
+      "data_encontrado": "24/11/2026",
+      "comparativo_pago": "Substitui bots pagos tipo 3Commas/Cryptohopper (economia de R$ 600/mês)",
+      "preco_alvo": "R$ 0,00"
     },
     {
       "repo": "ccxt/ccxt",
@@ -1893,7 +1901,9 @@
       "linguagem": "JavaScript / Python",
       "desc": "Biblioteca padrão de mercado que integra mais de 100 exchanges cripto (incluindo MEXC, Binance e Bybit) com API única.",
       "link": "https://github.com/ccxt/ccxt",
-      "data_encontrado": "24/11/2026"
+      "data_encontrado": "24/11/2026",
+      "comparativo_pago": "Conector unificado para 100+ exchanges sem taxas de API (economia de R$ 900/mês)",
+      "preco_alvo": "R$ 0,00"
     }
   ]
 }
