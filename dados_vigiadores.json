@@ -1,6 +1,6 @@
 {
   "cabecalho": {
-    "ultima_atualizacao": "23/11/2026 às 21h20 BRT (Doc 115 Fura-Fila André)",
+    "ultima_atualizacao": "25/11/2026 às 15h06 BRT (Doc 130 R78B)",
     "proxima_atualizacao": "12h00 BRT",
     "status_sistema": "100% Homologado · Aba 2 URLs Filtradas e Aba 3 Chip Combustíveis Isolado",
     "cidade_base": "Canoas / RS"
@@ -14,7 +14,8 @@
       "cidade": "Porto Alegre / Canoas - RS",
       "status": "Seleção Semestral / Bolsas Prouni até 100%",
       "detalhes": "Curso de nível superior com diploma de Bacharel para atuação como Enfermeiro(a) e registro no COREN-RS. Gestão de UTI, centro cirúrgico e liderança de equipe clínica.",
-      "link": "https://acessounico.mec.gov.br/prouni"
+      "link": "https://acessounico.mec.gov.br/prouni",
+      "data_encontrado": "24/11/2026"
     },
     {
       "id": "eletro_comp_02",
@@ -24,7 +25,8 @@
       "cidade": "RS / Todo Brasil (EAD com Prova Presencial)",
       "status": "Disponível sob Demanda",
       "detalhes": "Para profissionais com mais de 2 anos de experiência comprovada em carteira na área elétrica. Avaliação teórica rápida e emissão de diploma técnico reconhecido para obtenção de CFT/CRT.",
-      "link": "https://www.gov.br/mec/pt-br/assuntos/educacao-profissional-e-tecnologica"
+      "link": "https://www.gov.br/mec/pt-br/assuntos/educacao-profissional-e-tecnologica",
+      "data_encontrado": "24/11/2026"
     },
     {
       "id": "ia_openai_01",
@@ -34,7 +36,8 @@
       "cidade": "EAD Global / Gratuito",
       "status": "Acesso Aberto",
       "detalhes": "Treinamento oficial da OpenAI com certificação gratuita em IA generativa, chamadas de API e design de prompts avançados.",
-      "link": "https://academy.openai.com"
+      "link": "https://academy.openai.com",
+      "data_encontrado": "24/11/2026"
     },
     {
       "id": "ia_claude_action_02",
@@ -44,7 +47,8 @@
       "cidade": "EAD Global",
       "status": "Matrícula Aberta",
       "detalhes": "Como construir, refatorar e orquestrar bases de código completas utilizando Claude como agente de terminal e automações.",
-      "link": "https://anthropic.skilljar.com/claude-code-in-action"
+      "link": "https://anthropic.skilljar.com/claude-code-in-action",
+      "data_encontrado": "24/11/2026"
     },
     {
       "id": "ia_claude_api_03",
@@ -54,7 +58,8 @@
       "cidade": "EAD Global",
       "status": "Início Imediato",
       "detalhes": "Arquitetura técnica para criação de agentes autônomos, function calling, tool use e structured outputs com a API do Claude.",
-      "link": "https://anthropic.skilljar.com/"
+      "link": "https://anthropic.skilljar.com/",
+      "data_encontrado": "24/11/2026"
     },
     {
       "id": "ia_google_skills_04",
@@ -64,7 +69,8 @@
       "cidade": "EAD Global",
       "status": "Disponível 24h",
       "detalhes": "Trilha oficial do Google com laboratórios práticos sobre modelos de fundação Gemini, embeddings, vetores e arquitetura multimodal.",
-      "link": "https://www.cloudskillsboost.google/paths/118"
+      "link": "https://www.cloudskillsboost.google/paths/118",
+      "data_encontrado": "24/11/2026"
     },
     {
       "id": "pos_eletro_01",
@@ -74,7 +80,8 @@
       "cidade": "Porto Alegre / EAD",
       "status": "Vagas Abertas",
       "detalhes": "Especialização em Manutenção e Instalações de Alta Tensão, Redes Industriais e Eficiência Energética.",
-      "link": "https://www.senairs.org.br"
+      "link": "https://www.senairs.org.br",
+      "data_encontrado": "24/11/2026"
     },
     {
       "id": "splits_01",
@@ -84,7 +91,8 @@
       "cidade": "Canoas / Esteio / Porto Alegre",
       "status": "Turmas Trimestrais",
       "detalhes": "Prática de vácuo, carga de fluido R-410A / R-32, flangeamento, instalação de suportes e diagnóstico de compressores Inverter.",
-      "link": "https://www.senairs.org.br"
+      "link": "https://www.senairs.org.br",
+      "data_encontrado": "24/11/2026"
     },
     {
       "id": "nr_eletrica_01",
@@ -94,7 +102,8 @@
       "cidade": "RS / EAD Válido MTE",
       "status": "Início Imediato",
       "detalhes": "Certificação com ART/responsável técnico habilitado, carga horária de 40h básica e 40h complementar (SEP).",
-      "link": "https://www.sesirs.org.br"
+      "link": "https://www.sesirs.org.br",
+      "data_encontrado": "24/11/2026"
     },
     {
       "id": "solar_01",
@@ -104,7 +113,8 @@
       "cidade": "EAD Nacional",
       "status": "Matrícula Contínua",
       "detalhes": "Dimensionamento de inversores, módulos fotovoltaicos, proteção CC/CA e diagramas unifilares.",
-      "link": "https://aprendamais.mec.gov.br"
+      "link": "https://aprendamais.mec.gov.br",
+      "data_encontrado": "24/11/2026"
     }
   ],
   "carros": [
@@ -118,7 +128,8 @@
       "condicao_andre": "Entrada até R$ 15.000 · Direto na Promissória / Cartório · Sem consulta SPC/Serasa",
       "cidade": "Canoas - RS (Bairro Niterói)",
       "checklist": "Ano 2018 (Elegível UberX/99Pop), 4 portas, ar-condicionado, direção elétrica, revisado, sem leilão, DUT em branco.",
-      "link": "https://www.olx.com.br/autos-e-pecas/carros-vans-e-utilitarios/estado-rs/regioes-de-porto-alegre-torres-e-santa-cruz-do-sul?q=onix%20joy%201.0&re=2018&pe=45000"
+      "link": "https://www.olx.com.br/autos-e-pecas/carros-vans-e-utilitarios/estado-rs/regioes-de-porto-alegre-torres-e-santa-cruz-do-sul?q=onix%20joy%201.0&re=2018&pe=45000",
+      "data_encontrado": "24/11/2026"
     },
     {
       "modelo": "Renault Kwid Zen 1.0 12V SCe",
@@ -130,7 +141,8 @@
       "condicao_andre": "Entrada até R$ 12.000 · Parcelamento direto · Carro revisado em Canoas",
       "cidade": "Canoas - RS (Bairro Igara)",
       "checklist": "Ano 2019/20, econômico (faz 15 km/l cidade), air bags 4x, trava elétrica, pneus novos, único dono.",
-      "link": "https://www.olx.com.br/autos-e-pecas/carros-vans-e-utilitarios/estado-rs/regioes-de-porto-alegre-torres-e-santa-cruz-do-sul?q=kwid%20zen%201.0&re=2019&pe=42000"
+      "link": "https://www.olx.com.br/autos-e-pecas/carros-vans-e-utilitarios/estado-rs/regioes-de-porto-alegre-torres-e-santa-cruz-do-sul?q=kwid%20zen%201.0&re=2019&pe=42000",
+      "data_encontrado": "24/11/2026"
     },
     {
       "modelo": "Ford Ka SE 1.0 Ti-VCT Flex",
@@ -142,7 +154,8 @@
       "condicao_andre": "Entrada até R$ 15.000 · Direto no Cartório · Sem burocracia bancária",
       "cidade": "Canoas - RS (Bairro Marechal Rondon)",
       "checklist": "Motor 3 cilindros forte, ar gelando, direção elétrica progressiva, som Bluetooth de fábrica, sem sinistro.",
-      "link": "https://www.webmotors.com.br/carros-usados/rs/canoas?marca1=FORD&modelo1=KA&anoInicial=2017&precoMaximo=50000"
+      "link": "https://www.webmotors.com.br/carros-usados/rs/canoas?marca1=FORD&modelo1=KA&anoInicial=2017&precoMaximo=50000",
+      "data_encontrado": "24/11/2026"
     },
     {
       "modelo": "Fiat Mobi Like 1.0 Fire Flex",
@@ -154,7 +167,8 @@
       "condicao_andre": "Entrada de R$ 13.000 + 36x no boleto/promissória em Canoas",
       "cidade": "Canoas - RS (Bairro Mathias Velho)",
       "checklist": "Motor Fire 4 cilindros manutenção barata, suspensão elevada, estepe sem uso, manual e chave reserva.",
-      "link": "https://www.webmotors.com.br/carros-usados/rs/canoas?marca1=FIAT&modelo1=MOBI&anoInicial=2018&precoMaximo=45000"
+      "link": "https://www.webmotors.com.br/carros-usados/rs/canoas?marca1=FIAT&modelo1=MOBI&anoInicial=2018&precoMaximo=45000",
+      "data_encontrado": "24/11/2026"
     },
     {
       "modelo": "Hyundai HB20 Comfort Plus 1.0 Flex",
@@ -166,7 +180,8 @@
       "condicao_andre": "Entrada até R$ 15.000 · Aceita troca menor valor · Saldo em promissória",
       "cidade": "Canoas - RS (Bairro Fátima)",
       "checklist": "Computador de bordo, comandos no volante, retrovisores elétricos, bancos impecáveis, procedência Canoas.",
-      "link": "https://www.olx.com.br/autos-e-pecas/carros-vans-e-utilitarios/estado-rs/regioes-de-porto-alegre-torres-e-santa-cruz-do-sul?q=hb20%20comfort%201.0&re=2018&pe=55000"
+      "link": "https://www.olx.com.br/autos-e-pecas/carros-vans-e-utilitarios/estado-rs/regioes-de-porto-alegre-torres-e-santa-cruz-do-sul?q=hb20%20comfort%201.0&re=2018&pe=55000",
+      "data_encontrado": "24/11/2026"
     }
   ],
   "mercado": {
@@ -1815,7 +1830,8 @@
       "link": "https://github.com/microsoft/autogen",
       "data_encontrado": "24/11/2026",
       "comparativo_pago": "Substitui orquestração de IA proprietária (economia de R$ 1.800/mês)",
-      "preco_alvo": "R$ 0,00"
+      "preco_alvo": "R$ 0,00",
+      "categoria": "IA"
     },
     {
       "repo": "vllm-project/vllm",
@@ -1826,7 +1842,8 @@
       "link": "https://github.com/vllm-project/vllm",
       "data_encontrado": "24/11/2026",
       "comparativo_pago": "Substitui provedores de inferência de GPU em nuvem (economia de R$ 3.200/mês)",
-      "preco_alvo": "R$ 0,00"
+      "preco_alvo": "R$ 0,00",
+      "categoria": "IA"
     },
     {
       "repo": "crewAIInc/crewAI",
@@ -1837,7 +1854,8 @@
       "link": "https://github.com/crewAIInc/crewAI",
       "data_encontrado": "24/11/2026",
       "comparativo_pago": "Substitui SaaS de equipes autônomas de IA (economia de R$ 1.200/mês)",
-      "preco_alvo": "R$ 0,00"
+      "preco_alvo": "R$ 0,00",
+      "categoria": "IA"
     },
     {
       "repo": "freqtrade/freqtrade",
@@ -1848,7 +1866,8 @@
       "link": "https://github.com/freqtrade/freqtrade",
       "data_encontrado": "24/11/2026",
       "comparativo_pago": "Substitui bots pagos tipo 3Commas/Cryptohopper (economia de R$ 600/mês)",
-      "preco_alvo": "R$ 0,00"
+      "preco_alvo": "R$ 0,00",
+      "categoria": "IA"
     },
     {
       "repo": "ccxt/ccxt",
@@ -1859,7 +1878,228 @@
       "link": "https://github.com/ccxt/ccxt",
       "data_encontrado": "24/11/2026",
       "comparativo_pago": "Conector unificado para 100+ exchanges sem taxas de API (economia de R$ 900/mês)",
-      "preco_alvo": "R$ 0,00"
+      "preco_alvo": "R$ 0,00",
+      "categoria": "IA"
+    },
+    {
+      "repo": "termux/termux-app",
+      "titulo": "Termux (Terminal Linux Android)",
+      "estrelas": "39k+ ⭐",
+      "linguagem": "Java/C",
+      "categoria": "Celular",
+      "data_encontrado": "24/11/2026",
+      "comparativo_pago": "Terminal Linux completo sem root",
+      "desc": "Terminal Linux com Python, Node.js e Git sem root no Android POCO.",
+      "link": "https://github.com/termux/termux-app"
+    },
+    {
+      "repo": "T8RIN/ImageToolbox",
+      "titulo": "Image Toolbox (Remoção de Fundo)",
+      "estrelas": "8k+ ⭐",
+      "linguagem": "Kotlin",
+      "categoria": "Celular",
+      "data_encontrado": "24/11/2026",
+      "comparativo_pago": "Substitui apps pagos de edição no celular",
+      "desc": "Remoção de fundo, edição em lote e redimensionamento offline para AL Soluções, La Donna, DroneHub e Canais Dark.",
+      "link": "https://github.com/T8RIN/ImageToolbox"
+    },
+    {
+      "repo": "schorschii/MakeACopy",
+      "titulo": "MakeACopy (Scanner OCR Offline)",
+      "estrelas": "1k+ ⭐",
+      "linguagem": "Kotlin",
+      "categoria": "Celular",
+      "data_encontrado": "24/11/2026",
+      "comparativo_pago": "Substitui CamScanner Pro",
+      "desc": "Scanner de documentos, ARTs e notas fiscais em campo com OCR offline em PDF pesquisável.",
+      "link": "https://github.com/schorschii/MakeACopy"
+    },
+    {
+      "repo": "breezy-weather/breezy-weather",
+      "titulo": "Breezy Weather (Clima & Tempestade)",
+      "estrelas": "6k+ ⭐",
+      "linguagem": "Kotlin",
+      "categoria": "Celular",
+      "data_encontrado": "24/11/2026",
+      "comparativo_pago": "Previsão horária sem anúncios",
+      "desc": "Previsão de chuva na próxima hora, alertas de temporal e 16 dias para DroneHub e serviços externos.",
+      "link": "https://github.com/breezy-weather/breezy-weather"
+    },
+    {
+      "repo": "organicmaps/organicmaps",
+      "titulo": "Organic Maps (GPS Offline)",
+      "estrelas": "10k+ ⭐",
+      "linguagem": "C++/Java",
+      "categoria": "Celular",
+      "data_encontrado": "24/11/2026",
+      "comparativo_pago": "Zero rastreamento e 100% offline",
+      "desc": "GPS offline com voz e zero rastreio — plano B para Uber/99 e obras sem sinal.",
+      "link": "https://github.com/organicmaps/organicmaps"
+    },
+    {
+      "repo": "AdAway/AdAway",
+      "titulo": "AdAway (Bloqueador Open-Source)",
+      "estrelas": "9k+ ⭐",
+      "linguagem": "Java/Kotlin",
+      "categoria": "Celular",
+      "data_encontrado": "24/11/2026",
+      "comparativo_pago": "Substitui AdGuard pago",
+      "desc": "Bloqueador open-source de anúncios e rastreadores no Android via VPN local, sem root.",
+      "link": "https://github.com/AdAway/AdAway"
+    },
+    {
+      "repo": "hexgrad/kokoro",
+      "titulo": "Kokoro TTS (Voz IA Leve na CPU)",
+      "estrelas": "4k+ ⭐",
+      "linguagem": "Python",
+      "categoria": "PC",
+      "data_encontrado": "25/11/2026",
+      "comparativo_pago": "Substitui ElevenLabs pago",
+      "desc": "Voz de IA natural leve (82M parâmetros), roda na CPU sem placa de vídeo; ideal para narração dos Canais Dark em R$ 0,00.",
+      "link": "https://github.com/hexgrad/kokoro"
+    },
+    {
+      "repo": "KDE/kdenlive",
+      "titulo": "Kdenlive (Editor de Vídeo Pro)",
+      "estrelas": "KDE GitLab",
+      "linguagem": "C++/Qt",
+      "categoria": "PC",
+      "data_encontrado": "25/11/2026",
+      "comparativo_pago": "Substitui CapCut Pro / Premiere",
+      "desc": "Editor de vídeo multi-faixa sem marca d'água no Windows — substituto grátis do CapCut Pro.",
+      "link": "https://invent.kde.org/multimedia/kdenlive"
+    },
+    {
+      "repo": "n8n-io/n8n",
+      "titulo": "n8n (Automação Visual Local)",
+      "estrelas": "65k+ ⭐",
+      "linguagem": "TypeScript",
+      "categoria": "PC",
+      "data_encontrado": "25/11/2026",
+      "comparativo_pago": "Substitui Zapier / Make pagos",
+      "desc": "Automação visual de fluxos e webhooks rodando grátis localmente — substituto do Zapier.",
+      "link": "https://github.com/n8n-io/n8n"
+    },
+    {
+      "repo": "photopea/photopea",
+      "titulo": "Photopea (Editor Estilo Photoshop)",
+      "estrelas": "13k+ ⭐",
+      "linguagem": "JavaScript",
+      "categoria": "PC",
+      "data_encontrado": "25/11/2026",
+      "comparativo_pago": "Substitui Adobe Photoshop",
+      "desc": "Editor de imagens estilo Photoshop direto no navegador com suporte a PSD e camadas.",
+      "link": "https://www.photopea.com/"
+    },
+    {
+      "repo": "VERT-sh/VERT",
+      "titulo": "VERT (Conversor Universal)",
+      "estrelas": "5k+ ⭐",
+      "linguagem": "TypeScript",
+      "categoria": "PC",
+      "data_encontrado": "25/11/2026",
+      "comparativo_pago": "Substitui conversores pagos com limite",
+      "desc": "Conversor gratuito de imagem, áudio, PDF e vídeo direto no navegador.",
+      "link": "https://github.com/VERT-sh/VERT"
+    },
+    {
+      "repo": "keepassxreboot/keepassxc",
+      "titulo": "Bitwarden / KeePassXC (Cofre Senhas)",
+      "estrelas": "19k+ ⭐",
+      "linguagem": "C++",
+      "categoria": "PC",
+      "data_encontrado": "25/11/2026",
+      "comparativo_pago": "Substitui 1Password / LastPass",
+      "desc": "Cofre open-source gratuito para guardar senhas e chaves com segurança.",
+      "link": "https://github.com/keepassxreboot/keepassxc"
+    },
+    {
+      "repo": "cjpais/Handy",
+      "titulo": "Handy (Ditado por Voz Offline)",
+      "estrelas": "3k+ ⭐",
+      "linguagem": "Rust/TypeScript",
+      "categoria": "PC",
+      "data_encontrado": "25/11/2026",
+      "comparativo_pago": "Substitui Wispr Flow pago",
+      "desc": "Ditado por voz offline no Windows para ditar prompts e textos sem nuvem.",
+      "link": "https://github.com/cjpais/Handy"
+    },
+    {
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "titulo": "MoneyPrinterTurbo (Vídeos Curtos IA)",
+      "estrelas": "26k+ ⭐",
+      "linguagem": "Python",
+      "categoria": "IA",
+      "data_encontrado": "25/11/2026",
+      "comparativo_pago": "Substitui geradores pagos de Shorts/Reels",
+      "desc": "Gera vídeos verticais automatizados com roteiro, legenda e voz IA para os 10 Canais Dark em R$ 0,00.",
+      "link": "https://github.com/harry0703/MoneyPrinterTurbo"
+    },
+    {
+      "repo": "WEIFENG2333/VideoCaptioner",
+      "titulo": "VideoCaptioner (Legendas IA Automáticas)",
+      "estrelas": "7k+ ⭐",
+      "linguagem": "Python",
+      "categoria": "IA",
+      "data_encontrado": "25/11/2026",
+      "comparativo_pago": "Substitui legendagem paga",
+      "desc": "Geração, tradução e alinhamento automático de legendas com Whisper local e LLMs.",
+      "link": "https://github.com/WEIFENG2333/VideoCaptioner"
+    },
+    {
+      "repo": "jianchang512/pyvideotrans",
+      "titulo": "pyVideoTrans (Dublagem & Tradução)",
+      "estrelas": "13k+ ⭐",
+      "linguagem": "Python",
+      "categoria": "IA",
+      "data_encontrado": "25/11/2026",
+      "comparativo_pago": "Substitui HeyGen / ElevenLabs Dubbing",
+      "desc": "Traduz e dubla vídeos automaticamente preservando voz e sincronia em R$ 0,00.",
+      "link": "https://github.com/jianchang512/pyvideotrans"
+    },
+    {
+      "repo": "Byaidu/PDFMathTranslate",
+      "titulo": "PDFMathTranslate (Tradutor PDF Técnico)",
+      "estrelas": "18k+ ⭐",
+      "linguagem": "Python",
+      "categoria": "IA",
+      "data_encontrado": "25/11/2026",
+      "comparativo_pago": "Traduz PDFs preservando fórmulas e layout",
+      "desc": "Traduz manuais técnicos, normas e artigos em PDF preservando fórmulas, tabelas e diagramação.",
+      "link": "https://github.com/Byaidu/PDFMathTranslate"
+    },
+    {
+      "repo": "opencode-ai/opencode",
+      "titulo": "OpenCode (Agente CLI Open-Source)",
+      "estrelas": "11k+ ⭐",
+      "linguagem": "Go/TypeScript",
+      "categoria": "IA",
+      "data_encontrado": "25/11/2026",
+      "comparativo_pago": "Agente de terminal estilo Claude Code grátis",
+      "desc": "Agente de programação open-source para terminal compatível com múltiplos provedores gratuitos.",
+      "link": "https://github.com/opencode-ai/opencode"
+    },
+    {
+      "repo": "Anjok07/ultimatevocalremovergui",
+      "titulo": "Ultimate Vocal Remover (UVR)",
+      "estrelas": "19k+ ⭐",
+      "linguagem": "Python",
+      "categoria": "IA",
+      "data_encontrado": "25/11/2026",
+      "comparativo_pago": "Substitui Moises Pro / LALAL.ai",
+      "desc": "Separa voz, música e efeitos sonoros localmente sem perda de qualidade.",
+      "link": "https://github.com/Anjok07/ultimatevocalremovergui"
+    },
+    {
+      "repo": "CherryHQ/cherry-studio",
+      "titulo": "Cherry Studio (Cliente Desktop Multi-IA)",
+      "estrelas": "22k+ ⭐",
+      "linguagem": "TypeScript",
+      "categoria": "IA",
+      "data_encontrado": "25/11/2026",
+      "comparativo_pago": "Substitui ChatGPT Plus / Poe",
+      "desc": "Cliente desktop unificado para usar Groq, DeepSeek, OpenRouter :free e Ollama local.",
+      "link": "https://github.com/CherryHQ/cherry-studio"
     }
   ]
 }
