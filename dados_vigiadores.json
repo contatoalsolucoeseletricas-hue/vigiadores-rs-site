@@ -1,6 +1,6 @@
 {
   "cabecalho": {
-    "ultima_atualizacao": "25/11/2026 às 15h06 BRT (Doc 130 R78B)",
+    "ultima_atualizacao": "26/11/2026 às 07h10 BRT (Doc 131 R79)",
     "proxima_atualizacao": "12h00 BRT",
     "status_sistema": "100% Homologado · Aba 2 URLs Filtradas e Aba 3 Chip Combustíveis Isolado",
     "cidade_base": "Canoas / RS"
@@ -1821,6 +1821,42 @@
     ]
   },
   "github_top5": [
+    {
+      "repo": "marketingskills/marketing-skills",
+      "titulo": "Marketing Skills — 53 Skills de Anúncios & Conversão",
+      "estrelas": "Open-Source ★",
+      "linguagem": "Markdown / IA Skills",
+      "categoria": "IA",
+      "data_encontrado": "26/11/2026",
+      "comparativo_pago": "Substitui consultoria de tráfego e copy (economia R$ 2.500/mês)",
+      "preco_alvo": "R$ 0,00",
+      "desc": "53 skills open-source de anúncios, criativos, CRO e conversão prontas para AL Soluções, La Donna e DroneHub.",
+      "link": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "repo": "umami-software/umami",
+      "titulo": "Umami — Analytics Web Leve e Sem Cookies",
+      "estrelas": "26k+ ★",
+      "linguagem": "TypeScript / Next.js",
+      "categoria": "IA",
+      "data_encontrado": "26/11/2026",
+      "comparativo_pago": "Substitui analytics pagos e pesados mantendo LGPD 100%",
+      "preco_alvo": "R$ 0,00",
+      "desc": "Analytics web open-source leve, rápido e sem cookies para acompanhar acessos nos portais da AL Soluções.",
+      "link": "https://github.com/umami-software/umami"
+    },
+    {
+      "repo": "dubinc/dub",
+      "titulo": "Dub — Links Curtos e Rastreamento de Cliques/Vendas",
+      "estrelas": "20k+ ★",
+      "linguagem": "TypeScript / Open-Source",
+      "categoria": "IA",
+      "data_encontrado": "26/11/2026",
+      "comparativo_pago": "Substitui Bitly Pro / encurtadores pagos (economia R$ 350/mês)",
+      "preco_alvo": "R$ 0,00",
+      "desc": "Links curtos com rastreamento de cliques, leads e vendas para campanhas de WhatsApp e Instagram.",
+      "link": "https://github.com/dubinc/dub"
+    },
     {
       "repo": "microsoft/autogen",
       "titulo": "AutoGen — Multi-Agent Conversation Framework",
