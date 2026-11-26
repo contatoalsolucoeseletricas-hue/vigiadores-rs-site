@@ -1822,6 +1822,18 @@
   },
   "github_top5": [
     {
+      "repo": "openbot/openbot",
+      "titulo": "OpenBot — Workspace Desktop de Agentes por Setores",
+      "estrelas": "Open-Source ★",
+      "linguagem": "Desktop (⚠️ Requer 8 GB+ RAM)",
+      "categoria": "IA",
+      "data_encontrado": "26/11/2026",
+      "comparativo_pago": "Ferramenta gratuita open-source (custo R$ 0,00)",
+      "preco_alvo": "R$ 0,00",
+      "desc": "⚠️ App desktop local pesado — recomendado apenas para PCs com 8 GB+ de RAM (não instalar no Dell 4 GB). Organização de agentes de IA por divisões setoriais e fluxos visuais.",
+      "link": "https://github.com/openbot"
+    },
+    {
       "repo": "GraphiteEditor/Graphite",
       "titulo": "Graphite — Editor Vetorial Open-Source no Navegador",
       "estrelas": "Open-Source ★",
@@ -2736,11 +2748,44 @@
       "comparativo_pago": "Alternativa gratuita open-source",
       "desc": "FreeKiosk - Open-Source Android Kiosk Mode & Tablet Lockdown App for Digital Signage, Dashboards, POS & Single-Purpose Devices. Free Alternative to Fully Kiosk, with an optional cl",
       "link": "https://github.com/RushB-fr/freekiosk"
+    },
+    {
+      "repo": "QwenLM/qwen-code",
+      "titulo": "qwen-code",
+      "estrelas": "30960 ⭐",
+      "linguagem": "TypeScript",
+      "categoria": "IA",
+      "data_encontrado": "26/11/2026",
+      "comparativo_pago": "Alternativa gratuita open-source",
+      "desc": "An open-source AI coding agent that lives in your terminal.",
+      "link": "https://github.com/QwenLM/qwen-code"
+    },
+    {
+      "repo": "kaishi00/hermes-conduit",
+      "titulo": "hermes-conduit",
+      "estrelas": "702 ⭐",
+      "linguagem": "Swift",
+      "categoria": "IA",
+      "data_encontrado": "26/11/2026",
+      "comparativo_pago": "Alternativa gratuita open-source",
+      "desc": "Conduit — native SwiftUI iOS client for Hermes Agent",
+      "link": "https://github.com/kaishi00/hermes-conduit"
+    },
+    {
+      "repo": "Tavotto/Tavotto",
+      "titulo": "Tavotto",
+      "estrelas": "743 ⭐",
+      "linguagem": "Python",
+      "categoria": "PC",
+      "data_encontrado": "26/11/2026",
+      "comparativo_pago": "Alternativa gratuita open-source",
+      "desc": "AI drew your research figure. Tavotto makes it publication-ready: edit matplotlib and AI-generated figures on a canvas, lay out multi-panel pages in mm, check journal rules before ",
+      "link": "https://github.com/Tavotto/Tavotto"
     }
   ],
   "cidreira": [
     {
-      "produto": "",
+      "produto": "Cerveja Estrella Galicia 0,0% Lata 330ml",
       "categoria": "Cervejas",
       "preco_real": "R$ 5,39",
       "preco_unitario": "R$ 16,33/L ",
