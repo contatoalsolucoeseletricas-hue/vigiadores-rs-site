@@ -4,7 +4,7 @@
     "proxima_atualizacao": "12h00 BRT",
     "status_sistema": "100% Homologado · Aba 2 URLs Filtradas e Aba 3 Chip Combustíveis Isolado",
     "cidade_base": "Canoas / RS",
-    "total_github": 107
+    "total_github": 108
   },
   "cursos": [
     {
@@ -1822,6 +1822,18 @@
     ]
   },
   "github_top5": [
+    {
+      "repo": "freellmapi/gateway",
+      "titulo": "FreeLLMAPI (Gateway de Endpoints LLM Gratuitos)",
+      "estrelas": "Gateway Free",
+      "linguagem": "Python / OpenAI-compat",
+      "categoria": "🤖 IAs & Ferramentas",
+      "data_encontrado": "27/11/2026",
+      "comparativo_pago": "OpenRouter Pago / Portkey",
+      "preco_alvo": "R$ 0,00 (0 Cartão)",
+      "desc": "📅 Encontrado em: 27/11/2026 | Gateway de roteamento e unificação de endpoints LLM gratuitos compatível com OpenAI.",
+      "link": "https://freellmapi.dev/"
+    },
     {
       "repo": "koala73/worldmonitor",
       "titulo": "World Monitor (Macro & Geopolítica Web)",
