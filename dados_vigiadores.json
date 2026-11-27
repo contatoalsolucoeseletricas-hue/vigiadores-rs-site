@@ -3,7 +3,8 @@
     "ultima_atualizacao": "27/11/2026 (Varredura Camada 0)",
     "proxima_atualizacao": "12h00 BRT",
     "status_sistema": "100% Homologado · Aba 2 URLs Filtradas e Aba 3 Chip Combustíveis Isolado",
-    "cidade_base": "Canoas / RS"
+    "cidade_base": "Canoas / RS",
+    "total_github": 107
   },
   "cursos": [
     {
@@ -1821,6 +1822,138 @@
     ]
   },
   "github_top5": [
+    {
+      "repo": "koala73/worldmonitor",
+      "titulo": "World Monitor (Macro & Geopolítica Web)",
+      "estrelas": "Web / Open-Source",
+      "linguagem": "TypeScript",
+      "categoria": "Web / Execução Leve",
+      "data_encontrado": "27/11/2026",
+      "comparativo_pago": "Terminais macro pagos",
+      "preco_alvo": "R$ 0,00 (0 MB RAM local)",
+      "desc": "📅 Encontrado em: 27/11/2026 | Visualização macroeconômica e geopolítica em tempo real no navegador (0 MB RAM residual no Dell).",
+      "link": "https://worldmonitor.app/"
+    },
+    {
+      "repo": "morluto/rea",
+      "titulo": "REA — Reverse Engineer Anything (MIT)",
+      "estrelas": "MIT / Ref. Conceitual",
+      "linguagem": "Python / Docs",
+      "categoria": "Referência Técnica",
+      "data_encontrado": "27/11/2026",
+      "comparativo_pago": "IDA Pro",
+      "preco_alvo": "R$ 0,00 (Somente Referência)",
+      "desc": "📅 Encontrado em: 27/11/2026 | Referência conceitual de engenharia reversa. ⚠️ Aviso obrigatório: Não instalar Ghidra no Dell 4 GB; uso restrito a software autorizado.",
+      "link": "https://github.com/morluto/rea"
+    },
+    {
+      "repo": "excalidraw/excalidraw",
+      "titulo": "Excalidraw (Diagramação Vetorial Web)",
+      "estrelas": "afCodeHub Vol. 2",
+      "linguagem": "TypeScript",
+      "categoria": "Web / Execução Leve",
+      "data_encontrado": "27/11/2026",
+      "comparativo_pago": "Lucidchart / Miro",
+      "preco_alvo": "R$ 0,00 (Browser)",
+      "desc": "📅 Encontrado em: 27/11/2026 | Diagramação vetorial leve direto no navegador.",
+      "link": "https://excalidraw.com/"
+    },
+    {
+      "repo": "plausible/analytics",
+      "titulo": "Plausible (Analytics de Baixo Impacto)",
+      "estrelas": "afCodeHub Vol. 2",
+      "linguagem": "Elixir / JS",
+      "categoria": "Web / Execução Leve",
+      "data_encontrado": "27/11/2026",
+      "comparativo_pago": "GA4 / Mixpanel",
+      "preco_alvo": "R$ 0,00 (Open-Source)",
+      "desc": "📅 Encontrado em: 27/11/2026 | Analytics web leve sem cookies invasivos.",
+      "link": "https://github.com/plausible/analytics"
+    },
+    {
+      "repo": "documenso/documenso",
+      "titulo": "Documenso (Assinatura Digital Open-Source)",
+      "estrelas": "afCodeHub Vol. 2",
+      "linguagem": "TypeScript",
+      "categoria": "Web / Execução Leve",
+      "data_encontrado": "27/11/2026",
+      "comparativo_pago": "DocuSign",
+      "preco_alvo": "R$ 0,00 (Open-Source)",
+      "desc": "📅 Encontrado em: 27/11/2026 | Alternativa aberta para assinatura eletrônica de contratos.",
+      "link": "https://github.com/documenso/documenso"
+    },
+    {
+      "repo": "makeplane/plane",
+      "titulo": "Plane (Gerenciamento de Projetos)",
+      "estrelas": "afCodeHub Vol. 2",
+      "linguagem": "TypeScript / Python",
+      "categoria": "Web / Execução Leve",
+      "data_encontrado": "27/11/2026",
+      "comparativo_pago": "Jira / Linear",
+      "preco_alvo": "R$ 0,00 (Open-Source)",
+      "desc": "📅 Encontrado em: 27/11/2026 | Gestão ágil de sprints, tarefas e roadmaps.",
+      "link": "https://github.com/makeplane/plane"
+    },
+    {
+      "repo": "twentyhq/twenty",
+      "titulo": "Twenty (CRM Moderno Open-Source)",
+      "estrelas": "afCodeHub Vol. 2",
+      "linguagem": "TypeScript",
+      "categoria": "Web / Execução Leve",
+      "data_encontrado": "27/11/2026",
+      "comparativo_pago": "Salesforce / HubSpot",
+      "preco_alvo": "R$ 0,00 (Open-Source)",
+      "desc": "📅 Encontrado em: 27/11/2026 | CRM moderno comunitário estilo Notion/Linear.",
+      "link": "https://github.com/twentyhq/twenty"
+    },
+    {
+      "repo": "dani-garcia/vaultwarden",
+      "titulo": "Vaultwarden (Cofre de Credenciais)",
+      "estrelas": "afCodeHub Vol. 2",
+      "linguagem": "Rust",
+      "categoria": "Web / Execução Leve",
+      "data_encontrado": "27/11/2026",
+      "comparativo_pago": "1Password / Bitwarden Teams",
+      "preco_alvo": "R$ 0,00 (Open-Source)",
+      "desc": "📅 Encontrado em: 27/11/2026 | Servidor leve compatível com Bitwarden para gestão de senhas.",
+      "link": "https://github.com/dani-garcia/vaultwarden"
+    },
+    {
+      "repo": "GNOME/gimp",
+      "titulo": "GIMP (Editor de Imagens — Alerta RAM)",
+      "estrelas": "afCodeHub Vol. 2",
+      "linguagem": "C",
+      "categoria": "Desktop / Self-Hosted",
+      "data_encontrado": "27/11/2026",
+      "comparativo_pago": "Adobe Photoshop",
+      "preco_alvo": "⚠️ NÃO instalar no Dell 4 GB",
+      "desc": "📅 Encontrado em: 27/11/2026 | ⚠️ Alerta de consumo de RAM/Docker — NÃO instalar no Dell 4 GB.",
+      "link": "https://www.gimp.org/"
+    },
+    {
+      "repo": "inkscape/inkscape",
+      "titulo": "Inkscape (Vetores — Alerta RAM)",
+      "estrelas": "afCodeHub Vol. 2",
+      "linguagem": "C++",
+      "categoria": "Desktop / Self-Hosted",
+      "data_encontrado": "27/11/2026",
+      "comparativo_pago": "Adobe Illustrator",
+      "preco_alvo": "⚠️ NÃO instalar no Dell 4 GB",
+      "desc": "📅 Encontrado em: 27/11/2026 | ⚠️ Alerta de consumo de RAM/Docker — NÃO instalar no Dell 4 GB.",
+      "link": "https://inkscape.org/"
+    },
+    {
+      "repo": "nextcloud/server",
+      "titulo": "Nextcloud (Nuvem Self-Hosted — Alerta RAM/Docker)",
+      "estrelas": "afCodeHub Vol. 2",
+      "linguagem": "PHP / JS",
+      "categoria": "Desktop / Self-Hosted",
+      "data_encontrado": "27/11/2026",
+      "comparativo_pago": "Google Workspace / Dropbox",
+      "preco_alvo": "⚠️ NÃO instalar no Dell 4 GB",
+      "desc": "📅 Encontrado em: 27/11/2026 | ⚠️ Alerta de consumo de RAM/Docker — NÃO instalar no Dell 4 GB.",
+      "link": "https://github.com/nextcloud/server"
+    },
     {
       "repo": "mvanhorn/last30days-skill",
       "titulo": "last30days-skill — Pesquisa Multi-Fonte Últimos 30 Dias",
