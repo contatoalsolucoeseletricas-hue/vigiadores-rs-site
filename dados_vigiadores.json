@@ -1,6 +1,6 @@
 {
   "cabecalho": {
-    "ultima_atualizacao": "26/11/2026 (Varredura Camada 0)",
+    "ultima_atualizacao": "27/11/2026 (Varredura Camada 0)",
     "proxima_atualizacao": "12h00 BRT",
     "status_sistema": "100% Homologado · Aba 2 URLs Filtradas e Aba 3 Chip Combustíveis Isolado",
     "cidade_base": "Canoas / RS"
@@ -1822,6 +1822,18 @@
   },
   "github_top5": [
     {
+      "repo": "mvanhorn/last30days-skill",
+      "titulo": "last30days-skill — Pesquisa Multi-Fonte Últimos 30 Dias",
+      "estrelas": "Open-Source ★",
+      "linguagem": "Python / Skill (✅ Instalada no Sistema)",
+      "categoria": "IA",
+      "data_encontrado": "27/11/2026",
+      "comparativo_pago": "Ferramenta gratuita open-source (custo R$ 0,00)",
+      "preco_alvo": "R$ 0,00",
+      "desc": "✅ Instalada no Sistema (Custo R$ 0,00) — Pesquisa dos últimos 30 dias em Reddit, Hacker News, GitHub, arXiv, Polymarket, Techmeme e YouTube via yt-dlp.",
+      "link": "https://github.com/mvanhorn/last30days-skill"
+    },
+    {
       "repo": "openbot/openbot",
       "titulo": "OpenBot — Workspace Desktop de Agentes por Setores",
       "estrelas": "Open-Source ★",
@@ -2781,6 +2793,116 @@
       "comparativo_pago": "Alternativa gratuita open-source",
       "desc": "AI drew your research figure. Tavotto makes it publication-ready: edit matplotlib and AI-generated figures on a canvas, lay out multi-panel pages in mm, check journal rules before ",
       "link": "https://github.com/Tavotto/Tavotto"
+    },
+    {
+      "repo": "okou-ai/okou",
+      "titulo": "okou",
+      "estrelas": "1162 ⭐",
+      "linguagem": "TypeScript",
+      "categoria": "IA",
+      "data_encontrado": "27/11/2026",
+      "comparativo_pago": "Alternativa gratuita open-source",
+      "desc": "Okou connects to the tools your team already uses and does the work — across marketing, sales, engineering, and operations, under your control.",
+      "link": "https://github.com/okou-ai/okou"
+    },
+    {
+      "repo": "kirodotdev/KiroCrew",
+      "titulo": "KiroCrew",
+      "estrelas": "5104 ⭐",
+      "linguagem": "Python",
+      "categoria": "IA",
+      "data_encontrado": "27/11/2026",
+      "comparativo_pago": "Alternativa gratuita open-source",
+      "desc": "A persistent workspace for development work that self-improves and continues beyond one session.",
+      "link": "https://github.com/kirodotdev/KiroCrew"
+    },
+    {
+      "repo": "HarnessMD/munder-difflin",
+      "titulo": "munder-difflin",
+      "estrelas": "9990 ⭐",
+      "linguagem": "TypeScript",
+      "categoria": "IA",
+      "data_encontrado": "27/11/2026",
+      "comparativo_pago": "Alternativa gratuita open-source",
+      "desc": "Coolest app to use agents. A local, multi provider and open source grok bot alternative. Build custom worlds for your claude code and codex like agents",
+      "link": "https://github.com/HarnessMD/munder-difflin"
+    },
+    {
+      "repo": "trycua/cua",
+      "titulo": "cua",
+      "estrelas": "33031 ⭐",
+      "linguagem": "Rust",
+      "categoria": "IA",
+      "data_encontrado": "27/11/2026",
+      "comparativo_pago": "Alternativa gratuita open-source",
+      "desc": "Scale computer-use 2.0 with open-source drivers, cross-OS sandboxes, and benchmarks for training, evaluation, and data generation.",
+      "link": "https://github.com/trycua/cua"
+    },
+    {
+      "repo": "zhouxiaoka/autoclip",
+      "titulo": "autoclip",
+      "estrelas": "17083 ⭐",
+      "linguagem": "Python",
+      "categoria": "IA",
+      "data_encontrado": "27/11/2026",
+      "comparativo_pago": "Alternativa gratuita open-source",
+      "desc": "AutoClip｜The open-source OpusClip alternative — local-first AI clipping & MCP server, zero subscriptions. 一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok",
+      "link": "https://github.com/zhouxiaoka/autoclip"
+    },
+    {
+      "repo": "farion1231/cc-switch",
+      "titulo": "cc-switch",
+      "estrelas": "157482 ⭐",
+      "linguagem": "Rust",
+      "categoria": "PC",
+      "data_encontrado": "27/11/2026",
+      "comparativo_pago": "Alternativa gratuita open-source",
+      "desc": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io",
+      "link": "https://github.com/farion1231/cc-switch"
+    },
+    {
+      "repo": "aipoch/open-science",
+      "titulo": "open-science",
+      "estrelas": "5584 ⭐",
+      "linguagem": "TypeScript",
+      "categoria": "PC",
+      "data_encontrado": "27/11/2026",
+      "comparativo_pago": "Alternativa gratuita open-source",
+      "desc": "The open-source AI research workbench for scientific research and agent workflows. Local-first, model-agnostic desktop app with extensible skills, MCP tools and connectors, Python/",
+      "link": "https://github.com/aipoch/open-science"
+    },
+    {
+      "repo": "anonfaded/FadCam",
+      "titulo": "FadCam",
+      "estrelas": "2931 ⭐",
+      "linguagem": "Java",
+      "categoria": "Celular",
+      "data_encontrado": "27/11/2026",
+      "comparativo_pago": "Alternativa gratuita open-source",
+      "desc": "Open-source, ad-free Android multimedia recorder with background video recording, screen recording, live streaming, and remote camera control",
+      "link": "https://github.com/anonfaded/FadCam"
+    },
+    {
+      "repo": "music-assistant/mobile-app",
+      "titulo": "mobile-app",
+      "estrelas": "769 ⭐",
+      "linguagem": "Kotlin",
+      "categoria": "Celular",
+      "data_encontrado": "27/11/2026",
+      "comparativo_pago": "Alternativa gratuita open-source",
+      "desc": "The (official) Music Assistant Mobile app is a cross-platform client application designed for Android and iOS. Developed using Kotlin Multiplatform (KMP) and Compose Multiplatform ",
+      "link": "https://github.com/music-assistant/mobile-app"
+    },
+    {
+      "repo": "persian-calendar/persian-calendar",
+      "titulo": "persian-calendar",
+      "estrelas": "1003 ⭐",
+      "linguagem": "Kotlin",
+      "categoria": "Celular",
+      "data_encontrado": "27/11/2026",
+      "comparativo_pago": "Alternativa gratuita open-source",
+      "desc": "Android Persian Calendar",
+      "link": "https://github.com/persian-calendar/persian-calendar"
     }
   ],
   "cidreira": [
@@ -2792,7 +2914,7 @@
       "mercado": "Asun Supermercados — Cidreira/RS",
       "detalhes": "Preço real em R$ extraído ao vivo do PreçoMelhor Asun Cidreira.",
       "link_fonte": "https://ftp.precomelhor.com.br/p/8412598000478-cerveja-est-galicia-0-0-lt-330ml-estrella-galicia",
-      "data_encontrado": "26/11/2026"
+      "data_encontrado": "27/11/2026"
     },
     {
       "produto": "Cerveja Brahma Chopp 473ml Multipack c/ 12",
@@ -2802,7 +2924,7 @@
       "mercado": "Asun Supermercados — Cidreira/RS",
       "detalhes": "Multipack 12 latas 473ml verificado no PreçoMelhor Asun Cidreira.",
       "link_fonte": "https://ftp.precomelhor.com.br/s/10938-asun-supermercados-cidreira-praias-do-litoral-e-osorio",
-      "data_encontrado": "26/11/2026"
+      "data_encontrado": "27/11/2026"
     },
     {
       "produto": "Coca-Cola Light 1,5L",
@@ -2812,7 +2934,7 @@
       "mercado": "Asun Supermercados — Cidreira/RS",
       "detalhes": "Oferta vigente verificada no encarte digital Asun.",
       "link_fonte": "https://www.catalogosofertas.com.br/lojas/asun/ofertas-catalogos",
-      "data_encontrado": "26/11/2026"
+      "data_encontrado": "27/11/2026"
     }
   ]
 }
